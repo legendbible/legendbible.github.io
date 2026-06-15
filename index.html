@@ -2796,7 +2796,7 @@ function openHomeSageFilter() {
 
 function selectHomeSageFilter(sageId) {
   catFilterSage = sageId;
-  catShowMore = false;
+  catShowMore = 12;
   const btn = document.getElementById('home-sage-btn');
   if (btn) {
     btn.classList.toggle('active', sageId !== 'all');
@@ -2891,8 +2891,8 @@ function selectSageFilter(sageId) {
   document.getElementById('sage-filter-overlay').style.display = 'none';
   doSearch();
 }
-let catShowMore = false;
-let searchShowMore = false;
+let catShowMore = 12;    // 表示件数（12件ずつ増加）
+let searchShowMore = 12; // 表示件数（12件ずつ増加）
 
 // ══════════════════════════════════════
 // 初期化
@@ -3187,7 +3187,7 @@ function selectCat(catId, btn) {
   const nextIdx = catIds.indexOf(catId);
   const direction = nextIdx > prevIdx ? 'left' : nextIdx < prevIdx ? 'right' : 'none';
   currentCatId = catId;
-  catShowMore = false;
+  catShowMore = 12;
   document.querySelectorAll('.cat-menu-item').forEach(b => {
     b.classList.remove('active');
     b.style.cssText = '';
@@ -3233,9 +3233,9 @@ function _buildSlideContent(catId) {
   } else if (currentSort === 'random') {
     filtered = filtered.sort(() => Math.random() - 0.5);
   }
-  const visible = catShowMore ? filtered : filtered.slice(0, 12);
-  const rest = filtered.length - 12;
-  const moreBtn = (!catShowMore && rest > 0)
+  const visible = filtered.slice(0, catShowMore);
+  const rest = filtered.length - catShowMore;
+  const moreBtn = (rest > 0)
     ? `<div style="display:flex;justify-content:center;"><button class="show-more-btn" onclick="showMoreCat()"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>もっと見る（残り${rest}件）</button></div>` : '';
   if (catLayout === 'grid') {
     return `<div class="cat-top-grid">${visible.map(q=>renderSmallTile(q)).join('')}</div>${moreBtn}`;
@@ -3306,7 +3306,7 @@ function setCatSort(sort, btn) {
   currentSort = sort;
   document.querySelectorAll('.cat-sort-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
-  catShowMore = false;
+  catShowMore = 12;
   renderCatQuotesHome('fade');
 }
 
@@ -3425,7 +3425,7 @@ function initSearchSwipe() {
 
 function swipeToCat(catId, direction) {
   currentCatId = catId;
-  catShowMore = false;
+  catShowMore = 12;
   const scroll = document.getElementById('cat-menu-scroll');
   document.querySelectorAll('.cat-menu-item').forEach(b => {
     const isActive = b.getAttribute('onclick').includes(`'${catId}'`);
@@ -3447,12 +3447,12 @@ function swipeToCat(catId, direction) {
 }
 
 function showMoreCat() {
-  catShowMore = true;
+  catShowMore += 12;
   renderCatQuotesHome();
 }
 
 function showMoreSearch() {
-  searchShowMore = true;
+  searchShowMore += 12;
   doSearch();
 }
 
@@ -3642,7 +3642,7 @@ function clearSearch() {
   const clearBtn = document.getElementById('search-clear-btn');
   if (input) input.value = '';
   if (clearBtn) clearBtn.style.display = 'none';
-  searchShowMore = false;
+  searchShowMore = 12;
   doSearch();
 }
 
@@ -3720,12 +3720,11 @@ function _buildSearchSlide(catId, limit = 100) {
     }
     return { html, count: 0 };
   }
-  // ホームと同じ：最初は12件、もっと見るボタンで全件表示
-  const LIMIT = searchShowMore ? filtered.length : 12;
+  const LIMIT = searchShowMore;
   const totalCount = filtered.length;
   const limited = filtered.slice(0, LIMIT);
-  const rest = totalCount - 12;
-  const moreBtn = (!searchShowMore && rest > 0)
+  const rest = totalCount - LIMIT;
+  const moreBtn = (rest > 0)
     ? `<div style="display:flex;justify-content:center;"><button class="show-more-btn" onclick="showMoreSearch()"><svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>もっと見る（残り${rest}件）</button></div>` : '';
   let inner;
   if (searchLayout === 'grid') {
@@ -3838,7 +3837,7 @@ function doSearch(direction = 'none') {
 // 検索カテゴリを切り替え（スワイプ・ボタン共通）
 function swipeSearchCat(catId, direction) {
   searchCatFilter = catId;
-  searchShowMore = false; // カテゴリ切り替えでリセット
+  searchShowMore = 12; // カテゴリ切り替えでリセット
   // カテゴリボタンの見た目を更新
   document.querySelectorAll('.search-cat-btn').forEach(b => {
     const isActive = b.getAttribute('onclick').includes(`'${catId}'`);
@@ -4301,7 +4300,7 @@ function jumpToCategory(catId) {
 
   // カテゴリを選択
   currentCatId = catId;
-  catShowMore = false;
+  catShowMore = 12;
 
   // メニューのactive更新
   document.querySelectorAll('.cat-menu-item').forEach(b => {
