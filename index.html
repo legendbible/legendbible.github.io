@@ -2796,6 +2796,8 @@ function openHomeSageFilter() {
 
 function selectHomeSageFilter(sageId) {
   catFilterSage = sageId;
+  catShowMore = false;
+  console.log('selectHomeSageFilter:', sageId, 'QUOTES:', QUOTES.length, 'filtered:', QUOTES.filter(q=>q.sage===sageId).length);
   const btn = document.getElementById('home-sage-btn');
   if (btn) {
     btn.classList.toggle('active', sageId !== 'all');
