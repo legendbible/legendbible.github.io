@@ -3309,31 +3309,37 @@ function setCatSort(sort, btn) {
 // ── カテゴリタイルのスワイプ（一度だけ登録） ──
 function initCatSwipe() {
   const slider = document.getElementById('cat-slider');
-  let startX = 0, startY = 0, currentX = 0, isDragging = false;
+  let startX = 0, startY = 0, currentX = 0, isDragging = false, isScrolling = false;
 
   slider.addEventListener('touchstart', e => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
     currentX = 0;
-    isDragging = true;
+    isDragging = false;
+    isScrolling = false;
     const track = _getTrack();
     if (track) track.style.transition = 'none';
   }, { passive: true });
 
   slider.addEventListener('touchmove', e => {
-    if (!isDragging) return;
     const dx = e.touches[0].clientX - startX;
     const dy = e.touches[0].clientY - startY;
-    if (Math.abs(dy) > Math.abs(dx)) { isDragging = false; return; }
+    if (!isDragging && !isScrolling) {
+      if (Math.abs(dy) > Math.abs(dx)) { isScrolling = true; return; }
+      else if (Math.abs(dx) > 8) { isDragging = true; }
+    }
+    if (!isDragging) return;
+    e.preventDefault();
     currentX = dx;
     const w = slider.offsetWidth;
     const track = _getTrack();
     if (track) track.style.transform = `translateX(${-w + dx}px)`;
-  }, { passive: true });
+  }, { passive: false });
 
   slider.addEventListener('touchend', () => {
     if (!isDragging) return;
     isDragging = false;
+    isScrolling = false;
     const catIds = _homeCatList();
     const idx = catIds.indexOf(currentCatId);
     const track = _getTrack();
@@ -3366,32 +3372,45 @@ function setupCatSwipe(area) {}
 function initSearchSwipe() {
   const slider = document.getElementById('search-slider');
   if (!slider) return;
-  let startX = 0, startY = 0, currentX = 0, isDragging = false;
+  let startX = 0, startY = 0, currentX = 0, isDragging = false, isScrolling = false;
 
   slider.addEventListener('touchstart', e => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
     currentX = 0;
-    isDragging = true;
+    isDragging = false;
+    isScrolling = false;
     const track = _getSearchTrack();
     if (track) track.style.transition = 'none';
   }, { passive: true });
 
   slider.addEventListener('touchmove', e => {
-    if (!isDragging) return;
     const dx = e.touches[0].clientX - startX;
     const dy = e.touches[0].clientY - startY;
-    if (Math.abs(dy) > Math.abs(dx)) { isDragging = false; return; }
+
+    // 最初の動きで縦か横かを判定
+    if (!isDragging && !isScrolling) {
+      if (Math.abs(dy) > Math.abs(dx)) {
+        isScrolling = true; // 縦スクロール優先
+        return;
+      } else if (Math.abs(dx) > 8) {
+        isDragging = true; // 横スワイプ確定
+      }
+    }
+    if (!isDragging) return;
+
+    // 横スワイプ中は縦スクロールをブロック
+    e.preventDefault();
     currentX = dx;
-    // -33.333%の位置（= -sliderWidth px）からdxだけずらす
     const w = slider.offsetWidth;
     const track = _getSearchTrack();
     if (track) track.style.transform = `translateX(${-w + dx}px)`;
-  }, { passive: true });
+  }, { passive: false }); // preventDefaultのためpassive:false
 
   slider.addEventListener('touchend', () => {
     if (!isDragging) return;
     isDragging = false;
+    isScrolling = false;
     const track = _getSearchTrack();
     const w = slider.offsetWidth;
     const catList = _searchCatList();
