@@ -119,18 +119,17 @@
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
-html, body { height: 100%; overflow: hidden; }
+html { height: 100%; }
 
 body {
   font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
   background: #E8E8E8;
   color: var(--text1);
-  position: fixed;
+  margin: 0;
+  padding: 0;
   width: 100%;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  height: 100%;
+  overflow: hidden;
   display: flex;
   justify-content: center;
 }
@@ -140,7 +139,6 @@ body {
   position: relative;
   width: 100%;
   max-width: 430px;
-  height: 100%;
   height: 100dvh;
   background: var(--bg);
   overflow: hidden;
@@ -152,11 +150,10 @@ body {
   position: absolute;
   top: 0; left: 0; right: 0;
   bottom: calc(var(--tab-h) + var(--safe-b));
+  overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   display: none;
-  /* キーボード表示時にリサイズしない */
-  height: calc(100% - var(--tab-h) - var(--safe-b));
 }
 .screen.active { display: block; }
 .screen::-webkit-scrollbar { display: none; }
