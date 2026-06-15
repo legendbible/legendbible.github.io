@@ -3692,7 +3692,7 @@ function _searchCatList() {
 }
 
 // 指定カテゴリの検索結果HTMLを生成
-function _buildSearchSlide(catId) {
+function _buildSearchSlide(catId, limit = 100) {
   const q = (document.getElementById('search-input')?.value || '').trim();
   let filtered = QUOTES.filter(qt => {
     const matchSage = searchFilterSage === 'all' || qt.sage === searchFilterSage;
@@ -3719,13 +3719,20 @@ function _buildSearchSlide(catId) {
     }
     return { html, count: 0 };
   }
+  // 表示上限：メモリ節約のため最大limit件
+  const LIMIT = limit;
+  const totalCount = filtered.length;
+  const limited = filtered.slice(0, LIMIT);
+  const moreHtml = totalCount > LIMIT
+    ? `<div style="text-align:center;padding:12px 0 4px;font-size:12px;color:var(--text3);">上位${LIMIT}件を表示中（全${totalCount}件）</div>`
+    : '';
   let inner;
   if (searchLayout === 'grid') {
-    inner = `<div class="cat-top-grid" style="">${filtered.map(qt=>renderSmallTile(qt)).join('')}</div>`;
+    inner = `<div class="cat-top-grid" style="">${limited.map(qt=>renderSmallTile(qt)).join('')}</div>${moreHtml}`;
   } else {
-    inner = `<div class="quote-list" style="padding:0">${filtered.map(qt=>renderQuoteTile(qt, true)).join('')}</div>`;
+    inner = `<div class="quote-list" style="padding:0">${limited.map(qt=>renderQuoteTile(qt, true)).join('')}</div>${moreHtml}`;
   }
-  return { html: inner, count: filtered.length };
+  return { html: inner, count: totalCount };
 }
 
 // ── 似た名言の提案（A+B+C組み合わせ） ──
@@ -3787,11 +3794,11 @@ function doSearch(direction = 'none') {
   const catList = _searchCatList();
   const idx = catList.indexOf(searchCatFilter);
 
-  // 現在・前・次のカテゴリの結果を生成
+  // 現在のスライドはフル生成、prev/nextは軽量版（30件）でメモリ節約
   const currData = _buildSearchSlide(searchCatFilter);
   curr.innerHTML = currData.html;
-  prev.innerHTML = idx > 0 ? _buildSearchSlide(catList[idx - 1]).html : '';
-  next.innerHTML = idx < catList.length - 1 ? _buildSearchSlide(catList[idx + 1]).html : '';
+  prev.innerHTML = idx > 0 ? _buildSearchSlide(catList[idx - 1], 30).html : '';
+  next.innerHTML = idx < catList.length - 1 ? _buildSearchSlide(catList[idx + 1], 30).html : '';
 
   // 結果バー・件数
   if (sortBar) sortBar.style.display = 'flex';
