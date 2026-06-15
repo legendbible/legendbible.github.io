@@ -1742,6 +1742,13 @@ body {
 </style>
 </head>
 <body>
+<!-- ローディング画面 -->
+<div id="loading-screen" style="position:fixed;inset:0;background:#0A1628;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;">
+  <div style="font-size:22px;font-weight:900;letter-spacing:0.04em;color:#fff;">LEGEND<span style="color:#4A9EDB;margin-left:6px;">BIBLE</span></div>
+  <div style="color:rgba(255,255,255,0.5);font-size:13px;">名言を読み込んでいます...</div>
+  <div style="width:48px;height:48px;border:3px solid rgba(255,255,255,0.15);border-top-color:#4A9EDB;border-radius:50%;animation:spin 0.8s linear infinite;"></div>
+</div>
+<style>@keyframes spin{to{transform:rotate(360deg);}}</style>
 <div id="app-root">
 
 <!-- ホーム画面 -->
@@ -4070,6 +4077,11 @@ function initModalHandle() {
 
 function openModal(id) {
   try {
+  // QUOTES未ロード時はスキップ
+  if (QUOTES.length === 0) {
+    console.warn('QUOTES not loaded yet');
+    return;
+  }
   const q = QUOTES.find(q => q.id === id);
   if (!q) { console.error('Quote not found: id=' + id); return; }
   const sage = SAGES[q.sage];
@@ -4862,7 +4874,14 @@ async function loadQuotes() {
     console.log('QUOTES loaded:', QUOTES.length);
   } catch(e) {
     console.error('quotes.json load error:', e);
-    // フォールバック：空のまま続行（GitHub Pages以外の環境）
+  } finally {
+    // 成功・失敗どちらでもローディング画面を消す
+    const loading = document.getElementById('loading-screen');
+    if (loading) {
+      loading.style.opacity = '0';
+      loading.style.transition = 'opacity 0.3s';
+      setTimeout(() => loading.remove(), 300);
+    }
   }
 }
 
