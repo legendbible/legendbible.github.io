@@ -4074,6 +4074,16 @@ function openModal(id) {
   if (!q) { console.error('Quote not found: id=' + id); return; }
   const sage = SAGES[q.sage];
   if (!sage) { console.error('Sage not found: sage=' + q.sage + ' id=' + id); return; }
+
+  // 既存のアニメーション・状態をリセット
+  const sheet = document.getElementById('modal-sheet');
+  const overlay = document.getElementById('modal');
+  if (sheet) {
+    sheet.classList.remove('closing');
+    sheet.style.transform = '';
+    sheet.style.transition = '';
+    sheet.style.overflowY = '';
+  }
   const liked = likes[id] ? true : false;
   const likeCount = (q.likes||0) + (liked?1:0);
 
@@ -4144,11 +4154,8 @@ function openModal(id) {
     </div>
   `;
   document.getElementById('modal').classList.add('open');
-  const sheet = document.getElementById('modal-sheet');
   if (sheet) {
     sheet.scrollTop = 0;
-    sheet.style.transform = '';
-    sheet.style.overflowY = '';
   }
   } catch(err) {
     console.error('openModal error id=' + id + ':', err.message, err.stack);
@@ -4157,13 +4164,15 @@ function openModal(id) {
 }
 
 function closeModal(e) {
-  if (e && e.target !== document.getElementById('modal') && e.type !== 'click') return;
+  // overlayクリック以外（引数なし or 別要素）も受け付ける
+  if (e && e.target && e.target !== document.getElementById('modal')) return;
   const sheet = document.getElementById('modal-sheet');
   const overlay = document.getElementById('modal');
-  if (!overlay.classList.contains('open')) return;
+  if (!overlay || !overlay.classList.contains('open')) return;
   sheet.style.transform = '';
   sheet.style.transition = '';
   sheet.style.overflowY = '';
+  sheet.classList.remove('closing'); // 残っていたら除去
   sheet.classList.add('closing');
   setTimeout(() => {
     overlay.classList.remove('open');
