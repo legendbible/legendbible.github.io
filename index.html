@@ -2200,7 +2200,7 @@ body {
 <!-- 偉人フィルターモーダル -->
 <div id="sage-filter-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:300;align-items:flex-end;" onclick="closeSageFilter(event)">
   <div id="sage-filter-sheet" style="background:#1A3A5C;border-radius:20px 20px 0 0;width:100%;max-height:80vh;overflow-y:auto;padding:0 0 calc(20px + env(safe-area-inset-bottom));border-top:2px solid rgba(255,255,255,0.18);box-shadow:0 -8px 32px rgba(0,0,0,0.5);position:relative;" onclick="event.stopPropagation()">
-    <button onclick="document.getElementById('sage-filter-overlay').style.display='none'" style="position:absolute;top:16px;left:16px;background:rgba(255,255,255,0.12);border:none;width:44px;height:44px;border-radius:50%;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.85);line-height:1;">✕</button>
+    <button onclick="_closeSageFilterOverlay()" style="position:absolute;top:16px;left:16px;background:rgba(255,255,255,0.12);border:none;width:44px;height:44px;border-radius:50%;font-size:22px;cursor:pointer;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.85);line-height:1;">✕</button>
     <div id="sage-filter-handle" style="width:36px;height:4px;background:rgba(255,255,255,0.2);border-radius:2px;margin:12px auto 0;cursor:pointer;position:relative;">
       <div style="position:absolute;top:-12px;left:-30px;right:-30px;bottom:-12px;"></div>
     </div>
@@ -2815,8 +2815,9 @@ function openHomeSageFilter() {
   if (!overlay) return;
 
   renderSageFilterList('home');
-
   overlay.style.display = 'flex';
+  // 背景スクロールを止める
+  document.body.style.overflow = 'hidden';
 
   // ハンドルドラッグ
   if (handle && !handle._dragInit) {
@@ -2838,7 +2839,7 @@ function openHomeSageFilter() {
       if (currentY > 100) {
         sheet.style.transition = 'transform 0.25s ease-out';
         sheet.style.transform = 'translateY(100%)';
-        setTimeout(() => { overlay.style.display = 'none'; sheet.style.transform = ''; sheet.style.transition = ''; }, 260);
+        setTimeout(() => { _closeSageFilterOverlay(); sheet.style.transform = ''; sheet.style.transition = ''; }, 260);
       } else {
         sheet.style.transition = 'transform 0.25s ease-out';
         sheet.style.transform = 'translateY(0)';
@@ -2858,7 +2859,7 @@ function selectHomeSageFilter(sageId) {
     btn.style.borderColor = sageId !== 'all' ? 'rgba(255,255,255,0.25)' : '';
     btn.style.color = sageId !== 'all' ? '#fff' : '';
   }
-  document.getElementById('sage-filter-overlay').style.display = 'none';
+  _closeSageFilterOverlay();
   renderCatQuotesHome();
 }
 
@@ -2869,8 +2870,9 @@ function openSageFilter() {
   if (!overlay) return;
 
   renderSageFilterList('search');
-
   overlay.style.display = 'flex';
+  // 背景スクロールを止める
+  document.body.style.overflow = 'hidden';
 
   // ハンドルドラッグで閉じる
   if (handle && !handle._dragInit) {
@@ -2914,7 +2916,13 @@ function openSageFilter() {
 function closeSageFilter(e) {
   const overlay = document.getElementById('sage-filter-overlay');
   if (e && e.target !== overlay) return;
-  overlay.style.display = 'none';
+  _closeSageFilterOverlay();
+}
+
+function _closeSageFilterOverlay() {
+  const overlay = document.getElementById('sage-filter-overlay');
+  if (overlay) overlay.style.display = 'none';
+  document.body.style.overflow = '';
 }
 
 function selectSageFilter(sageId) {
@@ -2942,7 +2950,7 @@ function selectSageFilter(sageId) {
     }
   }
 
-  document.getElementById('sage-filter-overlay').style.display = 'none';
+  _closeSageFilterOverlay();
   doSearch();
 }
 let catShowMore = 12;    // 表示件数（12件ずつ増加）
@@ -4332,8 +4340,7 @@ function switchTab(tab) {
   // モーダル・オーバーレイを強制クローズ
   const modal = document.getElementById('modal');
   if (modal) { modal.classList.remove('open'); }
-  const sageFilter = document.getElementById('sage-filter-overlay');
-  if (sageFilter) { sageFilter.style.display = 'none'; }
+  _closeSageFilterOverlay();
 
   const screens = ['home','search','fav','history','settings','cat','privacy','terms','about','sage','diagnosis'];
   screens.forEach(s => document.getElementById('screen-'+s)?.classList.remove('active'));
