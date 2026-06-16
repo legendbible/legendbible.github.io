@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, interactive-widget=resizes-content">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>LEGEND BIBLE — レジェンドの名言</title>
 
 <!-- ① 基本SEO -->
@@ -4969,6 +4972,9 @@ function clearAllFavs() {
   });
 }
 
+// ── アプリバージョン（更新時にここを上げるとキャッシュが無効化される）──
+const APP_VERSION = '1.0.3';
+
 // QUOTESを外部JSONから非同期ロード
 async function loadQuotes() {
   // 最低表示時間（1.5秒）とJSON読み込みを並行実行
@@ -4976,7 +4982,8 @@ async function loadQuotes() {
   const startTime = Date.now();
 
   try {
-    const res = await fetch('./data/quotes.json');
+    // バージョン番号をURLパラメータに付けてキャッシュを無効化
+    const res = await fetch(`./data/quotes.json?v=${APP_VERSION}`);
     if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     QUOTES.push(...data);
