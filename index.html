@@ -4777,7 +4777,7 @@ const DIAGNOSIS_QUOTE_MAP = {
 let diagAnswers = {};
 let diagStep = 0;
 
-let diagLayout = 'grid';
+let diagLayout = 'list';
 
 function setDiagLayout(layout, btn) {
   diagLayout = layout;
@@ -5016,8 +5016,10 @@ function renderSageDiagnosisResult() {
   const pct = Math.round((sorted[0][1] / maxScore) * 100);
   const rank = pct >= 85 ? '運命の偉人' : pct >= 70 ? '強い共鳴' : pct >= 55 ? '深いつながり' : '新たな出会い';
 
-  // 次点の偉人3人
-  const runners = sorted.slice(1, 4).map(([id]) => SAGES[id]?.name).filter(Boolean);
+  // 次点の偉人3人（id+nameのペアで保持）
+  const runners = sorted.slice(1, 4)
+    .filter(([id]) => SAGES[id])
+    .map(([id]) => [id, SAGES[id].name]);
 
   body.innerHTML = `<div class="diag-slide-wrap">
     <div class="diagnosis-result">
@@ -5045,11 +5047,11 @@ function renderSageDiagnosisResult() {
         const likeCount = pickQuote.likes + (likes[pickQuote.id] ? 1 : 0);
         const isFav = favs.includes(pickQuote.id);
         const isViewed = viewed.some(v => v.id === pickQuote.id);
-        return `<div class="diagnosis-result-tile" onclick="openModal(${pickQuote.id})">
+        return `<div class="diagnosis-result-tile${isViewed?' is-viewed':''}" onclick="openModal(${pickQuote.id})" style="${isViewed?'border-left:3px solid #3A7BD5;':''}">
           <div style="font-size:11px;font-weight:700;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:10px;">この偉人の名言</div>
           <div style="font-size:16px;font-weight:700;color:#fff;line-height:1.7;">${pickQuote.ja}</div>
-          <div style="font-size:12px;color:rgba(255,255,255,0.4);margin-top:6px;">${pickQuote.source || ''}</div>
-          <div class="today-card-actions" style="margin-top:14px;" onclick="event.stopPropagation()">
+          <div style="height:1px;background:rgba(255,255,255,0.12);margin:12px 0;"></div>
+          <div class="today-card-actions" onclick="event.stopPropagation()">
             <button class="card-icon-action like-btn ${liked?'active':''}" onclick="toggleLike(${pickQuote.id},this)" data-id="${pickQuote.id}">
               <span class="like-icon">${heartSvg(liked,18)}</span><span class="like-count-inline">${likeCount}</span>
             </button>
@@ -5063,7 +5065,7 @@ function renderSageDiagnosisResult() {
 
       ${runners.length > 0 ? `<div class="diagnosis-result-tile" style="cursor:default;">
         <div style="font-size:11px;font-weight:700;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:10px;">その他あなたと共鳴する偉人</div>
-        <div style="display:flex;gap:8px;flex-wrap:wrap;">${runners.map(n => `<span style="font-size:12px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.15);border-radius:20px;padding:4px 12px;color:rgba(255,255,255,0.8);">${n}</span>`).join('')}</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">${runners.map(([id,name]) => `<button onclick="switchTab('search');setTimeout(()=>{document.getElementById('search-input').value='${name}';searchFilterSage='${id}';doSearch();},300)" style="font-size:12px;background:rgba(255,255,255,0.1);border:1px solid rgba(255,255,255,0.15);border-radius:20px;padding:4px 12px;color:rgba(255,255,255,0.8);cursor:pointer;">${name}</button>`).join('')}</div>
       </div>` : ''}
 
       <div class="diagnosis-result-actions">
