@@ -4497,52 +4497,22 @@ function jumpToSearch(tag) {
   const input = document.getElementById('search-input');
   if (input) input.value = tag;
   searchCatFilter = 'all';
+  searchFilterSage = 'all';
+  searchShowMore = 12;
   renderSearchCatFilter();
   doSearch();
-  // スクロール位置をトップにリセット
-  window.scrollTo(0, 0);
 }
 function jumpToCategory(catId) {
-  // ホームタブに切り替え
-  switchTab('home');
-
-  // カテゴリを選択
-  currentCatId = catId;
-  catShowMore = 12;
-
-  // メニューのactive更新
-  document.querySelectorAll('.cat-menu-item').forEach(b => {
-    const isActive = b.getAttribute('onclick')?.includes(`'${catId}'`);
-    b.classList.toggle('active', !!isActive);
-    if (isActive) {
-      const colorVal = _catColor(catId);
-      b.style.background = colorVal;
-      b.style.borderColor = catId === 'all'
-        ? (currentTheme === 'dark' ? 'rgba(255,255,255,0.3)' : colorVal)
-        : colorVal;
-      b.style.color = '#fff';
-      setTimeout(() => {
-        const scroll = document.getElementById('cat-menu-scroll');
-        if (scroll) scroll.scrollTo({ left: b.offsetLeft - 20, behavior: 'smooth' });
-      }, 100);
-    } else {
-      b.style.cssText = '';
-    }
-  });
-
-  // タイル更新
-  renderCatQuotesHome();
-
-  // カテゴリメニューが見えるようにスクロール
-  setTimeout(() => {
-    const homeScreen = document.getElementById('screen-home');
-    const catSectionHead = document.querySelectorAll('.section-head')[1];
-    if (homeScreen && catSectionHead) {
-      const offset = catSectionHead.offsetTop - 12;
-      homeScreen.scrollTo({ top: offset, behavior: 'smooth' });
-    }
-  }, 150);
+  switchTab('search');
+  searchCatFilter = catId;
+  const input = document.getElementById('search-input');
+  if (input) input.value = '';
+  searchFilterSage = 'all';
+  searchShowMore = 12;
+  renderSearchCatFilter();
+  doSearch();
 }
+
 function showToast(html) {
   const t = document.getElementById('toast');
   t.innerHTML = html;
