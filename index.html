@@ -1692,7 +1692,7 @@ body {
 }
 
 .toast {
-  position: absolute;
+  position: fixed;
   bottom: calc(var(--tab-h) + var(--safe-b) + 16px);
   left: 50%;
   transform: translateX(-50%) translateY(20px);
@@ -3064,6 +3064,12 @@ let searchShowMore = 12; // 表示件数（12件ずつ増加）
 let _longPressTimer = null;
 
 function initLongPress() {
+  // ネイティブ長押しメニューを抑制
+  document.addEventListener('contextmenu', e => {
+    if (e.target.closest('.today-card, .cat-small-tile, .quote-tile')) {
+      e.preventDefault();
+    }
+  });
   document.addEventListener('touchstart', e => {
     const tile = e.target.closest('.today-card, .cat-small-tile, .quote-tile');
     if (!tile) return;
@@ -3691,7 +3697,9 @@ function removeViewed(id) {
 
   // 全ての時計アイコンを輪郭に戻す
   document.querySelectorAll(`[data-viewed-id="${id}"]`).forEach(span => {
-    span.innerHTML = clockSvg(false, 20);
+    const svgEl = span.querySelector('svg');
+    const sz = svgEl ? parseInt(svgEl.getAttribute('width') || '20') : 20;
+    span.innerHTML = clockSvg(false, sz);
   });
 
   // 全タイルの背景色を戻す
@@ -4351,11 +4359,13 @@ function openModal(id) {
   if (viewed.length > 200) viewed = viewed.slice(0, 200);
   localStorage.setItem('nl_viewed', JSON.stringify(viewed));
 
-  // 時計アイコンを即時更新（塗りつぶしに変更）
+  // 時計アイコンを即時更新（元のサイズを維持）
   document.querySelectorAll(`[data-viewed-id="${id}"]`).forEach(el => {
-    el.innerHTML = clockSvg(true, 20);
+    const svg = el.querySelector('svg');
+    const sz = svg ? parseInt(svg.getAttribute('width') || '20') : 20;
+    el.innerHTML = clockSvg(true, sz);
   });
-  // 全タイルの背景色を青に更新
+  // 全タイルの背景色を青に更新（diagnosis-result-tileも含む）
   document.querySelectorAll(`[data-card-id="${id}"]`).forEach(el => {
     el.classList.add('is-viewed');
   });
@@ -5022,7 +5032,7 @@ function renderSageDiagnosisResult() {
         const likeCount = pickQuote.likes + (likes[pickQuote.id] ? 1 : 0);
         const isFav = favs.includes(pickQuote.id);
         const isViewed = viewed.some(v => v.id === pickQuote.id);
-        return `<div class="diagnosis-result-tile${isViewed?' is-viewed':''}" onclick="openModal(${pickQuote.id})">
+        return `<div class="diagnosis-result-tile${isViewed?' is-viewed':''}" onclick="openModal(${pickQuote.id})" data-card-id="${pickQuote.id}">
           <div style="font-size:11px;font-weight:700;color:rgba(255,255,255,0.5);letter-spacing:0.08em;margin-bottom:10px;">この偉人の名言</div>
           <div style="font-size:16px;font-weight:700;color:#fff;line-height:1.7;">${pickQuote.ja}</div>
           <div style="height:1px;background:rgba(255,255,255,0.12);margin:12px 0;"></div>
@@ -5033,7 +5043,7 @@ function renderSageDiagnosisResult() {
             <button class="card-icon-action fav-btn ${isFav?'active':''}" onclick="toggleFav(${pickQuote.id},this)" data-fav-id="${pickQuote.id}">
               <svg class="fav-svg" viewBox="0 0 24 24" width="18" height="18" fill="${isFav?'rgba(255,255,255,0.85)':'none'}" stroke="rgba(255,255,255,0.55)" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12a1 1 0 011 1v17l-7-3.5L5 21V4a1 1 0 011-1z"/></svg>
             </button>
-            <span class="viewed-icon" data-viewed-id="${pickQuote.id}" onclick="onViewedIconClick(${pickQuote.id},event)">${clockSvg(isViewed,20)}</span>
+            <span class="viewed-icon" data-viewed-id="${pickQuote.id}" onclick="onViewedIconClick(${pickQuote.id},event)">${clockSvg(isViewed,14)}</span>
           </div>
         </div>`;
       })() : ''}
@@ -5136,10 +5146,13 @@ function onDiagQuoteClick(btn) {
   const value = btn.dataset.value;
   btn.style.background = '#1A3A5C';
   btn.style.borderColor = '#1A3A5C';
+  // 全ボタンを即座に無効化して連打防止
+  const body = document.getElementById('diagnosis-body');
+  if (body) body.querySelectorAll('.diagnosis-choice-btn').forEach(b => { b.style.pointerEvents = 'none'; b.onclick = null; });
   setTimeout(() => {
     selectDiagChoice(qId, value);
-    setTimeout(() => { _diagBusy = false; }, 350);
-  }, 200);
+  }, 150);
+  setTimeout(() => { _diagBusy = false; }, 600);
 }
 
 function onDiagSageClick(btn) {
@@ -5149,6 +5162,9 @@ function onDiagSageClick(btn) {
   const sageValue = btn.dataset.sageValue;
   btn.style.background = '#1A3A5C';
   btn.style.borderColor = '#1A3A5C';
+  // 全ボタンを即座に無効化して連打防止
+  const body = document.getElementById('diagnosis-body');
+  if (body) body.querySelectorAll('.diagnosis-choice-btn').forEach(b => { b.style.pointerEvents = 'none'; b.onclick = null; });
   setTimeout(() => {
     sageDiagAnswers[sageQid] = sageValue;
     sageDiagStep++;
@@ -5157,8 +5173,8 @@ function onDiagSageClick(btn) {
     } else {
       renderSageDiagnosisResult();
     }
-    setTimeout(() => { _diagBusy = false; }, 350);
-  }, 200);
+  }, 150);
+  setTimeout(() => { _diagBusy = false; }, 600);
 }
 
 function goBackDiagStep() {
@@ -5411,7 +5427,9 @@ function clearAllViewed() {
     localStorage.removeItem('nl_viewed');
     document.querySelectorAll('.is-viewed').forEach(el => el.classList.remove('is-viewed'));
     document.querySelectorAll('[data-viewed-id]').forEach(span => {
-      span.innerHTML = clockSvg(false, 20);
+      const svgEl = span.querySelector('svg');
+    const sz = svgEl ? parseInt(svgEl.getAttribute('width') || '20') : 20;
+    span.innerHTML = clockSvg(false, sz);
     });
     showToast('閲覧履歴を削除しました');
     initSettings();
