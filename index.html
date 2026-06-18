@@ -3202,7 +3202,7 @@ function showRandomQuote() {
   if (!area.firstElementChild) {
     const wrap = document.createElement('div');
     wrap.style.cssText = 'padding:0 20px;box-sizing:border-box;';
-    wrap.innerHTML = renderQuoteTile(q, false);
+    wrap.innerHTML = renderQuoteTile(q, true);
     area.appendChild(wrap);
     return;
   }
@@ -3218,7 +3218,7 @@ function showRandomQuote() {
   // 新タイルを右外側（110%）に配置
   const next = document.createElement('div');
   next.style.cssText = 'position:absolute;top:0;left:0;right:0;padding:0 20px;transform:translateX(110%);box-sizing:border-box;';
-  next.innerHTML = renderQuoteTile(q, false);
+  next.innerHTML = renderQuoteTile(q, true);
   area.appendChild(next);
 
   // 現在タイルもラッパーで包む
@@ -3237,7 +3237,7 @@ function showRandomQuote() {
     setTimeout(() => {
       const wrap = document.createElement('div');
       wrap.style.cssText = 'padding:0 20px;box-sizing:border-box;';
-      wrap.innerHTML = renderQuoteTile(q, false);
+      wrap.innerHTML = renderQuoteTile(q, true);
       area.innerHTML = '';
       area.appendChild(wrap);
       area.style.height = '';
@@ -3420,7 +3420,7 @@ function _buildSlideContent(catId) {
       if (catLayout === 'grid') {
         html += `<div class="cat-top-grid">${suggested.map(q=>renderSmallTile(q)).join('')}</div>`;
       } else {
-        html += `<div class="quote-list" style="padding:0">${suggested.map(q=>renderQuoteTile(q, false)).join('')}</div>`;
+        html += `<div class="quote-list" style="padding:0">${suggested.map(q=>renderQuoteTile(q, true)).join('')}</div>`;
       }
     }
     return html;
@@ -3438,7 +3438,7 @@ function _buildSlideContent(catId) {
   if (catLayout === 'grid') {
     return `<div class="cat-top-grid">${visible.map(q=>renderSmallTile(q)).join('')}</div>${moreBtn}`;
   } else {
-    return `<div class="quote-list" style="padding:0">${visible.map(q=>renderQuoteTile(q, false)).join('')}</div>${moreBtn}`;
+    return `<div class="quote-list" style="padding:0">${visible.map(q=>renderQuoteTile(q, true)).join('')}</div>${moreBtn}`;
   }
 }
 
@@ -4769,6 +4769,7 @@ function initDiagnosis() {
   sageDiagAnswers = {};
   sageDiagStep = 0;
   diagnosisType = null;
+  _diagBusy = false;
   renderDiagnosisTop();
   initDiagSwipe();
 }
@@ -4807,6 +4808,7 @@ function startDiagnosis(type) {
   diagStep = 0;
   sageDiagAnswers = {};
   sageDiagStep = 0;
+  _diagBusy = false;
   if (type === 'quote') {
     renderDiagnosisStep('slide');
   } else {
@@ -5125,15 +5127,24 @@ function initDiagSwipe() {
   }, { passive: true });
 }
 
+let _diagBusy = false; // アニメーション中・処理中フラグ
+
 function onDiagQuoteClick(btn) {
+  if (_diagBusy) return;
+  _diagBusy = true;
   const qId   = btn.dataset.qid;
   const value = btn.dataset.value;
   btn.style.background = '#1A3A5C';
   btn.style.borderColor = '#1A3A5C';
-  setTimeout(() => selectDiagChoice(qId, value), 200);
+  setTimeout(() => {
+    selectDiagChoice(qId, value);
+    setTimeout(() => { _diagBusy = false; }, 350);
+  }, 200);
 }
 
 function onDiagSageClick(btn) {
+  if (_diagBusy) return;
+  _diagBusy = true;
   const sageQid   = btn.dataset.sageQid;
   const sageValue = btn.dataset.sageValue;
   btn.style.background = '#1A3A5C';
@@ -5146,6 +5157,7 @@ function onDiagSageClick(btn) {
     } else {
       renderSageDiagnosisResult();
     }
+    setTimeout(() => { _diagBusy = false; }, 350);
   }, 200);
 }
 
