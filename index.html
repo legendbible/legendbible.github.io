@@ -2827,25 +2827,30 @@ function renderSageFilterList(context) {
              color:${active?'#fff':'rgba(255,255,255,0.55)'};">${label}</button>`;
   }).join('');
 
+  const sortArrow = (key) => sageSortOrder === key ? (sageSortAsc ? '↑' : '↓') : '';
+
   sortBar.innerHTML = `
     <div style="display:flex;flex-direction:column;gap:8px;width:100%;padding:4px 0 8px;">
       <div style="font-size:10px;color:rgba(255,255,255,0.4);font-weight:700;letter-spacing:0.06em;">並び順</div>
       <div style="display:flex;flex-wrap:wrap;gap:6px;">
         <button onclick="setSageSortOrder('era','${context}')"
-          style="font-size:11px;padding:4px 10px;border-radius:16px;cursor:pointer;white-space:nowrap;
+          style="font-size:11px;font-weight:700;padding:4px 10px;border-radius:16px;cursor:pointer;white-space:nowrap;
+                 display:inline-flex;align-items:center;gap:4px;
                  border:1px solid ${sageSortOrder==='era'?'rgba(255,255,255,0.6)':'rgba(255,255,255,0.2)'};
                  background:${sageSortOrder==='era'?'rgba(255,255,255,0.15)':'transparent'};
-                 color:${sageSortOrder==='era'?'#fff':'rgba(255,255,255,0.55)'};">時代順</button>
+                 color:${sageSortOrder==='era'?'#fff':'rgba(255,255,255,0.55)'};">時代順<span style="font-size:10px;opacity:0.8;">${sortArrow('era')}</span></button>
         <button onclick="setSageSortOrder('kana','${context}')"
-          style="font-size:11px;padding:4px 10px;border-radius:16px;cursor:pointer;white-space:nowrap;
+          style="font-size:11px;font-weight:700;padding:4px 10px;border-radius:16px;cursor:pointer;white-space:nowrap;
+                 display:inline-flex;align-items:center;gap:4px;
                  border:1px solid ${sageSortOrder==='kana'?'rgba(255,255,255,0.6)':'rgba(255,255,255,0.2)'};
                  background:${sageSortOrder==='kana'?'rgba(255,255,255,0.15)':'transparent'};
-                 color:${sageSortOrder==='kana'?'#fff':'rgba(255,255,255,0.55)'};">50音順</button>
+                 color:${sageSortOrder==='kana'?'#fff':'rgba(255,255,255,0.55)'};">50音順<span style="font-size:10px;opacity:0.8;">${sortArrow('kana')}</span></button>
         <button onclick="setSageSortOrder('count','${context}')"
-          style="font-size:11px;padding:4px 10px;border-radius:16px;cursor:pointer;white-space:nowrap;
+          style="font-size:11px;font-weight:700;padding:4px 10px;border-radius:16px;cursor:pointer;white-space:nowrap;
+                 display:inline-flex;align-items:center;gap:4px;
                  border:1px solid ${sageSortOrder==='count'?'rgba(255,255,255,0.6)':'rgba(255,255,255,0.2)'};
                  background:${sageSortOrder==='count'?'rgba(255,255,255,0.15)':'transparent'};
-                 color:${sageSortOrder==='count'?'#fff':'rgba(255,255,255,0.55)'};">名言数順</button>
+                 color:${sageSortOrder==='count'?'#fff':'rgba(255,255,255,0.55)'};">名言数順<span style="font-size:10px;opacity:0.8;">${sortArrow('count')}</span></button>
       </div>
       <div style="font-size:10px;color:rgba(255,255,255,0.4);font-weight:700;letter-spacing:0.06em;">分野</div>
       <div style="display:flex;flex-wrap:wrap;gap:6px;">${tagRow(FIELD_LABELS,'field')}</div>
@@ -2875,6 +2880,7 @@ function renderSageFilterList(context) {
       return py(a[1].years) - py(b[1].years);
     });
   }
+  if (sageSortAsc) sorted.reverse();
 
   const currentFilter = context === 'home' ? catFilterSage : searchFilterSage;
   const selectFn = context === 'home' ? 'selectHomeSageFilter' : 'selectSageFilter';
@@ -2912,7 +2918,12 @@ window.setSageTag = function(key, val, context) {
 };
 
 window.setSageSortOrder = function(order, context) {
-  sageSortOrder = order;
+  if (sageSortOrder === order) {
+    sageSortAsc = !sageSortAsc; // 同じボタンを再タップで昇順/降順を切り替え
+  } else {
+    sageSortOrder = order;
+    sageSortAsc = false; // 別の並び順に切り替えた時はデフォルト降順
+  }
   renderSageFilterList(context);
 };
 
