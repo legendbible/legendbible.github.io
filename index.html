@@ -2726,8 +2726,14 @@ function getTodayQuotes() {
   };
   const seasonPref = seasonMap[season];
 
-  // シード値で決定論的シャッフル
-  const seededRand = (id) => ((id * 1103515245 + seed * 12345) & 0x7fffffff) / 0x7fffffff;
+  // シード値で決定論的シャッフル（日付ごとにしっかり変化するハッシュ）
+  const seededRand = (id) => {
+    let x = (id * 2654435761 + seed * 40503) >>> 0; // 32bit符号なし
+    x ^= x << 13; x >>>= 0;
+    x ^= x >>> 17;
+    x ^= x << 5;  x >>>= 0;
+    return (x >>> 0) / 4294967295;
+  };
 
   // 季節に合う名言を優先スコアリング
   const scored = QUOTES.map(q => {
