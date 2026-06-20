@@ -4462,6 +4462,16 @@ function openModal(id) {
       }).join('')}
       ${q.tags.map(t=>`<span class="tag tappable-chip" onclick="closeModal();setTimeout(()=>jumpToSearch('${t}'),300)">#${t}</span>`).join('')}
     </div>
+
+    <!-- ▼▼▼ 広告枠プレビュー（実装イメージ）▼▼▼ -->
+    <div style="margin:24px 0 8px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.1);">
+      <div style="font-size:10px;color:rgba(255,255,255,0.3);text-align:center;margin-bottom:8px;letter-spacing:0.05em;">広告</div>
+      <div style="background:rgba(255,255,255,0.06);border:1px dashed rgba(255,255,255,0.2);border-radius:12px;min-height:100px;display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,0.3);font-size:12px;">
+        Google AdSense 広告枠（レスポンシブ）
+      </div>
+    </div>
+    <!-- ▲▲▲ 広告枠プレビューここまで ▲▲▲ -->
+
     <div class="modal-actions">
       <div class="modal-actions-row">
         <button class="modal-icon-action like-btn ${liked?'active':''}" onclick="toggleLike(${id},this)" data-id="${id}">
