@@ -5321,14 +5321,12 @@ function renderDiagnosisResult() {
     q.cats.some(c => mapping.cats.includes(c)) ||
     q.tags.some(t => mapping.tags.includes(t))
   );
-  matched.sort((a,b) => (b.likes+(likes[b.id]?1:0)) - (a.likes+(likes[a.id]?1:0)));
   if (matched.length < 3) {
-    const extra = QUOTES.filter(q => !matched.includes(q))
-      .sort((a,b) => (b.likes+(likes[b.id]?1:0)) - (a.likes+(likes[a.id]?1:0)));
-    matched.push(...extra.slice(0, 3 - matched.length));
+    const extra = QUOTES.filter(q => !matched.includes(q));
+    matched.push(...extra);
   }
 
-  const rq = matched[0];
+  const rq = matched[Math.floor(Math.random() * matched.length)];
   const sage = rq ? SAGES[rq.sage] : null;
   const catColor = CATEGORIES.find(c => c.id === mapping.cats[0])?.color || '#3A3A3C';
   const catName  = CATEGORIES.find(c => c.id === mapping.cats[0])?.name  || '';
