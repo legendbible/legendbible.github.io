@@ -3034,6 +3034,8 @@ function openHomeSageFilter() {
   // ハンドルドラッグ
   if (handle && !handle._dragInit) {
     handle._dragInit = true;
+    // PC用：クリックで閉じる
+    handle.addEventListener('click', () => { _closeSageFilterOverlay(); });
     let startY = 0, currentY = 0, isDragging = false;
     handle.addEventListener('touchstart', e => {
       startY = e.touches[0].clientY; currentY = 0; isDragging = true;
@@ -3089,6 +3091,12 @@ function openSageFilter() {
   // ハンドルドラッグで閉じる
   if (handle && !handle._dragInit) {
     handle._dragInit = true;
+    // PC用：クリックで閉じる
+    handle.addEventListener('click', () => {
+      sheet.style.transition = 'transform 0.25s ease-out';
+      sheet.style.transform = 'translateY(100%)';
+      setTimeout(() => { overlay.style.display = 'none'; document.body.style.overflow = ''; sheet.style.transform = ''; sheet.style.transition = ''; }, 260);
+    });
     let startY = 0, currentY = 0, isDragging = false;
     handle.addEventListener('touchstart', e => {
       startY = e.touches[0].clientY;
