@@ -5231,6 +5231,15 @@ function initDiagSwipe() {
   if (!body || body._swipeInit) return;
   body._swipeInit = true;
 
+  // PC用クリック処理（マウス操作対応）
+  body.addEventListener('click', e => {
+    // タッチデバイスでは touchend で処理するので skip
+    if (e.sourceCapabilities && e.sourceCapabilities.firesTouchEvents) return;
+    const btn = e.target.closest('.diagnosis-choice-btn:not(.diag-top-btn)');
+    if (!btn || _diagBusy) return;
+    diagBtnAction(btn, body);
+  });
+
   let startX = 0, startY = 0, moved = false, pressedBtn = null;
 
   body.addEventListener('touchstart', e => {
@@ -5257,36 +5266,7 @@ function initDiagSwipe() {
     if (!moved) {
       const btn = e.target.closest('.diagnosis-choice-btn:not(.diag-top-btn)');
       if (btn && !_diagBusy) {
-        _diagBusy = true;
-        btn.classList.add('pressed');
-        // 全ボタンを即座にタップ不可にして連打防止
-        body.querySelectorAll('.diagnosis-choice-btn').forEach(b => b.style.pointerEvents = 'none');
-        setTimeout(() => {
-          btn.classList.remove('pressed');
-          if (btn.hasAttribute('data-sage-qid')) {
-            // 偉人診断
-            const sageQid   = btn.dataset.sageQid;
-            const sageValue = btn.dataset.sageValue;
-            btn.style.background = '#1A3A5C';
-            btn.style.borderColor = '#1A3A5C';
-            sageDiagAnswers[sageQid] = sageValue;
-            sageDiagStep++;
-            if (sageDiagStep < SAGE_DIAGNOSIS_QUESTIONS.length) {
-              renderSageDiagnosisStep('slide');
-            } else {
-              renderSageDiagnosisResult();
-            }
-          } else if (btn.hasAttribute('data-qid')) {
-            // 名言診断
-            const qId   = btn.dataset.qid;
-            const value = btn.dataset.value;
-            btn.style.background = '#1A3A5C';
-            btn.style.borderColor = '#1A3A5C';
-            selectDiagChoice(qId, value);
-          }
-          // アニメーション完了後にロック解除
-          setTimeout(() => { _diagBusy = false; }, 400);
-        }, 120);
+        diagBtnAction(btn, body);
       }
     } else if (dx > 50) {
       if (diagnosisType === 'quote' && diagStep > 0 && diagStep < DIAGNOSIS_QUESTIONS.length) {
@@ -5300,6 +5280,36 @@ function initDiagSwipe() {
     moved = false;
     pressedBtn = null;
   }, { passive: true });
+}
+
+// 診断ボタンの共通処理（touch・click両対応）
+function diagBtnAction(btn, body) {
+  _diagBusy = true;
+  btn.classList.add('pressed');
+  body.querySelectorAll('.diagnosis-choice-btn').forEach(b => b.style.pointerEvents = 'none');
+  setTimeout(() => {
+    btn.classList.remove('pressed');
+    if (btn.hasAttribute('data-sage-qid')) {
+      const sageQid   = btn.dataset.sageQid;
+      const sageValue = btn.dataset.sageValue;
+      btn.style.background = '#1A3A5C';
+      btn.style.borderColor = '#1A3A5C';
+      sageDiagAnswers[sageQid] = sageValue;
+      sageDiagStep++;
+      if (sageDiagStep < SAGE_DIAGNOSIS_QUESTIONS.length) {
+        renderSageDiagnosisStep('slide');
+      } else {
+        renderSageDiagnosisResult();
+      }
+    } else if (btn.hasAttribute('data-qid')) {
+      const qId   = btn.dataset.qid;
+      const value = btn.dataset.value;
+      btn.style.background = '#1A3A5C';
+      btn.style.borderColor = '#1A3A5C';
+      selectDiagChoice(qId, value);
+    }
+    setTimeout(() => { _diagBusy = false; }, 400);
+  }, 120);
 }
 
 function onDiagQuoteClick(btn) {
