@@ -168,14 +168,14 @@ body {
   display: none;
   flex: 1;
   min-height: 0;
-  padding-bottom: calc(var(--tab-h) + var(--safe-b));
+  padding-bottom: calc(var(--tab-h) + 24px + env(safe-area-inset-bottom, 0px));
 }
 .screen.active {
   display: block;
 }
 #screen-diagnosis.active {
   overflow-y: auto;
-  height: calc(100dvh - var(--tab-h) - var(--safe-b));
+  height: calc(100dvh - var(--tab-h) - 24px - env(safe-area-inset-bottom, 0px));
 }
 .screen::-webkit-scrollbar { display: none; }
 /* ── ヘッダー ── */
@@ -1594,29 +1594,33 @@ body {
 
 .tab-bar {
   position: fixed;
-  bottom: 0;
+  bottom: 16px;
   left: 50%;
   transform: translateX(-50%);
-  width: 100%;
-  max-width: 430px;
-  height: calc(var(--tab-h) + var(--safe-b));
-  padding-bottom: var(--safe-b);
+  width: calc(100% - 32px);
+  max-width: 398px;
+  height: var(--tab-h);
+  padding-bottom: 0;
   background: var(--surface);
   border-top: none;
-  box-shadow: 0 -4px 16px rgba(0,0,0,0.18), 0 -1px 0 rgba(0,0,0,0.10);
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3), 0 -1px 0 rgba(0,0,0,0.10);
   display: flex;
   z-index: 200;
 }
-/* PWAスタンドアロン（デスクトップ追加時）はタブバーを少し上に */
+/* iPhoneのホームバーがある場合は少し上に */
+@supports (padding-bottom: env(safe-area-inset-bottom)) {
+  .tab-bar {
+    bottom: calc(16px + env(safe-area-inset-bottom));
+  }
+}
+/* PWAスタンドアロン時も同じスタイルを維持 */
 @media (display-mode: standalone) {
   .tab-bar {
-    bottom: 16px;
-    border-radius: 20px;
-    width: calc(100% - 32px);
-    box-shadow: 0 4px 24px rgba(0,0,0,0.3), 0 -1px 0 rgba(0,0,0,0.10);
+    bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   }
-  body { padding-bottom: calc(var(--tab-h) + var(--safe-b) + 24px); }
-  .screen { height: calc(100dvh - var(--tab-h) - var(--safe-b) - 24px); }
+  body { padding-bottom: calc(var(--tab-h) + 24px + env(safe-area-inset-bottom, 0px)); }
+  .screen { height: calc(100dvh - var(--tab-h) - 24px - env(safe-area-inset-bottom, 0px)); }
 }
 .tab-btn {
   flex: 1;
