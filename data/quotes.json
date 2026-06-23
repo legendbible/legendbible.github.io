@@ -111,7 +111,7 @@
   },
   {
     "id": 6,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "知人者智，自知者明。勝人者有力，自勝者強。",
     "ja": "他人を知る者は智者だ。しかし自分を知る者こそ、真に賢い。他人に勝つ者は力がある。しかし自分に勝つ者こそ、真に強い。",
     "source": "道徳経 第33章",
@@ -303,7 +303,7 @@
   },
   {
     "id": 15,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "為學日益，為道日損。",
     "ja": "学問は日々積み重ね、道（タオ）は日々削ぎ落とす。",
     "source": "道徳経 第48章",
@@ -498,7 +498,7 @@
   },
   {
     "id": 24,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "千里之行，始於足下。",
     "ja": "千里の旅も、足元の一歩から始まる。",
     "source": "道徳経 第64章",
@@ -693,7 +693,7 @@
   },
   {
     "id": 33,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "信言不美，美言不信。",
     "ja": "誠実な言葉は美しくなく、美しい言葉は誠実でない。",
     "source": "道徳経 第81章",
@@ -866,7 +866,7 @@
   },
   {
     "id": 41,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "曲則全，枉則直。",
     "ja": "曲がることで全体を保ち、曲がったものがやがて真っ直ぐになる。",
     "source": "道徳経 第22章",
@@ -1061,7 +1061,7 @@
   },
   {
     "id": 50,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "上善若水。",
     "ja": "最上の善は水のようなものだ。",
     "source": "道徳経 第8章",
@@ -1353,7 +1353,7 @@
   },
   {
     "id": 119,
-    "sage": "aurelius",
+    "sage": "marcus_aurelius",
     "orig": "You have power over your mind, not outside events. Realize this, and you will find strength.",
     "ja": "あなたには自分の心をコントロールする力がある。外の出来事ではなく。これを悟れば、あなたは力を見つけるだろう。",
     "source": "自省録",
@@ -1374,7 +1374,7 @@
   },
   {
     "id": 120,
-    "sage": "aurelius",
+    "sage": "marcus_aurelius",
     "orig": "The impediment to action advances action. What stands in the way becomes the way.",
     "ja": "行動への障害が行動を前進させる。道に立ちはだかるものが、道そのものとなる。",
     "source": "自省録",
@@ -1395,7 +1395,7 @@
   },
   {
     "id": 121,
-    "sage": "aurelius",
+    "sage": "marcus_aurelius",
     "orig": "Waste no more time arguing about what a good man should be. Be one.",
     "ja": "良い人間はどうあるべきかを議論することで時間を無駄にするな。ただ良い人間であれ。",
     "source": "自省録",
@@ -1920,7 +1920,7 @@
   },
   {
     "id": 146,
-    "sage": "soseki",
+    "sage": "natsume_soseki",
     "orig": "智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。とかくに人の世は住みにくい。",
     "ja": "智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。とかくに人の世は住みにくい。",
     "source": "草枕",
@@ -1941,7 +1941,7 @@
   },
   {
     "id": 147,
-    "sage": "soseki",
+    "sage": "natsume_soseki",
     "orig": "自分が正しいと思ったら、世間がなんと言おうと断固としてやれ。",
     "ja": "自分が正しいと思ったら、世間がなんと言おうと断固としてやれ。",
     "source": "漱石の言葉",
@@ -2004,7 +2004,7 @@
   },
   {
     "id": 150,
-    "sage": "miyazawa",
+    "sage": "miyazawa_kenji",
     "orig": "雨にも負けず、風にも負けず、雪にも夏の暑さにも負けぬ、丈夫なからだをもち。",
     "ja": "雨にも負けず、風にも負けず、雪にも夏の暑さにも負けぬ、丈夫なからだをもち。",
     "source": "雨ニモマケズ",
@@ -2025,7 +2025,7 @@
   },
   {
     "id": 151,
-    "sage": "miyazawa",
+    "sage": "miyazawa_kenji",
     "orig": "世界がぜんたい幸福にならないうちは個人の幸福はあり得ない。",
     "ja": "世界がぜんたい幸福にならないうちは個人の幸福はあり得ない。",
     "source": "農民芸術概論綱要",
@@ -2088,7 +2088,7 @@
   },
   {
     "id": 154,
-    "sage": "saigo",
+    "sage": "saigo_takamori",
     "orig": "敬天愛人。天を敬い、人を愛すること。",
     "ja": "敬天愛人。天を敬い、人を愛すること。",
     "source": "西郷隆盛の座右の銘",
@@ -2109,7 +2109,7 @@
   },
   {
     "id": 155,
-    "sage": "saigo",
+    "sage": "saigo_takamori",
     "orig": "命もいらず、名もいらず、官位も金もいらぬ人は、始末に困るもの也。",
     "ja": "命もいらず、名もいらず、官位も金もいらぬ人は、始末に困るもの也。",
     "source": "南洲翁遺訓",
@@ -3256,7 +3256,7 @@
   },
   {
     "id": 85,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "Life is either a daring adventure or nothing at all.",
     "ja": "人生は大胆な冒険か、それとも何もないかのどちらかだ。",
     "source": "ヘレン・ケラーの言葉",
@@ -3277,7 +3277,7 @@
   },
   {
     "id": 86,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "Optimism is the faith that leads to achievement.",
     "ja": "楽観主義とは、達成につながる信念だ。",
     "source": "ヘレン・ケラーの言葉",
@@ -3736,7 +3736,7 @@
   },
   {
     "id": 108,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "It always seems impossible until it is done.",
     "ja": "やり終えるまで、それはいつも不可能に見える。",
     "source": "ネルソン・マンデラの言葉",
@@ -3757,7 +3757,7 @@
   },
   {
     "id": 109,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "Education is the most powerful weapon which you can use to change the world.",
     "ja": "教育は世界を変えるために使える最も強力な武器だ。",
     "source": "マンデラの言葉",
@@ -4512,7 +4512,7 @@
   },
   {
     "id": 215,
-    "sage": "voltaire2",
+    "sage": "montaigne",
     "orig": "Every man carries the form of the human condition within him.",
     "ja": "すべての人間は、人間という条件の形を内側に持っている。",
     "source": "エセー",
@@ -4533,7 +4533,7 @@
   },
   {
     "id": 216,
-    "sage": "voltaire2",
+    "sage": "montaigne",
     "orig": "The greatest thing in the world is to know how to belong to oneself.",
     "ja": "世界で最も偉大なことは、自分自身に属する方法を知ることだ。",
     "source": "エセー",
@@ -4806,7 +4806,7 @@
   },
   {
     "id": 229,
-    "sage": "nietzsche2",
+    "sage": "hegel",
     "orig": "The owl of Minerva spreads its wings only with the falling of the dusk.",
     "ja": "ミネルヴァのフクロウは黄昏にのみ飛び立つ。",
     "source": "法哲学",
@@ -5184,7 +5184,7 @@
   },
   {
     "id": 248,
-    "sage": "descartes2",
+    "sage": "leibniz",
     "orig": "Music is the pleasure the human mind experiences from counting without being aware that it is counting.",
     "ja": "音楽とは、数えていることに気づかずに数えることから人間の心が得る喜びだ。",
     "source": "ライプニッツの言葉",
@@ -5436,7 +5436,7 @@
   },
   {
     "id": 260,
-    "sage": "jobs2",
+    "sage": "gates",
     "orig": "It's fine to celebrate success but it is more important to heed the lessons of failure.",
     "ja": "成功を祝うことは良いことだが、失敗の教訓に耳を傾けることの方が重要だ。",
     "source": "ビル・ゲイツの言葉",
@@ -5457,7 +5457,7 @@
   },
   {
     "id": 261,
-    "sage": "jobs2",
+    "sage": "gates",
     "orig": "We always overestimate the change that will occur in the next two years and underestimate the change that will occur in the next ten.",
     "ja": "私たちはいつも次の2年で起きる変化を過大評価し、次の10年で起きる変化を過小評価する。",
     "source": "未来を語るゲイツの言葉",
@@ -5709,7 +5709,7 @@
   },
   {
     "id": 273,
-    "sage": "hiroshige",
+    "sage": "ando_hiroshige",
     "orig": "雨の表情は無限だ。晴れの一種より雨の百種の方が豊かだ。",
     "ja": "雨の表情は無限だ。晴れの一種より雨の百種の方が豊かだ。",
     "source": "広重の言葉（伝承）",
@@ -5772,7 +5772,7 @@
   },
   {
     "id": 276,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "Alone we can do so little; together we can do so much.",
     "ja": "一人では少ししかできない。一緒なら多くのことができる。",
     "source": "ヘレン・ケラーの言葉",
@@ -6150,7 +6150,7 @@
   },
   {
     "id": 294,
-    "sage": "harriet",
+    "sage": "harriet_tubman",
     "orig": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.",
     "ja": "すべての偉大な夢は夢想家から始まる。あなたの内側には星に届き世界を変える強さ・忍耐・情熱がある。",
     "source": "ハリエット・タブマンの言葉",
@@ -6213,7 +6213,7 @@
   },
   {
     "id": 297,
-    "sage": "eleanor",
+    "sage": "eleanor_roosevelt",
     "orig": "You gain strength, courage, and confidence by every experience in which you really stop to look fear in the face.",
     "ja": "恐れと正面から向き合う体験をするたびに、あなたは強さ・勇気・自信を得る。",
     "source": "エレノア・ルーズベルトの言葉",
@@ -6234,7 +6234,7 @@
   },
   {
     "id": 298,
-    "sage": "eleanor",
+    "sage": "eleanor_roosevelt",
     "orig": "Do one thing every day that scares you.",
     "ja": "毎日一つ、あなたを怖がらせることをせよ。",
     "source": "エレノア・ルーズベルトの言葉",
@@ -6360,7 +6360,7 @@
   },
   {
     "id": 304,
-    "sage": "teresa4",
+    "sage": "augustine",
     "orig": "Our heart is restless, until it repose in Thee.",
     "ja": "私たちの心はあなたの中に安らぐまで落ち着かない。",
     "source": "告白録",
@@ -6381,7 +6381,7 @@
   },
   {
     "id": 305,
-    "sage": "teresa4",
+    "sage": "augustine",
     "orig": "Thou hast made us for thyself, O Lord, and our heart is restless until it finds its rest in thee.",
     "ja": "あなたは私たちをあなたのために作られた。そして私たちの心はあなたの中に安らぐまで落ち着かない。",
     "source": "告白録 第1巻",
@@ -6402,7 +6402,7 @@
   },
   {
     "id": 306,
-    "sage": "aquinas",
+    "sage": "thomas_aquinas",
     "orig": "The things that we love tell us what we are.",
     "ja": "私たちが愛するものが私たちが何者かを示す。",
     "source": "トマス・アクィナスの言葉",
@@ -6465,7 +6465,7 @@
   },
   {
     "id": 309,
-    "sage": "luther",
+    "sage": "martin_luther",
     "orig": "Here I stand. I can do no other.",
     "ja": "ここに私は立つ。他にいかなることもできない。",
     "source": "ウォルムス帝国議会 1521年",
@@ -6486,7 +6486,7 @@
   },
   {
     "id": 310,
-    "sage": "luther",
+    "sage": "martin_luther",
     "orig": "Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree.",
     "ja": "たとえ明日世界が終わると知っていても、私は今日リンゴの木を植える。",
     "source": "ルターの言葉（伝承）",
@@ -6843,7 +6843,7 @@
   },
   {
     "id": 327,
-    "sage": "motoori",
+    "sage": "norinaga",
     "orig": "敷島の 大和心を 人問はば 朝日に匂ふ 山桜花",
     "ja": "日本人の心を問われれば、朝日に輝く山桜の花だと答えよう。",
     "source": "本居宣長の歌",
@@ -6885,7 +6885,7 @@
   },
   {
     "id": 329,
-    "sage": "confucius3",
+    "sage": "wang_yangming",
     "orig": "知行合一。知ることと行うことは一つだ。",
     "ja": "知ることと行うことは一つだ。本当に知っていれば必ず行動する。",
     "source": "王陽明の言葉",
@@ -6948,7 +6948,7 @@
   },
   {
     "id": 332,
-    "sage": "miyamoto3",
+    "sage": "kenko",
     "orig": "つれづれなるままに、日くらし、硯にむかひて、心に移りゆくよしなし事を、そこはかとなく書きつくれば、あやしうこそものぐるほしけれ。",
     "ja": "することもなくぼんやりしながら、一日中硯に向かって、心に浮かぶとりとめのないことを書き連ねると、妙に狂おしい気持ちになる。",
     "source": "徒然草",
@@ -7174,27 +7174,6 @@
       "使命"
     ],
     "likes": 118,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 344,
-    "sage": "curie",
-    "orig": "Nothing in life is to be feared, it is only to be understood. Now is the time to understand more, so that we may fear less.",
-    "ja": "人生において恐れるべきものは何もない。理解すべきものがあるだけだ。今こそ理解を深めて、恐れを減らすときだ。",
-    "source": "マリー・キュリーの言葉",
-    "desc": "キュリー夫人は当時「見えない光線」として恐れられた放射線を科学的に研究した。未知のものへの恐れは理解によって解消される。X線・放射性元素の発見は当初社会の不安を生んだが、科学的理解がその力を医療の道具に変えた。現代でも新技術・新現象・未知の問題への恐れは理解不足から来ることが多い。学ぶことが恐れの解毒剤だ。成長は劇的な変化よりも、毎日の小さな積み重ねから生まれる。この言葉を胸に、今日も一歩前へ。",
-    "cats": [
-      "growth",
-      "challenge",
-      "mind"
-    ],
-    "tags": [
-      "恐れ",
-      "理解",
-      "科学"
-    ],
-    "likes": 109,
     "season": null,
     "mmdd": null
   },
@@ -7430,27 +7409,6 @@
     "mmdd": null
   },
   {
-    "id": 362,
-    "sage": "nobunaga",
-    "orig": "人間五十年、下天のうちをくらぶれば、夢幻の如くなり。",
-    "ja": "人間の五十年の生涯は、下天（天上界の最下層）の時の流れに比べれば、夢や幻のように儚いものだ。",
-    "source": "幸若舞「敦盛」より信長が好んだ一節",
-    "desc": "信長が桶狭間の戦い前夜に舞ったとされるこの言葉は、生の儚さと短さへの覚悟を示す。人生50年（当時の平均寿命）という限られた時間を意識することが信長の行動の速さと大胆さの源泉だった。死を意識することで今この瞬間が輝く。「メメント・モリ（死を忘れるな）」というラテン語の格言と同じ真実を信長は自ら舞の中で体感した。時間は誰にも平等に流れる。今この瞬間に何を選択するかが、未来のあなたを作る。",
-    "cats": [
-      "time",
-      "motivation",
-      "challenge"
-    ],
-    "tags": [
-      "人生",
-      "無常",
-      "覚悟"
-    ],
-    "likes": 108,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 363,
     "sage": "nobunaga",
     "orig": "第六天魔王。",
@@ -7641,7 +7599,7 @@
   },
   {
     "id": 376,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "A good head and a good heart are always a formidable combination.",
     "ja": "優れた頭脳と優れた心は、常に手強い組み合わせだ。",
     "source": "ネルソン・マンデラの言葉",
@@ -7846,48 +7804,6 @@
       "行動"
     ],
     "likes": 107,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 387,
-    "sage": "helenkeller",
-    "orig": "Optimism is the faith that leads to achievement. Nothing can be done without hope and confidence.",
-    "ja": "楽観主義は達成につながる信仰だ。希望と確信なしには何もできない。",
-    "source": "ヘレン・ケラーの言葉",
-    "desc": "ヘレン・ケラーは19ヶ月で視聴覚を失い暗闇と沈黙の世界で育った。しかし大学を卒業し35カ国以上を訪問し社会活動家として生涯を送った。彼女が楽観主義を語るとき、それは恵まれた環境からではなく最も過酷な状況を生き抜いた者の確信から来ている。楽観主義とは盲目的な希望ではなく困難の中にも可能性を見出す意志だ。この言葉をただ読むだけでなく、今日の行動に一つだけ取り入れてみよう。言葉は実践されて初めて力を持つ。",
-    "cats": [
-      "motivation",
-      "adversity",
-      "growth"
-    ],
-    "tags": [
-      "楽観主義",
-      "希望",
-      "信頼"
-    ],
-    "likes": 113,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 390,
-    "sage": "goethe",
-    "orig": "Whatever you can do, or dream you can, begin it. Boldness has genius, power and magic in it.",
-    "ja": "できることも夢見ることも、今すぐ始めよ。大胆さには才能・力・魔法がある。",
-    "source": "ゲーテの言葉",
-    "desc": "ゲーテは「ファウスト」を60年かけて書き上げた。しかしその始まりは「今すぐ始める」という決意だった。始めることで流れが生まれる。準備が整うことで資源が集まる。思いがけない助けが現れる。しかしそのすべては始めた者だけに訪れる。完璧な準備を待っている人間は永遠に始めない。不完全なまま始めることが完成への唯一の道だ。この言葉をただ読むだけでなく、今日の行動に一つだけ取り入れてみよう。言葉は実践されて初めて力を持つ。",
-    "cats": [
-      "motivation",
-      "challenge",
-      "work"
-    ],
-    "tags": [
-      "始める",
-      "大胆さ",
-      "行動"
-    ],
-    "likes": 119,
     "season": null,
     "mmdd": null
   },
@@ -8334,7 +8250,7 @@
   },
   {
     "id": 414,
-    "sage": "hiroshige",
+    "sage": "ando_hiroshige",
     "orig": "東海道五十三次の旅路のように、人生には無数の景色がある。",
     "ja": "どんな小さな景色にも、その瞬間だけの美しさがある。それを見逃さないことが画家の眼だ。",
     "source": "広重の芸術観",
@@ -8355,7 +8271,7 @@
   },
   {
     "id": 415,
-    "sage": "nietzsche2",
+    "sage": "hegel",
     "orig": "Nothing great in the world has been accomplished without passion.",
     "ja": "世界において偉大なことは、情熱なしには何も達成されなかった。",
     "source": "歴史哲学講義",
@@ -8376,7 +8292,7 @@
   },
   {
     "id": 416,
-    "sage": "nietzsche2",
+    "sage": "hegel",
     "orig": "We learn from history that we do not learn from history.",
     "ja": "私たちは歴史から、歴史から学ばないことを学ぶ。",
     "source": "ヘーゲルの言葉",
@@ -8628,7 +8544,7 @@
   },
   {
     "id": 428,
-    "sage": "confucius3",
+    "sage": "wang_yangming",
     "orig": "致良知。（良知を致す）",
     "ja": "良知を極めよ。人は誰でも善悪を知る本来の知性を持っている。それを行動に移せ。",
     "source": "伝習録",
@@ -8670,7 +8586,7 @@
   },
   {
     "id": 430,
-    "sage": "miyamoto3",
+    "sage": "kenko",
     "orig": "ものごとは定めなきこそいみじけれ。",
     "ja": "物事の定まりなく移ろうことこそが素晴らしい。",
     "source": "徒然草",
@@ -8859,7 +8775,7 @@
   },
   {
     "id": 442,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "知人者智、自知者明。勝人者有力、自勝者強。",
     "ja": "他者を知ることは知恵だ。自分を知ることは悟りだ。他者に勝つことは力だ。自分に勝つことが真の強さだ。",
     "source": "道徳経 第33章",
@@ -8880,7 +8796,7 @@
   },
   {
     "id": 443,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "為學日益、為道日損。損之又損、以至於無為。",
     "ja": "学問は日々積み重ねる。道は日々削ぎ落とす。削ぎ落とし続けて、無為に至る。",
     "source": "道徳経 第48章",
@@ -8901,7 +8817,7 @@
   },
   {
     "id": 444,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "信言不美、美言不信。善者不弁、弁者不善。",
     "ja": "誠実な言葉は美しくなく、美しい言葉は誠実でない。善い者は弁が立たず、弁が立つ者は善くない。",
     "source": "道徳経 第81章",
@@ -9405,7 +9321,7 @@
   },
   {
     "id": 472,
-    "sage": "voltaire2",
+    "sage": "montaigne",
     "orig": "On the highest throne in the world, we still sit only on our own bottom.",
     "ja": "世界最高の玉座にあっても、私たちは自分自身のお尻の上にしか座れない。",
     "source": "エセー",
@@ -9531,7 +9447,7 @@
   },
   {
     "id": 481,
-    "sage": "aurelius",
+    "sage": "marcus_aurelius",
     "orig": "You could leave life right now. Let that determine what you do and say and think.",
     "ja": "今すぐ人生を終えることもできる。それが、あなたの行動・言葉・思考を決定させよ。",
     "source": "自省録",
@@ -9972,7 +9888,7 @@
   },
   {
     "id": 503,
-    "sage": "soseki",
+    "sage": "natsume_soseki",
     "orig": "今から二十年後に、今日を思って後悔することのないよう、今日を生きよ。",
     "ja": "今から二十年後に、今日を思って後悔することのないよう、今日を生きよ。",
     "source": "漱石の言葉",
@@ -9993,7 +9909,7 @@
   },
   {
     "id": 504,
-    "sage": "soseki",
+    "sage": "natsume_soseki",
     "orig": "月が綺麗ですね。",
     "ja": "月が綺麗ですね。（I love you の日本語訳として）",
     "source": "漱石の逸話",
@@ -10035,7 +9951,7 @@
   },
   {
     "id": 506,
-    "sage": "saigo",
+    "sage": "saigo_takamori",
     "orig": "人を相手にせず天を相手にせよ。天を相手にして、己を尽くして人を咎めず、我が誠の足らざるを尋ぬべし。",
     "ja": "人ではなく天を相手にせよ。天を相手に己を尽くし、人を責めず、自分の誠実さが足りないかを問え。",
     "source": "南洲翁遺訓",
@@ -10119,7 +10035,7 @@
   },
   {
     "id": 510,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "It always seems impossible until it's done.",
     "ja": "それは完成するまで常に不可能に見える。",
     "source": "ネルソン・マンデラの言葉",
@@ -10245,7 +10161,7 @@
   },
   {
     "id": 518,
-    "sage": "descartes2",
+    "sage": "leibniz",
     "orig": "The present is the child of the past and the parent of the future.",
     "ja": "現在は過去の子であり、未来の親だ。",
     "source": "ライプニッツの言葉",
@@ -10266,7 +10182,7 @@
   },
   {
     "id": 519,
-    "sage": "eleanor",
+    "sage": "eleanor_roosevelt",
     "orig": "No one can make you feel inferior without your consent.",
     "ja": "あなたの同意なしに誰もあなたを劣等感に陥れることはできない。",
     "source": "エレノア・ルーズベルト「明日は今日から始まる」",
@@ -10497,7 +10413,7 @@
   },
   {
     "id": 533,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "曲則全、枉則直。（曲がれば全うされ、枉がれば直くなる）",
     "ja": "曲がることで全うされる。引っ込むことで伸びる。欠けることで満たされる。",
     "source": "道徳経 第22章",
@@ -11127,7 +11043,7 @@
   },
   {
     "id": 567,
-    "sage": "aurelius",
+    "sage": "marcus_aurelius",
     "orig": "Accept the things to which fate binds you, and love the people with whom fate brings you together, and do so with all your heart.",
     "ja": "運命があなたに縛りつけるものを受け入れ、運命があなたのもとに連れてくる人々を心から愛せ。",
     "source": "自省録",
@@ -11232,7 +11148,7 @@
   },
   {
     "id": 572,
-    "sage": "eleanor",
+    "sage": "eleanor_roosevelt",
     "orig": "Beautiful young people are accidents of nature, but beautiful old people are works of art.",
     "ja": "美しい若者は自然の偶然だが、美しい老人は芸術作品だ。",
     "source": "エレノア・ルーズベルトの言葉",
@@ -11672,27 +11588,6 @@
     "mmdd": null
   },
   {
-    "id": 595,
-    "sage": "fleming",
-    "orig": "It is the lone worker who makes the first advance in a subject: the details may be worked out by a team, but the prime idea is due to the enterprise, courage, and often faith of one man.",
-    "ja": "最初の前進をなすのは孤独な作業者だ。詳細はチームで詰められるが、核心のアイデアは一人の人間の企業心・勇気・信念から生まれる。",
-    "source": "フレミングの言葉",
-    "desc": "フレミングはペニシリン発見時、誰の指示も受けず一人で実験を続けていた。革命的な突破口を開くのはしばしば孤独な個人の直観と信念だ。チームワークは成果を拡大するが突破口を開くのはしばしば個人の孤独な挑戦だ。集団の合意より一人の信念が先に立つことがある。あなたの「核心のアイデア」を、周囲の同意を待たずに信じ続ける勇気はあるか。あなたの仕事に、この言葉はどう響くか。日々の小さな選択の積み重ねが、最終的な仕事の質と意味を決める。",
-    "cats": [
-      "work",
-      "challenge",
-      "motivation"
-    ],
-    "tags": [
-      "孤独",
-      "突破口",
-      "信念"
-    ],
-    "likes": 101,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 596,
     "sage": "gaudi",
     "orig": "Those who look for the laws of Nature as a support for their new works collaborate with the creator.",
@@ -11904,7 +11799,7 @@
   },
   {
     "id": 607,
-    "sage": "miyazawa",
+    "sage": "miyazawa_kenji",
     "orig": "どんな困難な状況でも、善意と努力があれば道は開ける。",
     "ja": "どんな困難な状況でも、善意と努力があれば道は開ける。",
     "source": "宮沢賢治の言葉",
@@ -11925,7 +11820,7 @@
   },
   {
     "id": 608,
-    "sage": "miyazawa",
+    "sage": "miyazawa_kenji",
     "orig": "おれたちはどこまでも一緒に行くんだ。",
     "ja": "おれたちはどこまでも一緒に行くんだ。",
     "source": "銀河鉄道の夜",
@@ -12114,7 +12009,7 @@
   },
   {
     "id": 618,
-    "sage": "nightingale3",
+    "sage": "simone_de_beauvoir",
     "orig": "Never give up, for that is just the place and time that the tide will turn.",
     "ja": "決して諦めるな。なぜならそこがまさに潮目が変わる場所と時だからだ。",
     "source": "ハリエット・ビーチャー・ストウの言葉",
@@ -12135,7 +12030,7 @@
   },
   {
     "id": 619,
-    "sage": "nightingale3",
+    "sage": "simone_de_beauvoir",
     "orig": "The bitterest tears shed over graves are for words left unsaid and deeds left undone.",
     "ja": "墓の前で流す最も苦い涙は、言わなかった言葉とやらなかった行動のためのものだ。",
     "source": "「アンクル・トムの小屋」より",
@@ -12214,27 +12109,6 @@
       "賢者"
     ],
     "likes": 113,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 623,
-    "sage": "epicurus",
-    "orig": "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.",
-    "ja": "持っていないものを欲することで今持っているものを台無しにするな。今持っているものがかつては望んでいただけのものだったことを思い出せ。",
-    "source": "エピクロスの言葉",
-    "desc": "エピクロスは「庭で友人と質素な食事をするだけで幸せだ」と実践した。人間は手に入れた瞬間に次のものを求め始める。「あれさえあれば幸せになれる」という感覚が際限なく続く。しかしかつて「あれさえあれば」と思っていたものを今すでに持っていることに気づいたとき、幸福はすでに手の中にあることがわかる。感謝の実践が幸福の実践だ。考え方が人生を作る。この言葉が示す視点を日常に取り入れることで、現実の見え方が変わり始める。",
-    "cats": [
-      "mind",
-      "motivation",
-      "time"
-    ],
-    "tags": [
-      "感謝",
-      "欲望",
-      "幸福"
-    ],
-    "likes": 116,
     "season": null,
     "mmdd": null
   },
@@ -12471,7 +12345,7 @@
   },
   {
     "id": 635,
-    "sage": "voltaire2",
+    "sage": "montaigne",
     "orig": "I quote others only in order the better to express myself.",
     "ja": "私が他者を引用するのは、自分をより良く表現するためだ。",
     "source": "エセー",
@@ -12870,7 +12744,7 @@
   },
   {
     "id": 656,
-    "sage": "soseki",
+    "sage": "natsume_soseki",
     "orig": "往来を歩いている人間を捕まえて、なんのために生きているかと聞いたら、大抵は答えに窮するだろう。",
     "ja": "往来の人間に「なんのために生きているか」を聞けば、大抵は答えに窮する。しかしその問いこそが人生で最も重要だ。",
     "source": "漱石の言葉（「草枕」より）",
@@ -12933,7 +12807,7 @@
   },
   {
     "id": 660,
-    "sage": "saigo",
+    "sage": "saigo_takamori",
     "orig": "人を相手にせず天を相手にして、己を尽くし、人を咎めず。",
     "ja": "人ではなく天を相手に己を尽くせ。そして人を咎めるな。",
     "source": "南洲翁遺訓",
@@ -13290,7 +13164,7 @@
   },
   {
     "id": 681,
-    "sage": "eleanor",
+    "sage": "eleanor_roosevelt",
     "orig": "The future belongs to those who believe in the beauty of their dreams.",
     "ja": "未来は自分の夢の美しさを信じる者のものだ。",
     "source": "エレノア・ルーズベルトの言葉",
@@ -13311,7 +13185,7 @@
   },
   {
     "id": 683,
-    "sage": "jobs2",
+    "sage": "gates",
     "orig": "Your most unhappy customers are your greatest source of learning.",
     "ja": "最も不満を持つ顧客が最大の学習源だ。",
     "source": "ビジネス＠光速",
@@ -13458,7 +13332,7 @@
   },
   {
     "id": 690,
-    "sage": "luther",
+    "sage": "martin_luther",
     "orig": "You are not only responsible for what you say, but also for what you do not say.",
     "ja": "あなたは言ったことに対してだけでなく、言わなかったことに対しても責任がある。",
     "source": "マルティン・ルターの言葉",
@@ -13773,7 +13647,7 @@
   },
   {
     "id": 706,
-    "sage": "harriet",
+    "sage": "harriet_tubman",
     "orig": "I was the conductor of the Underground Railroad for eight years, and I can say what most conductors can't say—I never ran my train off the track and I never lost a passenger.",
     "ja": "私は8年間地下鉄道の車掌だった。そして多くの車掌が言えないことを言える。脱線したことも、乗客を失ったことも一度もない。",
     "source": "ハリエット・タブマンの言葉",
@@ -13857,7 +13731,7 @@
   },
   {
     "id": 711,
-    "sage": "teresa4",
+    "sage": "augustine",
     "orig": "Our heart is restless until it rests in you.",
     "ja": "To love beauty is to see light.",
     "source": "告白録",
@@ -14025,7 +13899,7 @@
   },
   {
     "id": 721,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "The best and most beautiful things in the world cannot be seen or even touched—they must be felt with the heart.",
     "ja": "世界で最も良く最も美しいものは、見えも触れもできない。心で感じなければならない。",
     "source": "ヘレン・ケラーの言葉",
@@ -14718,7 +14592,7 @@
   },
   {
     "id": 758,
-    "sage": "aurelius",
+    "sage": "marcus_aurelius",
     "orig": "Loss is nothing else but change, and change is Nature's delight.",
     "ja": "喪失とは変化に過ぎない。そして変化は自然の喜びだ。",
     "source": "自省録",
@@ -15809,27 +15683,6 @@
     "mmdd": null
   },
   {
-    "id": 825,
-    "sage": "harriet",
-    "orig": "Every great dream begins with a dreamer.",
-    "ja": "すべての偉大な夢は夢想家から始まる。",
-    "source": "ハリエット・タブマンの言葉",
-    "desc": "タブマンは奴隷として生まれながら、自由への夢を持ち続け脱出に成功した後、70人以上の奴隷を自由へ導いた。夢を持つことは誰でもできる。しかし夢を信じて行動し続けることができる人間は少ない。偉大な現実はすべて「ただの夢」から始まった。あなたの「ただの夢」を侮るなかれ。この言葉をただ読むだけでなく、今日の行動に一つだけ取り入れてみよう。言葉は実践されて初めて力を持つ。",
-    "cats": [
-      "motivation",
-      "challenge",
-      "growth"
-    ],
-    "tags": [
-      "夢",
-      "夢想家",
-      "始まり"
-    ],
-    "likes": 113,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 827,
     "sage": "james",
     "orig": "Pessimism leads to weakness, optimism to power.",
@@ -15977,27 +15830,6 @@
     "mmdd": null
   },
   {
-    "id": 840,
-    "sage": "shinran",
-    "orig": "善人なほもて往生をとぐ、いはんや悪人をや。",
-    "ja": "善人でさえ往生を遂げる。まして悪人はなおさらである。",
-    "source": "歎異抄（唯円の記録）",
-    "desc": "「悪人正機」という親鸞思想の核心だ。自力で善行を積める人間より、自分の罪深さを自覚している「悪人」こそが阿弥陀仏の本願の対象だという逆説的な救済論だ。「私は罪深い」という自覚が救済への第一歩だ。自分は善人だと思っている者より自分の弱さ・罪を認める者の方が、救いに近い。困難の中にいるとき、この言葉を思い出してほしい。嵐は必ず過ぎ去る。あなたはそれより強い。",
-    "cats": [
-      "adversity",
-      "mind",
-      "motivation"
-    ],
-    "tags": [
-      "悪人正機",
-      "救済",
-      "逆説"
-    ],
-    "likes": 108,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 841,
     "sage": "hokusai",
     "orig": "天が私にあと10年の命をくれれば、真の画家になれたのに。",
@@ -16020,7 +15852,7 @@
   },
   {
     "id": 842,
-    "sage": "hiroshige",
+    "sage": "ando_hiroshige",
     "orig": "旅は世界を見る目を開く。同じ場所でも、見る季節・時間・天気によって全く違う顔を見せる。",
     "ja": "旅は世界を見る目を開く。同じ場所でも、見る季節・時間・天気によって全く違う顔を見せる。",
     "source": "広重の芸術観",
@@ -16036,27 +15868,6 @@
       "新鮮な目"
     ],
     "likes": 107,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 843,
-    "sage": "komachi",
-    "orig": "花の色は うつりにけりな いたづらに わが身世にふる ながめせしまに",
-    "ja": "桜の花の色はすっかり色あせてしまった。むなしく私が物思いにふけっている間に、長雨が降り続いて。",
-    "source": "古今和歌集",
-    "desc": "小野小町の最も有名な歌だ。桜の色が褪せるように自分の美しさも衰えていく無常感を詠んだが、実は外の桜より「わが身」の老いと「ながめ（物思いと長雨）」が掛け詞になっている。日本の美意識「もののあわれ」の典型だ。美しいものは必ず終わる。だからこそ今この瞬間の美しさが輝く。時間は誰にも平等に流れる。今この瞬間に何を選択するかが、未来のあなたを作る。",
-    "cats": [
-      "time",
-      "mind",
-      "adversity"
-    ],
-    "tags": [
-      "無常",
-      "花",
-      "もののあわれ"
-    ],
-    "likes": 104,
     "season": null,
     "mmdd": null
   },
@@ -16125,7 +15936,7 @@
   },
   {
     "id": 849,
-    "sage": "jobs2",
+    "sage": "gates",
     "orig": "I choose a lazy person to do a hard job, because a lazy person will find an easy way to do it.",
     "ja": "難しい仕事には怠け者を選ぶ。なぜなら怠け者は簡単な方法を見つけるからだ。",
     "source": "ビル・ゲイツの言葉",
@@ -16398,7 +16209,7 @@
   },
   {
     "id": 862,
-    "sage": "dalai",
+    "sage": "dalai_lama",
     "orig": "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
     "ja": "他者に幸せになってほしければ慈悲を実践せよ。自分が幸せになりたければ慈悲を実践せよ。",
     "source": "ダライ・ラマ14世の言葉",
@@ -16419,7 +16230,7 @@
   },
   {
     "id": 863,
-    "sage": "dalai",
+    "sage": "dalai_lama",
     "orig": "Sleep is the best meditation.",
     "ja": "睡眠は最高の瞑想だ。",
     "source": "ダライ・ラマ14世の言葉",
@@ -16650,7 +16461,7 @@
   },
   {
     "id": 874,
-    "sage": "einstein3",
+    "sage": "sagan",
     "orig": "We are made of star stuff.",
     "ja": "私たちは星の素材から作られている。",
     "source": "カール・セーガン「コスモス」",
@@ -16671,7 +16482,7 @@
   },
   {
     "id": 875,
-    "sage": "einstein3",
+    "sage": "sagan",
     "orig": "Somewhere, something incredible is waiting to be known.",
     "ja": "どこかで、何か信じられないことが発見されるのを待っている。",
     "source": "カール・セーガンの言葉",
@@ -16734,7 +16545,7 @@
   },
   {
     "id": 878,
-    "sage": "musk",
+    "sage": "elon_musk",
     "orig": "When something is important enough, you do it even if the odds are not in your favor.",
     "ja": "何かが十分に重要なら、たとえ勝算がなくてもやる。",
     "source": "イーロン・マスクの言葉",
@@ -17448,7 +17259,7 @@
   },
   {
     "id": 912,
-    "sage": "jobs3",
+    "sage": "wozniak",
     "orig": "I did everything to make myself happy. That turned out to change the world.",
     "ja": "私は自分が楽しいことをした。それが結果的に世界を変えた。",
     "source": "スティーブ・ウォズニアックの言葉",
@@ -17679,7 +17490,7 @@
   },
   {
     "id": 935,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "Do not judge me by my successes, judge me by how many times I fell down and got back up again.",
     "ja": "私を成功で判断するな。何度倒れて、また立ち上がったかで判断せよ。",
     "source": "ネルソン・マンデラの言葉",
@@ -17805,7 +17616,7 @@
   },
   {
     "id": 945,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "When you realize there is nothing lacking, the whole world belongs to you.",
     "ja": "何も欠けていないと気づいた時、全世界があなたのものになる。",
     "source": "老子 道徳経",
@@ -17826,7 +17637,7 @@
   },
   {
     "id": 946,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "Nature does not hurry, yet everything is accomplished.",
     "ja": "自然は急がない。しかしすべてが成し遂げられる。",
     "source": "老子 道徳経",
@@ -18036,7 +17847,7 @@
   },
   {
     "id": 976,
-    "sage": "eleanor",
+    "sage": "eleanor_roosevelt",
     "orig": "A woman is like a tea bag — you never know how strong she is until she gets in hot water.",
     "ja": "女性はティーバッグのようなものだ。熱いお湯に入るまで、どれほど強いか分からない。",
     "source": "エレノア・ルーズベルトの言葉",
@@ -18057,7 +17868,7 @@
   },
   {
     "id": 979,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
     "ja": "幸福の扉が一つ閉まると、別の扉が開く。しかし私たちはしばしば閉まった扉をあまりに長く見つめ、開いた扉に気づかない。",
     "source": "ヘレン・ケラーの言葉",
@@ -18136,27 +17947,6 @@
       "科学者"
     ],
     "likes": 107,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 983,
-    "sage": "galileo",
-    "orig": "You cannot teach a man anything; you can only help him discover it in himself.",
-    "ja": "人間に何かを教えることはできない。ただ自分の中にあるものを発見するのを助けられるだけだ。",
-    "source": "ガリレオ・ガリレイの言葉",
-    "desc": "ガリレオの教育哲学だ。知識は外から詰め込まれるものではなく、内側から引き出されるものだ。ソクラテスの産婆術と同じ洞察だ。最高の教師は答えを教えない。正しい問いを立てることで、生徒が自分で答えを発見するのを助ける。教育の本質は情報伝達ではなく発見の支援だ。成長は劇的な変化よりも、毎日の小さな積み重ねから生まれる。この言葉を胸に、今日も一歩前へ。",
-    "cats": [
-      "growth",
-      "relation",
-      "work"
-    ],
-    "tags": [
-      "教える",
-      "発見",
-      "内側"
-    ],
-    "likes": 113,
     "season": null,
     "mmdd": null
   },
@@ -18309,7 +18099,7 @@
   },
   {
     "id": 996,
-    "sage": "dalai",
+    "sage": "dalai_lama",
     "orig": "Remember that not getting what you want is sometimes a wonderful stroke of luck.",
     "ja": "欲しいものが手に入らないことが、時に素晴らしい幸運であることを覚えておけ。",
     "source": "ダライ・ラマ14世の言葉",
@@ -18393,7 +18183,7 @@
   },
   {
     "id": 1000,
-    "sage": "einstein3",
+    "sage": "sagan",
     "orig": "The cosmos is within us. We are made of star stuff. We are a way for the universe to know itself.",
     "ja": "宇宙は私たちの中にある。私たちは星の素材から作られている。私たちは宇宙が自分自身を知る方法だ。",
     "source": "カール・セーガン「コスモス」",
@@ -19086,7 +18876,7 @@
   },
   {
     "id": 1034,
-    "sage": "jobs3",
+    "sage": "wozniak",
     "orig": "The best way to predict the future is to invent it.",
     "ja": "未来を予測する最善の方法はそれを発明することだ。",
     "source": "スティーブ・ウォズニアックに帰せられる言葉（アラン・ケイの言葉とも）",
@@ -19254,7 +19044,7 @@
   },
   {
     "id": 1042,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "As I walked out the door toward the gate that would lead to my freedom, I knew if I didn't leave my bitterness and hatred behind, I'd still be in prison.",
     "ja": "自由へと続く門に向かって歩き出した時、もし苦しみと憎しみを残してきたなら、私はまだ牢獄の中にいると分かった。",
     "source": "ネルソン・マンデラの言葉",
@@ -19317,7 +19107,7 @@
   },
   {
     "id": 1049,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "Silence is a source of great strength.",
     "ja": "沈黙は偉大な力の源だ。",
     "source": "老子 道徳経",
@@ -19338,7 +19128,7 @@
   },
   {
     "id": 1050,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "When the student is ready, the teacher will appear.",
     "ja": "生徒が準備できた時、教師が現れる。",
     "source": "老子の思想に基づく格言",
@@ -19396,27 +19186,6 @@
       "本当の失敗"
     ],
     "likes": 114,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1056,
-    "sage": "einstein",
-    "orig": "Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.",
-    "ja": "想像力は知識より重要だ。知識は限られている。想像力は世界を包む。",
-    "source": "アインシュタインの言葉",
-    "desc": "相対性理論の出発点は「光速で光の横を走ったらどう見えるか」という純粋な想像力だった。知識は既知の領域を扱う。しかし想像力は未知の領域に踏み込む。科学・芸術・ビジネス。すべての革新は想像力から始まる。知識を積むことより想像力を育てることが、より重要かもしれない。成長は劇的な変化よりも、毎日の小さな積み重ねから生まれる。この言葉を胸に、今日も一歩前へ。",
-    "cats": [
-      "growth",
-      "work",
-      "motivation"
-    ],
-    "tags": [
-      "想像力",
-      "知識",
-      "世界を包む"
-    ],
-    "likes": 121,
     "season": null,
     "mmdd": null
   },
@@ -19611,7 +19380,7 @@
   },
   {
     "id": 1069,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "I am only one, but still I am one. I cannot do everything, but still I can do something.",
     "ja": "私はただ一人だ。しかしそれでも一人だ。すべてはできない。しかしそれでも何かはできる。",
     "source": "ヘレン・ケラーの言葉",
@@ -19716,7 +19485,7 @@
   },
   {
     "id": 1077,
-    "sage": "saigo",
+    "sage": "saigo_takamori",
     "orig": "命もいらず、名もいらず、官位も金もいらぬ人は、始末に困るものなり。しかし、この始末に困る人ならでは、艱難をともにして国家の大業は成し得られぬなり。",
     "ja": "命も名誉も地位も金もいらない人は、扱いに困る。しかしそういう扱いに困る人でなければ、苦難をともにして国家の大業は成し遂げられない。",
     "source": "西郷隆盛の言葉",
@@ -19863,7 +19632,7 @@
   },
   {
     "id": 1091,
-    "sage": "soseki",
+    "sage": "natsume_soseki",
     "orig": "自分の心は自分でなければわからない。自分の心は自分にもわからない。",
     "ja": "自分の心は自分でなければわからない。しかし自分の心は自分にもわからない。",
     "source": "漱石の言葉",
@@ -19947,7 +19716,7 @@
   },
   {
     "id": 1096,
-    "sage": "einstein3",
+    "sage": "sagan",
     "orig": "For small creatures such as we, the vastness is bearable only through love.",
     "ja": "私たちのような小さな生き物にとって、宇宙の広大さは愛によってのみ耐えられる。",
     "source": "カール・セーガン「コンタクト」",
@@ -20115,7 +19884,7 @@
   },
   {
     "id": 1104,
-    "sage": "dalai",
+    "sage": "dalai_lama",
     "orig": "The purpose of our lives is to be happy.",
     "ja": "私たちの人生の目的は幸福になることだ。",
     "source": "ダライ・ラマ14世の言葉",
@@ -20367,7 +20136,7 @@
   },
   {
     "id": 1116,
-    "sage": "voltaire2",
+    "sage": "montaigne",
     "orig": "Que sais-je? (What do I know?)",
     "ja": "私は何を知っているのか？",
     "source": "モンテーニュ「エセー」",
@@ -20388,7 +20157,7 @@
   },
   {
     "id": 1117,
-    "sage": "voltaire2",
+    "sage": "montaigne",
     "orig": "Every man carries the whole form of the human condition within him.",
     "ja": "すべての人間はその中に人間の条件の全形態を持っている。",
     "source": "モンテーニュ「エセー」",
@@ -20409,7 +20178,7 @@
   },
   {
     "id": 1118,
-    "sage": "voltaire2",
+    "sage": "montaigne",
     "orig": "My life has been full of terrible misfortunes most of which never happened.",
     "ja": "私の人生は恐ろしい不幸に満ちていた。そのほとんどは起きなかったが。",
     "source": "モンテーニュの言葉",
@@ -20472,7 +20241,7 @@
   },
   {
     "id": 1122,
-    "sage": "curie4",
+    "sage": "bohr",
     "orig": "If quantum mechanics hasn't profoundly shocked you, you haven't understood it yet.",
     "ja": "量子力学にまだ深くショックを受けていないなら、まだ理解していない。",
     "source": "ニールス・ボーアの言葉",
@@ -20493,7 +20262,7 @@
   },
   {
     "id": 1123,
-    "sage": "curie4",
+    "sage": "bohr",
     "orig": "An expert is a person who has made all the mistakes that can be made in a very narrow field.",
     "ja": "専門家とは、非常に狭い分野ですべての間違いを犯した人だ。",
     "source": "ニールス・ボーアの言葉",
@@ -21207,27 +20976,6 @@
     "mmdd": null
   },
   {
-    "id": 1161,
-    "sage": "shinran",
-    "orig": "弥陀の五劫思惟の願をよくよく案ずれば、ひとへに親鸞一人がためなりけり。",
-    "ja": "阿弥陀仏が五劫もの長い間思惟された誓願をよくよく考えてみると、ひとえにこの親鸞一人のためであった。",
-    "source": "歎異抄",
-    "desc": "親鸞の徹底した個人への救済論の表現だ。普遍的な救いが「自分一人のため」という究極の個人化だ。「すべての人が救われる」という抽象論ではなく「このどうしようもない私が救われる」という個人的確信が信仰の核心だ。普遍的な真実を自分への呼びかけとして受け取ること。困難の中にいるとき、この言葉を思い出してほしい。嵐は必ず過ぎ去る。あなたはそれより強い。",
-    "cats": [
-      "adversity",
-      "mind",
-      "motivation"
-    ],
-    "tags": [
-      "一人のため",
-      "救済",
-      "個人"
-    ],
-    "likes": 107,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1162,
     "sage": "nichiren",
     "orig": "濁れる水も澄むことあり。濁れる心も澄まざるべきか。",
@@ -21313,7 +21061,7 @@
   },
   {
     "id": 1166,
-    "sage": "motoori",
+    "sage": "norinaga",
     "orig": "大和心とは、朝日に映える山桜花のごとく清らかなものだ。",
     "ja": "日本人の心とは、朝日に映える山桜花のように清らかなものだ。",
     "source": "本居宣長 辞世の歌より",
@@ -21334,7 +21082,7 @@
   },
   {
     "id": 1167,
-    "sage": "motoori",
+    "sage": "norinaga",
     "orig": "古典を学ぶは、古人の心を知るためなり。",
     "ja": "古典を学ぶのは、古人の心を知るためだ。",
     "source": "本居宣長の言葉",
@@ -21607,7 +21355,7 @@
   },
   {
     "id": 1187,
-    "sage": "harriet",
+    "sage": "harriet_tubman",
     "orig": "I freed a thousand slaves. I could have freed a thousand more if only they knew they were slaves.",
     "ja": "私は千人の奴隷を解放した。彼らが奴隷だと気づいていたなら、さらに千人を解放できただろう。",
     "source": "ハリエット・タブマンの言葉",
@@ -21628,7 +21376,7 @@
   },
   {
     "id": 1188,
-    "sage": "harriet",
+    "sage": "harriet_tubman",
     "orig": "I never ran my train off the track and I never lost a passenger.",
     "ja": "私は列車を脱線させたことも、乗客を失ったことも一度もない。",
     "source": "ハリエット・タブマンの言葉",
@@ -22763,7 +22511,7 @@
   },
   {
     "id": 1249,
-    "sage": "ibn_sina",
+    "sage": "avicenna",
     "orig": "The world is divided into men who have wit and no religion, and men who have religion and no wit.",
     "ja": "世界は知恵を持ち信仰を持たない者と、信仰を持ち知恵を持たない者に分かれる。",
     "source": "イブン・スィーナーの言葉",
@@ -22784,7 +22532,7 @@
   },
   {
     "id": 1250,
-    "sage": "ibn_sina",
+    "sage": "avicenna",
     "orig": "Medicine is a science from which we learn the states of the human body.",
     "ja": "医学とは、人間の身体の状態を学ぶ科学だ。",
     "source": "医学典範",
@@ -22931,7 +22679,7 @@
   },
   {
     "id": 1257,
-    "sage": "joan_dark2",
+    "sage": "dante2",
     "orig": "In the middle of the journey of our life, I found myself in a dark wood, for the straight way was lost.",
     "ja": "人生の道の半ばで、私は暗い森の中に迷い込んでいた。まっすぐな道を見失っていたから。",
     "source": "神曲 地獄篇 第一歌",
@@ -22952,7 +22700,7 @@
   },
   {
     "id": 1258,
-    "sage": "joan_dark2",
+    "sage": "dante2",
     "orig": "Consider your origin: you were not made to live like brutes, but to follow virtue and knowledge.",
     "ja": "自分の起源を考えよ。あなたは獣のように生きるために作られたのではなく、徳と知識を追い求めるために作られたのだ。",
     "source": "神曲 地獄篇 第26歌（ユリシーズの言葉）",
@@ -23371,48 +23119,6 @@
     "mmdd": null
   },
   {
-    "id": 1284,
-    "sage": "beauvoir",
-    "orig": "I am too intelligent, too demanding, and too resourceful for anyone to be able to take charge of me entirely.",
-    "ja": "私はあまりにも知的で、要求が高く、才知に富んでいるので、誰かに完全に管理されることはできない。",
-    "source": "シモーヌ・ド・ボーヴォワールの言葉",
-    "desc": "ボーヴォワールが自律と精神的独立について語った言葉だ。これは傲慢さではなく、自分の精神的自律を守ることへの強い意志の表明だ。サルトルとの「契約結婚」で知られるように、彼女は従来の結婚制度や社会規範に縛られることを拒んだ。自分の知性と意志を尊重し、他者による支配や管理を拒む精神的独立の宣言だ。",
-    "cats": [
-      "motivation",
-      "mind",
-      "challenge"
-    ],
-    "tags": [
-      "自律",
-      "独立",
-      "知性"
-    ],
-    "likes": 108,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1287,
-    "sage": "pascal",
-    "orig": "The heart has its reasons which reason knows nothing of.",
-    "ja": "心には理性が知らない理由がある。",
-    "source": "ブレーズ・パスカル「パンセ」",
-    "desc": "フランスの数学者・哲学者パスカルが「パンセ（瞑想録）」で語った感性と理性の関係だ。純粋な論理や数学で人生のすべてを解決しようとした時代に、パスカルは理性では到達できない領域（信仰・愛・美）の実在を主張した。現代科学が最も発達した時代でも、人の心は論理だけでは動かない。感情には感情なりの「理由」がある。",
-    "cats": [
-      "mind",
-      "relation",
-      "time"
-    ],
-    "tags": [
-      "心",
-      "理性",
-      "感情"
-    ],
-    "likes": 116,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1289,
     "sage": "kepler",
     "orig": "Nature uses as little as possible of anything.",
@@ -23556,48 +23262,6 @@
       "哲学"
     ],
     "likes": 113,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1298,
-    "sage": "beethoven",
-    "orig": "Don't only practice your art, but force your way into its secrets; art deserves that.",
-    "ja": "芸術を練習するだけでなく、その秘密の奥へと強引に踏み込め。芸術はそれに値する。",
-    "source": "ルートヴィヒ・ヴァン・ベートーヴェンの言葉",
-    "desc": "ベートーヴェンが芸術の深みへの探求を語った言葉だ。表面的な技術の習得に満足するのではなく、芸術の本質・秘密・真髄を追い求めよという命令だ。これは音楽に限らず、あらゆる分野の「深さ」への追求に通じる。プロとアマチュアの差は技術量ではなく、表面から奥へ踏み込む意志と勇気にある。",
-    "cats": [
-      "work",
-      "growth",
-      "challenge"
-    ],
-    "tags": [
-      "芸術",
-      "秘密",
-      "深さ"
-    ],
-    "likes": 107,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1299,
-    "sage": "aristotle",
-    "orig": "We are what we repeatedly do. Excellence, then, is not an act but a habit.",
-    "ja": "私たちは繰り返すことで形成される。卓越性は行為ではなく習慣だ。",
-    "source": "アリストテレス「ニコマコス倫理学」",
-    "desc": "アリストテレスが習慣と人格の関係について語った最も引用される言葉の一つだ。一度の英雄的行為が人格を形成するのではなく、日々の小さな選択と行動の積み重ねが人格を作る。勇気ある人になるには勇気ある行動を、親切な人になるには親切な行動を繰り返すことだ。「なりたい自分」になる最確実な方法は、毎日その人物として行動することだ。",
-    "cats": [
-      "growth",
-      "motivation",
-      "work"
-    ],
-    "tags": [
-      "習慣",
-      "卓越性",
-      "繰り返し"
-    ],
-    "likes": 122,
     "season": null,
     "mmdd": null
   },
@@ -23750,7 +23414,7 @@
   },
   {
     "id": 1310,
-    "sage": "soseki",
+    "sage": "natsume_soseki",
     "orig": "自分の心を誰かに見せるのが恥ずかしいなら、自分の心が恥ずかしいのだ。",
     "ja": "自分の心を誰かに見せることが恥ずかしいなら、それは自分の心そのものが恥ずかしいからだ。",
     "source": "夏目漱石の言葉",
@@ -23834,7 +23498,7 @@
   },
   {
     "id": 1317,
-    "sage": "joan_dark2",
+    "sage": "dante2",
     "orig": "The secret of getting things done is to act.",
     "ja": "物事を成し遂げる秘訣は、行動することだ。",
     "source": "ダンテ・アリギエーリの言葉",
@@ -23897,7 +23561,7 @@
   },
   {
     "id": 1320,
-    "sage": "ibn_sina",
+    "sage": "avicenna",
     "orig": "The knowledge of anything, since all things have causes, is not acquired or complete unless it is known by its causes.",
     "ja": "あらゆるものには原因があるので、その原因を知らなければ、何事も知識として得られることも完結することもない。",
     "source": "イブン・スィーナー「治癒の書」",
@@ -24086,7 +23750,7 @@
   },
   {
     "id": 1329,
-    "sage": "ibn_sina",
+    "sage": "avicenna",
     "orig": "The more you learn, the more you realize how little you know.",
     "ja": "学べば学ぶほど、いかに自分が何も知らないかを実感する。",
     "source": "イブン・スィーナーの言葉",
@@ -24295,27 +23959,6 @@
     "mmdd": null
   },
   {
-    "id": 1342,
-    "sage": "rumi",
-    "orig": "Out beyond ideas of wrongdoing and rightdoing, there is a field. I'll meet you there.",
-    "ja": "正しいことと間違いの概念を超えた彼方に、野原がある。そこで会おう。",
-    "source": "ルーミー「マスナヴィー」",
-    "desc": "ルーミーが人間の二項対立的思考を超えた場所について語った最も美しい詩の一つだ。善悪・正誤・我々と彼ら——私たちの思考は対立と分断に満ちている。しかしその判断を手放した先に、すべてが包まれる広大な場所がある。宗教・民族・政治的対立を超えた真の出会いは、双方が「自分が正しい」という主張を手放した時に初めて可能になる。",
-    "cats": [
-      "relation",
-      "mind",
-      "motivation"
-    ],
-    "tags": [
-      "対立を超える",
-      "野原",
-      "出会い"
-    ],
-    "likes": 120,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1343,
     "sage": "boethius",
     "orig": "In other living creatures, ignorance of self is nature; in man it is vice.",
@@ -24485,7 +24128,7 @@
   },
   {
     "id": 1353,
-    "sage": "joan_dark2",
+    "sage": "dante2",
     "orig": "Follow your own star.",
     "ja": "自分自身の星に従え。",
     "source": "ダンテ・アリギエーリ「神曲」",
@@ -24501,27 +24144,6 @@
       "使命"
     ],
     "likes": 114,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1354,
-    "sage": "beauvoir",
-    "orig": "Change your life today. Don't gamble on the future; act now, without delay.",
-    "ja": "今日、自分の人生を変えよ。未来に賭けるな。今すぐ、遅れずに行動せよ。",
-    "source": "シモーヌ・ド・ボーヴォワールの言葉",
-    "desc": "ボーヴォワールが即時行動の重要性を語った言葉だ。「いつか変わる」「条件が整ったら始める」という先送りは、変化の最大の敵だ。未来に賭けるということは、現在の変化を先送りにすることだ。「第二の性」を書き、サルトルとの自由な関係を実践し、アルジェリア独立運動を支持した——ボーヴォワール自身が常に「今」行動し続けた。",
-    "cats": [
-      "motivation",
-      "challenge",
-      "time"
-    ],
-    "tags": [
-      "今日",
-      "行動",
-      "先送り禁止"
-    ],
-    "likes": 115,
     "season": null,
     "mmdd": null
   },
@@ -24863,7 +24485,7 @@
   },
   {
     "id": 1377,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "Be careful what you water your dreams with. Water them with worry and fear and you will produce weeds that choke the life from your dream. Water them with optimism and solutions and you will cultivate success.",
     "ja": "夢に何を注ぐか気をつけよ。心配と恐れを注げば、夢の命を絞め殺す雑草が育つ。楽観と解決策を注げば、成功が育つ。",
     "source": "老子の思想に基づく言葉",
@@ -24884,7 +24506,7 @@
   },
   {
     "id": 1378,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "To know others is wisdom; to know yourself is enlightenment.",
     "ja": "他者を知ることは知恵だ。自分自身を知ることは悟りだ。",
     "source": "老子「道徳経」第33章",
@@ -25073,7 +24695,7 @@
   },
   {
     "id": 1390,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "The greatest glory in living lies not in never falling, but in rising every time we fall.",
     "ja": "人生の最大の栄光は、決して倒れないことにあるのではなく、倒れるたびに立ち上がることにある。",
     "source": "ネルソン・マンデラの言葉",
@@ -25094,7 +24716,7 @@
   },
   {
     "id": 1391,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "I've learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
     "ja": "人はあなたが言ったことを忘れる。あなたがしたことを忘れる。しかし、あなたが与えた感情は決して忘れない。",
     "source": "マヤ・アンジェロウの言葉",
@@ -25115,7 +24737,7 @@
   },
   {
     "id": 1392,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "You may not control all the events that happen to you, but you can decide not to be reduced by them.",
     "ja": "あなたに起こるすべての出来事をコントロールすることはできない。しかし、それによって自分が貶められることを拒否することはできる。",
     "source": "マヤ・アンジェロウ「Letter to My Daughter」",
@@ -25283,7 +24905,7 @@
   },
   {
     "id": 1402,
-    "sage": "king",
+    "sage": "mlk",
     "orig": "We must accept finite disappointment, but never lose infinite hope.",
     "ja": "私たちは有限の失望を受け入れなければならないが、無限の希望を決して失ってはならない。",
     "source": "マーティン・ルーサー・キング・ジュニアの言葉",
@@ -25304,7 +24926,7 @@
   },
   {
     "id": 1413,
-    "sage": "fromm",
+    "sage": "erich_fromm",
     "orig": "The task we must set for ourselves is not to feel secure, but to be able to tolerate insecurity.",
     "ja": "私たちが自分自身に課すべき課題は、安心感を得ることではなく、不安に耐えられるようになることだ。",
     "source": "エーリッヒ・フロム「自由からの逃走」",
@@ -25325,7 +24947,7 @@
   },
   {
     "id": 1414,
-    "sage": "fromm",
+    "sage": "erich_fromm",
     "orig": "Love is not primarily a relationship to a specific person; it is an attitude, an orientation of character.",
     "ja": "愛とは主に特定の人への関係ではなく、態度であり性格の方向性だ。",
     "source": "エーリッヒ・フロム「愛するということ」",
@@ -25409,7 +25031,7 @@
   },
   {
     "id": 1423,
-    "sage": "arendt",
+    "sage": "hannah_arendt",
     "orig": "The most radical revolutionary will become a conservative the day after the revolution.",
     "ja": "最も過激な革命家も、革命の翌日には保守主義者になる。",
     "source": "ハンナ・アーレントの言葉",
@@ -25430,7 +25052,7 @@
   },
   {
     "id": 1424,
-    "sage": "arendt",
+    "sage": "hannah_arendt",
     "orig": "The smallest act in the most limited circumstances bears the seed of the same boundlessness, because one deed, and sometimes one word, suffices to change every constellation.",
     "ja": "最も限られた状況での最も小さな行為も、同じ無限の種を宿している。一つの行為、時には一つの言葉が、すべての星座を変えるのに十分だから。",
     "source": "ハンナ・アーレント「人間の条件」",
@@ -25467,48 +25089,6 @@
       "偏り"
     ],
     "likes": 106,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1429,
-    "sage": "twain",
-    "orig": "Courage is resistance to fear, mastery of fear—not absence of fear.",
-    "ja": "勇気とは恐れへの抵抗であり、恐れの克服だ。恐れの不在ではない。",
-    "source": "マーク・トウェイン「ジョーン・オブ・アーク」",
-    "desc": "トウェインが勇気の本質を明確にした言葉だ。恐れを全く感じない者は勇気を持つ必要がない。勇気が試されるのは恐れを感じながらも行動を選ぶ時だ。無謀と勇気の違いは、恐れの有無ではなく、恐れを認識した上で判断するかどうかだ。恐れを感じることは正常であり、それに屈しないことが勇気だ。",
-    "cats": [
-      "challenge",
-      "motivation",
-      "adversity"
-    ],
-    "tags": [
-      "勇気",
-      "恐れ",
-      "克服"
-    ],
-    "likes": 117,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1430,
-    "sage": "hemingway",
-    "orig": "The world breaks everyone, and afterward, some are strong at the broken places.",
-    "ja": "世界はすべての人を壊す。そしてその後、傷ついた場所で強くなる者がいる。",
-    "source": "アーネスト・ヘミングウェイ「武器よさらば」",
-    "desc": "ヘミングウェイが傷と強さの関係を語った言葉だ。誰も傷つかずに人生を終えることはできない。世界はすべての人を何らかの形で壊す。しかしその壊れた場所から再び立ち上がった者は、その傷のある部分がかつてより強くなる——骨折した骨が癒える時より強くなるように。傷は弱さの証ではなく、強さが生まれる場所だ。",
-    "cats": [
-      "adversity",
-      "growth",
-      "motivation"
-    ],
-    "tags": [
-      "傷",
-      "強さ",
-      "壊れた場所"
-    ],
-    "likes": 119,
     "season": null,
     "mmdd": null
   },
@@ -25598,7 +25178,7 @@
   },
   {
     "id": 1439,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "If you don't like something, change it. If you can't change it, change your attitude.",
     "ja": "気に入らないことがあれば変えよ。変えられないなら、自分の態度を変えよ。",
     "source": "マヤ・アンジェロウの言葉",
@@ -25619,7 +25199,7 @@
   },
   {
     "id": 1440,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "I've learned that you can tell a lot about a person by the way they handle these three things: a rainy day, lost luggage, and tangled Christmas tree lights.",
     "ja": "雨の日・なくなった荷物・もつれたクリスマスツリーの電球、この三つへの対処の仕方で、その人のことが多くわかる。",
     "source": "マヤ・アンジェロウの言葉",
@@ -25682,7 +25262,7 @@
   },
   {
     "id": 1443,
-    "sage": "king",
+    "sage": "mlk",
     "orig": "Intelligence plus character—that is the goal of true education.",
     "ja": "知性プラス人格——それが真の教育の目標だ。",
     "source": "マーティン・ルーサー・キング・ジュニアの言葉",
@@ -25703,7 +25283,7 @@
   },
   {
     "id": 1444,
-    "sage": "fromm",
+    "sage": "erich_fromm",
     "orig": "The scarcest commodity in our era is not information but wisdom.",
     "ja": "私たちの時代に最も希少な商品は情報ではなく知恵だ。",
     "source": "エーリッヒ・フロム「存在するということ」",
@@ -25724,7 +25304,7 @@
   },
   {
     "id": 1445,
-    "sage": "fromm",
+    "sage": "erich_fromm",
     "orig": "Creativity requires the courage to let go of certainties.",
     "ja": "創造性は、確実なものを手放す勇気を必要とする。",
     "source": "エーリッヒ・フロム「人間における自由」",
@@ -25745,7 +25325,7 @@
   },
   {
     "id": 1446,
-    "sage": "arendt",
+    "sage": "hannah_arendt",
     "orig": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
     "ja": "悲しい真実は、ほとんどの悪は善になるか悪になるか決めたことのない人々によってなされるということだ。",
     "source": "ハンナ・アーレント「エルサレムのアイヒマン」",
@@ -25766,7 +25346,7 @@
   },
   {
     "id": 1447,
-    "sage": "ibn_sina",
+    "sage": "avicenna",
     "orig": "My heart has become capable of every form: a pasture for gazelles, a monastery for monks, a temple for idols, a pilgrim's Kaaba.",
     "ja": "私の心はあらゆる形を受け入れられるようになった。鹿の草原に、修道士の修道院に、偶像の神殿に、巡礼者のカアバに。",
     "source": "イブン・アラビーの詩（イスラム神秘主義）",
@@ -26123,7 +25703,7 @@
   },
   {
     "id": 1470,
-    "sage": "teresa4",
+    "sage": "augustine",
     "orig": "Thou madest us for Thyself, and our heart is restless, until it repose in Thee.",
     "ja": "あなたは私たちをあなた自身のために造られた。私たちの心はあなたの中に安らうまで落ち着かない。",
     "source": "アウグスティヌス「告白録」冒頭",
@@ -26164,29 +25744,8 @@
     "mmdd": null
   },
   {
-    "id": 1472,
-    "sage": "king",
-    "orig": "Life's most persistent and urgent question is, 'What are you doing for others?'",
-    "ja": "人生で最も根強く緊急な問いは、「あなたは他者のために何をしているか？」だ。",
-    "source": "マーティン・ルーサー・キング・ジュニアの言葉",
-    "desc": "キング牧師が他者への貢献を人生の中心的な問いとして語った言葉だ。自分の成功・幸福・充実を超えて、「他者のために何をしているか」という問いが、人生に最も根本的な意味を与える。これは道徳的な義務として押し付けられる問いではなく、最も深い充実感は他者への貢献から来るというキング牧師自身の体験から生まれた洞察だ。",
-    "cats": [
-      "relation",
-      "work",
-      "motivation"
-    ],
-    "tags": [
-      "他者",
-      "貢献",
-      "人生の問い"
-    ],
-    "likes": 117,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1473,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "Resentment is like drinking poison and then hoping it will kill your enemies.",
     "ja": "恨みは毒を飲んで、敵が死ぬことを期待するようなものだ。",
     "source": "ネルソン・マンデラの言葉",
@@ -26291,7 +25850,7 @@
   },
   {
     "id": 1481,
-    "sage": "saigo",
+    "sage": "saigo_takamori",
     "orig": "道は天地自然の道理にして、人はこれを行う者なり。",
     "ja": "道とは天地自然の道理であって、人はそれを実践する者だ。",
     "source": "西郷隆盛「南洲翁遺訓」",
@@ -27697,27 +27256,6 @@
     "mmdd": null
   },
   {
-    "id": 1554,
-    "sage": "darwin",
-    "orig": "It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most adaptable to change.",
-    "ja": "生き残るのは最も強い種でも最も賢い種でもない。変化に最もよく適応できる種だ。",
-    "source": "チャールズ・ダーウィン「種の起源」に基づく言葉",
-    "desc": "進化論の父ダーウィンの洞察を端的に表した言葉だ。自然界の生存競争で勝つのは力や知性ではなく、変化する環境への適応力だ。これはビジネス・組織・個人の人生にも当てはまる。最も優秀なものが生き残るのではなく、最も柔軟に変化できるものが生き残る。固執より適応が、長期的な生存と繁栄の鍵だ。",
-    "cats": [
-      "challenge",
-      "adversity",
-      "work"
-    ],
-    "tags": [
-      "適応",
-      "変化",
-      "生き残る"
-    ],
-    "likes": 120,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1557,
     "sage": "galileo",
     "orig": "All truths are easy to understand once they are discovered; the point is to discover them.",
@@ -27735,27 +27273,6 @@
       "理解"
     ],
     "likes": 110,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1558,
-    "sage": "tesla",
-    "orig": "The present is theirs; the future, for which I have really worked, is mine.",
-    "ja": "現在は彼らのものだ。しかし未来——私が本当に働いてきた対象——は私のものだ。",
-    "source": "ニコラ・テスラの言葉",
-    "desc": "交流電流システムを発明しながら晩年に貧困の中で亡くなったテスラが語った言葉だ。エジソンとの戦いに敗れ、発明の多くを奪われ、認められなかったテスラ。しかし現代の電力システム・ラジオ・Wi-Fiなど、私たちの生活の基盤はテスラの発明なしには存在しない。現在の評価より未来への貢献を見据えた者の言葉の重みがある。",
-    "cats": [
-      "adversity",
-      "motivation",
-      "time"
-    ],
-    "tags": [
-      "現在",
-      "未来",
-      "働く"
-    ],
-    "likes": 113,
     "season": null,
     "mmdd": null
   },
@@ -28097,7 +27614,7 @@
   },
   {
     "id": 1581,
-    "sage": "itou",
+    "sage": "ito_hiro",
     "orig": "国を治めるには人を得るに如かず。",
     "ja": "国を治めるには、適切な人材を得ることが最も大切だ。",
     "source": "伊藤博文の言葉",
@@ -28265,7 +27782,7 @@
   },
   {
     "id": 1590,
-    "sage": "itou",
+    "sage": "ito_hiro",
     "orig": "進歩とは革新ではなく、改善の積み重ねだ。",
     "ja": "進歩とは革命的な変化ではなく、日々の改善の積み重ねだ。",
     "source": "伊藤博文の言葉",
@@ -28601,7 +28118,7 @@
   },
   {
     "id": 1610,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "Those who flow as life flows know they need no other force.",
     "ja": "人生の流れに沿って流れる者は、他の力が不要だと知っている。",
     "source": "老子「道徳経」第8章",
@@ -28895,7 +28412,7 @@
   },
   {
     "id": 1626,
-    "sage": "king",
+    "sage": "mlk",
     "orig": "The ultimate measure of a man is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.",
     "ja": "人の究極の評価は、安楽と便利な時にどこに立っているかではなく、挑戦と論争の時にどこに立っているかだ。",
     "source": "マーティン・ルーサー・キング・ジュニア「強さから愛へ」",
@@ -29021,7 +28538,7 @@
   },
   {
     "id": 1632,
-    "sage": "fromm",
+    "sage": "erich_fromm",
     "orig": "If I am what I have and if I lose what I have, who then am I?",
     "ja": "私が「私の持つもの」であり、「私の持つもの」を失ったとしたら、私は誰なのか。",
     "source": "エーリッヒ・フロム「存在するということ」",
@@ -29042,7 +28559,7 @@
   },
   {
     "id": 1633,
-    "sage": "arendt",
+    "sage": "hannah_arendt",
     "orig": "The banality of evil.",
     "ja": "悪の陳腐さ。",
     "source": "ハンナ・アーレント「エルサレムのアイヒマン」のサブタイトル",
@@ -29126,7 +28643,7 @@
   },
   {
     "id": 1637,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "My mission in life is not merely to survive, but to thrive; and to do so with some passion, some compassion, some humor, and some style.",
     "ja": "私の人生の使命は単に生き延びることではなく、繁栄することだ。そして情熱・思いやり・ユーモア・スタイルを持って。",
     "source": "マヤ・アンジェロウの言葉",
@@ -29336,7 +28853,7 @@
   },
   {
     "id": 1651,
-    "sage": "john_lock",
+    "sage": "locke",
     "orig": "The mind is furnished with ideas by experience alone.",
     "ja": "心は経験のみによって観念を与えられる。",
     "source": "ジョン・ロック「人間知性論」",
@@ -29352,27 +28869,6 @@
       "白紙"
     ],
     "likes": 104,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1657,
-    "sage": "schopenhauer",
-    "orig": "Talent hits a target no one else can hit. Genius hits a target no one else can see.",
-    "ja": "才能は誰も当たらない的を射る。天才は誰も見えない的を射る。",
-    "source": "アルトゥル・ショーペンハウアーの言葉",
-    "desc": "ショーペンハウアーが才能と天才の違いを語った鋭い洞察だ。才能のある人は難しいことができる。しかし天才は他の人がそもそも目標として認識していないものを見出し、そこに向かう。革新的なビジョン——まだ誰も問題として認識していないことへの解決策——これが天才の定義だ。天才の価値は技術の精度より視点の独自性にある。",
-    "cats": [
-      "work",
-      "mind",
-      "challenge"
-    ],
-    "tags": [
-      "才能",
-      "天才",
-      "的"
-    ],
-    "likes": 119,
     "season": null,
     "mmdd": null
   },
@@ -29482,29 +28978,8 @@
     "mmdd": null
   },
   {
-    "id": 1668,
-    "sage": "tagore",
-    "orig": "You can't cross the sea merely by standing and staring at the water. Don't let yourself indulge in vain wishes.",
-    "ja": "ただ立って水を見つめるだけでは海を渡れない。無駄な願望に溺れさせるな。",
-    "source": "ラビンドラナート・タゴールの詩",
-    "desc": "タゴールが行動と夢想の違いを語った言葉だ。海を渡りたいという願望を持ち、海岸で夢想するだけでは一歩も進まない。「いつか」「もし〇〇なら」という仮定の中に生きることは、現在の行動を妨げる。夢は大切だが、夢を見ることと夢に向かって動くことは全く別のことだ。海を渡りたいなら、今すぐ船に乗れ。",
-    "cats": [
-      "motivation",
-      "challenge",
-      "time"
-    ],
-    "tags": [
-      "行動",
-      "夢想",
-      "海"
-    ],
-    "likes": 116,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1670,
-    "sage": "king",
+    "sage": "mlk",
     "orig": "We must learn to live together as brothers or perish together as fools.",
     "ja": "私たちは兄弟として共に生きることを学ぶか、愚者として共に滅びるかだ。",
     "source": "マーティン・ルーサー・キング・ジュニアの言葉",
@@ -29546,7 +29021,7 @@
   },
   {
     "id": 1674,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "If you realize that all things change, there is nothing you will try to hold on to.",
     "ja": "すべてのものは変化するという事に気づけば、しがみつこうとするものは何もなくなる。",
     "source": "老子「道徳経」第16章",
@@ -29903,7 +29378,7 @@
   },
   {
     "id": 1692,
-    "sage": "john_lock",
+    "sage": "locke",
     "orig": "New opinions are always suspected, and usually opposed, without any other reason but because they are not already common.",
     "ja": "新しい意見は常に疑われ、たいてい反対される。他の理由はなく、ただ既に一般的でないからというだけで。",
     "source": "ジョン・ロック「人間知性論」",
@@ -30133,27 +29608,6 @@
     "mmdd": null
   },
   {
-    "id": 1704,
-    "sage": "kafka",
-    "orig": "In the fight between you and the world, bet on the world.",
-    "ja": "あなたと世界の戦いでは、世界に賭けよ。",
-    "source": "フランツ・カフカの言葉",
-    "desc": "カフカが現実への謙虚な向き合い方を語った逆説的な言葉だ。自分の意志・信念・個人の力を過信するのではなく、世界の現実の重さを認識した上で動くことの知恵だ。カフカの小説に登場する主人公たちは常に、巨大で不条理な「世界」と戦って消耗する。現実を正確に把握することが、それと上手く付き合う出発点だ。",
-    "cats": [
-      "adversity",
-      "mind",
-      "work"
-    ],
-    "tags": [
-      "世界",
-      "戦い",
-      "賭け"
-    ],
-    "likes": 109,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1705,
     "sage": "george_sand",
     "orig": "The beauty that addresses itself to the eyes is only the spell of the moment; the eye of the body is not always that of the soul.",
@@ -30259,27 +29713,6 @@
     "mmdd": null
   },
   {
-    "id": 1711,
-    "sage": "beauvoir",
-    "orig": "One is not born a genius, one becomes a genius; and the feminine situation has up until the present rendered this becoming practically impossible.",
-    "ja": "天才に生まれるのではなく、天才になるのだ。そして女性の状況はこれまで、この「なること」を実質的に不可能にしてきた。",
-    "source": "シモーヌ・ド・ボーヴォワール「第二の性」",
-    "desc": "ボーヴォワールが天才と社会的条件の関係を語った言葉だ。「女性天才が少ない」ことは、女性の潜在能力の欠如ではなく、教育・資金・時間・社会的承認へのアクセスが制限されてきた結果だという洞察だ。才能は生まれつきではなく、それを育てる環境によって開花する——この認識は女性だけでなく、あらゆる機会格差の問題に当てはまる。",
-    "cats": [
-      "growth",
-      "adversity",
-      "challenge"
-    ],
-    "tags": [
-      "天才",
-      "なる",
-      "女性"
-    ],
-    "likes": 113,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1713,
     "sage": "jung",
     "orig": "Your visions will become clear only when you can look into your own heart. Who looks outside, dreams; who looks inside, awakes.",
@@ -30302,7 +29735,7 @@
   },
   {
     "id": 1714,
-    "sage": "arendt",
+    "sage": "hannah_arendt",
     "orig": "No punishment has ever possessed enough power of deterrence to prevent the commission of crimes.",
     "ja": "いかなる刑罰も、犯罪を防ぐのに十分な抑止力を持ったことはない。",
     "source": "ハンナ・アーレント「エルサレムのアイヒマン」",
@@ -30700,27 +30133,6 @@
     "mmdd": null
   },
   {
-    "id": 1735,
-    "sage": "voltaire",
-    "orig": "God is a comedian playing to an audience too afraid to laugh.",
-    "ja": "神は、笑うことを恐れすぎている観客に演じているコメディアンだ。",
-    "source": "ヴォルテールの言葉",
-    "desc": "ヴォルテールが宗教的な厳粛さとユーモアの欠如を風刺した言葉だ。宗教が生み出す恐れ・厳粛さ・笑ってはいけない空気への批判だ。もし神が宇宙を創ったなら、その創造にはユーモアと遊び心が満ちているのではないか——しかし宗教はその喜びを「恐れ」に変えてしまった。啓蒙主義の旗手ヴォルテールらしい鋭い風刺だ。",
-    "cats": [
-      "mind",
-      "challenge",
-      "adversity"
-    ],
-    "tags": [
-      "神",
-      "コメディアン",
-      "笑い"
-    ],
-    "likes": 109,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1736,
     "sage": "montaigne",
     "orig": "Nothing is so firmly believed as what we least know.",
@@ -30826,27 +30238,6 @@
     "mmdd": null
   },
   {
-    "id": 1742,
-    "sage": "kant",
-    "orig": "Two things fill the mind with ever new and increasing admiration and awe: the starry heavens above me and the moral law within me.",
-    "ja": "二つのものが、ますます新しく増大する驚嘆と敬虔で心を満たす。私の上なる星空と、私の内なる道徳法則だ。",
-    "source": "イマヌエル・カント「実践理性批判」最終ページ",
-    "desc": "カントの墓碑にも刻まれた最も有名な言葉だ。宇宙の広大さ（星空）と人間の内面にある道徳的秩序（道徳法則）の二つが、考えるほどますます深い驚嘆を生むという洞察だ。外の宇宙の無限と内の道徳の崇高さが、同等の畏敬を生む。人間は小さな存在でありながら、道徳という点で宇宙に匹敵する何かを持っているという尊厳の宣言だ。",
-    "cats": [
-      "mind",
-      "motivation",
-      "time"
-    ],
-    "tags": [
-      "星空",
-      "道徳法則",
-      "驚嘆"
-    ],
-    "likes": 120,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1744,
     "sage": "hegel",
     "orig": "The only thing we learn from history is that we learn nothing from history.",
@@ -30911,7 +30302,7 @@
   },
   {
     "id": 1747,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "When someone shows you who they are, believe them the first time.",
     "ja": "誰かが自分の本性を見せた時、最初から信じよ。",
     "source": "マヤ・アンジェロウの言葉",
@@ -31331,7 +30722,7 @@
   },
   {
     "id": 1774,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "To the mind that is still, the whole universe surrenders.",
     "ja": "静まった心には、宇宙全体が従う。",
     "source": "老子「道徳経」",
@@ -31603,48 +30994,6 @@
     "mmdd": null
   },
   {
-    "id": 1790,
-    "sage": "sagan",
-    "orig": "The cosmos is within us. We are made of star-stuff.",
-    "ja": "宇宙は私たちの中にある。私たちは星の素材から作られている。",
-    "source": "カール・セーガン「コスモス」",
-    "desc": "セーガンが人間と宇宙の物理的な繋がりを語った詩的な言葉だ。私たちの体を構成する原子——炭素・酸素・鉄——はすべて、遠い過去に爆発した星の内部で作られた。私たちは宇宙から来て、宇宙を構成しているのだ。この認識は、人間が宇宙の外側の小さな観察者ではなく、宇宙そのものの一部であることを示す。",
-    "cats": [
-      "mind",
-      "time",
-      "motivation"
-    ],
-    "tags": [
-      "星の素材",
-      "宇宙",
-      "内にある"
-    ],
-    "likes": 118,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1796,
-    "sage": "pasteur",
-    "orig": "Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world.",
-    "ja": "科学は国を知らない。なぜなら知識は人類のものであり、世界を照らす松明だからだ。",
-    "source": "ルイ・パスツールの言葉",
-    "desc": "フランスとドイツが戦争を続ける時代に、パスツールが科学の国際性を語った言葉だ。狂犬病ワクチン・炭疽菌ワクチン・低温殺菌法——彼の業績はフランスだけでなく全人類の命を救った。知識は国境を超え、発見した者の財産ではなく人類全体の財産だというビジョンが、科学の本質的な性格を示している。",
-    "cats": [
-      "work",
-      "relation",
-      "motivation"
-    ],
-    "tags": [
-      "科学",
-      "人類",
-      "知識"
-    ],
-    "likes": 112,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 1797,
     "sage": "galileo",
     "orig": "In questions of science, the authority of a thousand is not worth the humble reasoning of a single individual.",
@@ -31725,27 +31074,6 @@
       "太陽"
     ],
     "likes": 115,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1803,
-    "sage": "twain",
-    "orig": "Never put off till tomorrow what may be done the day after tomorrow just as well.",
-    "ja": "明後日でも同じくらいうまくできることを、明日に先送りするな。",
-    "source": "マーク・トウェインの言葉",
-    "desc": "先送りの哲学をユーモアで語ったトウェインの逆説だ。「明日やる」という先送りの習慣への風刺だ——実際には「明後日」でも「来週」でも終わらないかもしれない。この言葉は先送りの本質を笑いを通して明らかにする。今すぐやることの重要性を、あえて逆から語ることで、「明日やる」という自己欺瞞を鮮やかに照らし出している。",
-    "cats": [
-      "work",
-      "adversity",
-      "motivation"
-    ],
-    "tags": [
-      "先送り",
-      "明後日",
-      "ユーモア"
-    ],
-    "likes": 114,
     "season": null,
     "mmdd": null
   },
@@ -31940,7 +31268,7 @@
   },
   {
     "id": 1814,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "We delight in the beauty of the butterfly, but rarely admit the changes it has gone through to achieve that beauty.",
     "ja": "私たちは蝶の美しさに喜ぶが、その美しさを達成するために経た変化を認めることは稀だ。",
     "source": "マヤ・アンジェロウの言葉",
@@ -32108,7 +31436,7 @@
   },
   {
     "id": 1822,
-    "sage": "fromm",
+    "sage": "erich_fromm",
     "orig": "There can be no real freedom without the freedom to fail.",
     "ja": "失敗する自由なしに、本当の自由はない。",
     "source": "エーリッヒ・フロム「自由からの逃走」",
@@ -32192,7 +31520,7 @@
   },
   {
     "id": 1826,
-    "sage": "arendt",
+    "sage": "hannah_arendt",
     "orig": "Love, by its very nature, is unworldly, and it is for this reason rather than its rarity that it is not only apolitical but antipolitical.",
     "ja": "愛はその本質上、世俗的でない。だからこそ、その稀少性のためではなく、非政治的であるだけでなく反政治的でもある。",
     "source": "ハンナ・アーレント「人間の条件」",
@@ -32591,7 +31919,7 @@
   },
   {
     "id": 1846,
-    "sage": "mandela",
+    "sage": "nelson_mandela",
     "orig": "Do not judge me by my successes; judge me by how many times I fell down and got back up again.",
     "ja": "私の成功で判断しないでほしい。何度転んで、また立ち上がったかで判断してほしい。",
     "source": "ネルソン・マンデラの言葉",
@@ -32759,7 +32087,7 @@
   },
   {
     "id": 1860,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "One can never consent to creep when one feels an impulse to soar.",
     "ja": "飛翔したい衝動を感じる時、這うことには同意できない。",
     "source": "ヘレン・ケラーの言葉",
@@ -32906,7 +32234,7 @@
   },
   {
     "id": 1872,
-    "sage": "angelou",
+    "sage": "maya_angelou",
     "orig": "Nothing will work unless you do.",
     "ja": "あなたが動かない限り、何もうまくいかない。",
     "source": "マヤ・アンジェロウの言葉",
@@ -33011,7 +32339,7 @@
   },
   {
     "id": 1877,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "A journey of a thousand miles begins with a single step.",
     "ja": "千里の旅も一歩から始まる。",
     "source": "老子「道徳経」第64章",
@@ -33200,7 +32528,7 @@
   },
   {
     "id": 1887,
-    "sage": "eleanor",
+    "sage": "eleanor_roosevelt",
     "orig": "Do what you feel in your heart to be right—for you'll be criticized anyway.",
     "ja": "心の中で正しいと感じることをやれ——どうせ批判されるのだから。",
     "source": "エレノア・ルーズベルト「あなた自身の人生を生きよ」",
@@ -33221,7 +32549,7 @@
   },
   {
     "id": 1889,
-    "sage": "helenkeller",
+    "sage": "helen_keller",
     "orig": "Character cannot be developed in ease and quiet. Only through experience of trial and suffering can the soul be strengthened, ambition inspired, and success achieved.",
     "ja": "安楽と静けさの中では人格は育てられない。試練と苦しみの体験を通じてのみ、魂は強くなり、野心は鼓舞され、成功は達成される。",
     "source": "ヘレン・ケラーの言葉",
@@ -33998,7 +33326,7 @@
   },
   {
     "id": 1928,
-    "sage": "laozi",
+    "sage": "lao_tzu",
     "orig": "Life is a series of natural and spontaneous changes. Don't resist them; that only creates sorrow.",
     "ja": "人生は自然で自発的な変化の連続だ。それに抵抗するな。それは悲しみを生むだけだ。",
     "source": "老子「道徳経」",
@@ -34182,27 +33510,6 @@
       "意味"
     ],
     "likes": 113,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 1938,
-    "sage": "copernicus",
-    "orig": "To know that we know what we know, and to know that we do not know what we do not know, that is true knowledge.",
-    "ja": "知っていることを知っていると知り、知らないことを知らないと知ること、それが真の知識だ。",
-    "source": "ニコラウス・コペルニクスの言葉",
-    "desc": "コペルニクスが知識の誠実な自己評価を語った言葉だ。「知っているふりをする」誘惑への警告であり、自分の知識の範囲を正確に把握することが本物の知識の基盤だという洞察だ。千年以上の天動説の権威に疑問を持ち続けた科学者らしい言葉だ。確かなことと不確かなことを区別できることが、科学的思考の出発点だ。",
-    "cats": [
-      "mind",
-      "growth",
-      "work"
-    ],
-    "tags": [
-      "知識",
-      "知っている",
-      "知らない"
-    ],
-    "likes": 111,
     "season": null,
     "mmdd": null
   },
@@ -35552,7 +34859,7 @@
   },
   {
     "id": 2008,
-    "sage": "mariam_makeba",
+    "sage": "miriam_makeba",
     "orig": "Music is a great gift. In my country and in my culture, we use music to express pain and joy.",
     "ja": "音楽は偉大な贈り物だ。私の国と文化では、音楽で痛みと喜びの両方を表現する。",
     "source": "ミリアム・マケバのインタビュー",
@@ -35573,7 +34880,7 @@
   },
   {
     "id": 2009,
-    "sage": "mariam_makeba",
+    "sage": "miriam_makeba",
     "orig": "I kept my culture. I kept the music of my roots. Through my music I became this voice and image of Africa.",
     "ja": "私は自分の文化を守り続けた。ルーツの音楽を守り続けた。音楽を通じてアフリカの声と姿になった。",
     "source": "ミリアム・マケバの言葉",
@@ -35845,27 +35152,6 @@
     "mmdd": null
   },
   {
-    "id": 2022,
-    "sage": "natsume_soseki",
-    "orig": "智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。とかくに人の世は住みにくい。",
-    "ja": "智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。とかくに人の世は住みにくい。",
-    "source": "夏目漱石「草枕」冒頭",
-    "desc": "「諦め」という言葉の語源は「明らかにする」だと鴎外は示した。諦めることは負けることではなく、現実を明らかに見ることだ。できないことを認め、変えられないことを受け入れ、変えられることに集中する——その清明な認識こそが次への力を生む。あなたが今抱えている「諦め」は、実は現実をようやく見始めたサインかもしれない。そこから、次の一歩が始まる。",
-    "cats": [
-      "mind",
-      "adversity"
-    ],
-    "tags": [
-      "智",
-      "情",
-      "意地",
-      "人間社会"
-    ],
-    "likes": 138,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2023,
     "sage": "akutagawa",
     "orig": "人生は一箱のマッチに似ている。重大に扱うのはばかばかしい。しかし重大に扱わなければ危険だ。",
@@ -35971,48 +35257,6 @@
     "mmdd": null
   },
   {
-    "id": 2028,
-    "sage": "hannah_arendt",
-    "orig": "The sad truth is that most evil is done by people who never make up their minds to be good or evil.",
-    "ja": "悲しい真実は、大半の悪が善でも悪でもあろうと決断しなかった人々によって行われるということだ。",
-    "source": "ハンナ・アーレント「エルサレムのアイヒマン」",
-    "desc": "カミュはアルジェリア出身のフランス人として、両国の間で常によそ者だった。不条理な世界に意味を求めても見つからない——それでも生を肯定する選択をした彼が書いた言葉だ。外の寒さがどれほど厳しくても、消えない夏が自分の中にある。今、あなたを取り囲む冬はどれほど厳しいか。しかしあなたの中の夏は、誰も消せない。",
-    "cats": [
-      "mind",
-      "adversity"
-    ],
-    "tags": [
-      "悪の陳腐さ",
-      "決断",
-      "思考",
-      "悪"
-    ],
-    "likes": 125,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2029,
-    "sage": "hannah_arendt",
-    "orig": "The most radical revolutionary will become a conservative the day after the revolution.",
-    "ja": "最も急進的な革命家も、革命の翌日には保守主義者になる。",
-    "source": "ハンナ・アーレント「革命について」",
-    "desc": "シーシュポスは神々の怒りを買い、永遠に岩を山頂に運び続けるという罰を受けた。しかしカミュはその絶望的な状況を見て「シーシュポスは幸福だった」と言い切った。不条理な世界に意味を求めなくても、自分の岩を愛し続けることが「反抗」だ。あなたが毎日繰り返す仕事や生活の中に、そんな誇りを見出せているか。",
-    "cats": [
-      "mind",
-      "time"
-    ],
-    "tags": [
-      "革命",
-      "保守",
-      "逆説",
-      "変化"
-    ],
-    "likes": 117,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2030,
     "sage": "erich_fromm",
     "orig": "The mother-child relationship is paradoxical and, in a sense, tragic. It requires the most intense love on the mother's side, yet this very love must help the child grow away from the mother.",
@@ -36030,48 +35274,6 @@
       "自立"
     ],
     "likes": 121,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2031,
-    "sage": "erich_fromm",
-    "orig": "Creativity requires the courage to let go of certainties.",
-    "ja": "創造性には、確実なものを手放す勇気が必要だ。",
-    "source": "エーリッヒ・フロム「自由からの逃走」",
-    "desc": "「革命について」でアーレントが鋭く突いた逆説だ。革命は破壊によって成し遂げられるが、成功した瞬間から「守るべきもの」が生まれる。変化を求めた者が変化を恐れる側になる——これは歴史が繰り返す皮肉な真実だ。あなたが昔情熱を燃やして変えようとしたものに、今はしがみついていないか。",
-    "cats": [
-      "challenge",
-      "growth"
-    ],
-    "tags": [
-      "創造",
-      "勇気",
-      "確実性",
-      "手放す"
-    ],
-    "likes": 116,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2032,
-    "sage": "miyazawa_kenji",
-    "orig": "世界がぜんたい幸福にならないうちは個人の幸福はあり得ない。",
-    "ja": "世界全体が幸福にならないうちは、個人の幸福はあり得ない。",
-    "source": "宮沢賢治「農民芸術概論綱要」",
-    "desc": "「愛するということ」で愛の本質を解剖したフロムが逆説的に語った言葉だ。本当の愛とは相手を手放す力だ。子の自立を助けることが親の愛の完成であり、離れていくことを喜べる愛が最も深い。愛は所有でも依存でもなく、相手の成長を支える意志だ。あなたが大切に思う誰かを、本当の意味で自由にできているか。",
-    "cats": [
-      "relation",
-      "mind"
-    ],
-    "tags": [
-      "幸福",
-      "世界",
-      "個人",
-      "利他"
-    ],
-    "likes": 132,
     "season": null,
     "mmdd": null
   },
@@ -36244,48 +35446,6 @@
     "mmdd": null
   },
   {
-    "id": 2041,
-    "sage": "harriet_tubman",
-    "orig": "I was the conductor of the Underground Railroad for eight years, and I can say what most conductors can't say — I never ran my train off the track and I never lost a passenger.",
-    "ja": "私は8年間地下鉄道の車掌だった。そして他の車掌には言えないことが言える——私は一度も列車を脱線させず、乗客を一人も失わなかった。",
-    "source": "ハリエット・タブマンの言葉",
-    "desc": "奴隷として生まれながら自由を勝ち取り、「地下鉄道」の案内人として70人以上を北部へ導いたソジャーナ・トゥルースが最期に残したとされる言葉だ。死を恐れず流れ星に喩えた言葉には、信仰の深さと人生の充実感がある。地を這うように生きながら、天を目指し続けた人生の締め括りだ。あなたは今日、流れ星のように燃えているか。",
-    "cats": [
-      "work",
-      "adversity"
-    ],
-    "tags": [
-      "地下鉄道",
-      "使命",
-      "完璧な実績",
-      "奴隷"
-    ],
-    "likes": 111,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2042,
-    "sage": "harriet_tubman",
-    "orig": "Every great dream begins with a dreamer. Always remember, you have within you the strength, the patience, and the passion to reach for the stars to change the world.",
-    "ja": "すべての偉大な夢は夢想家から始まる。あなたの中には、星に向かい世界を変えるための強さ・忍耐・情熱があることを忘れるな。",
-    "source": "ハリエット・タブマンの言葉",
-    "desc": "1851年のオハイオ州女性権利大会でトゥルースが放った歴史的な一言だ。女性は保護されるべき弱い存在だという議論に対し、過酷な農作業を課され鞭打たれ子供を奴隷として売られた自分の経験を語った後にこう問いかけた。読み書きできない奴隷出身の女性の問いが、会場を静寂させた。あなたの声は、どんな沈黙を破ることができるか。",
-    "cats": [
-      "motivation",
-      "challenge"
-    ],
-    "tags": [
-      "夢想家",
-      "強さ",
-      "忍耐",
-      "世界を変える"
-    ],
-    "likes": 122,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2043,
     "sage": "paulo_coelho",
     "orig": "And, when you want something, all the universe conspires in helping you to achieve it.",
@@ -36454,27 +35614,6 @@
     "mmdd": null
   },
   {
-    "id": 2051,
-    "sage": "mlk",
-    "orig": "We must accept finite disappointment, but never lose infinite hope.",
-    "ja": "有限の失望は受け入れなければならない。しかし無限の希望を失ってはならない。",
-    "source": "マーティン・ルーサー・キングの説教",
-    "desc": "15年以上の自宅軟禁の中で書かれたスー・チーの言葉だ。鉄格子より恐怖こそが人を縛るという真実を、彼女は自分の経験で証明した。独裁体制が維持される最大の力は、市民の恐怖だ。恐怖から自由になった人を、誰も本当には支配できない。あなたを今縛っているのは、外の鎖か、それとも内の恐怖か。",
-    "cats": [
-      "adversity",
-      "motivation"
-    ],
-    "tags": [
-      "失望",
-      "希望",
-      "有限",
-      "無限"
-    ],
-    "likes": 133,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2052,
     "sage": "maya_angelou",
     "orig": "Do the best you can until you know better. Then when you know better, do better.",
@@ -36492,27 +35631,6 @@
       "改善"
     ],
     "likes": 131,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2053,
-    "sage": "maya_angelou",
-    "orig": "You may not control all the events that happen to you, but you can decide not to be reduced by them.",
-    "ja": "起きる出来事をすべてコントロールすることはできない。しかしそれに縮められないことは決められる。",
-    "source": "マヤ・アンジェロウ「手紙と回想録」",
-    "desc": "チベット仏教の最高指導者ダライ・ラマ14世が宗教の本質を語った言葉だ。宗派・教義・儀式より、日々の小さな親切こそが宗教の核心だという。難解な哲学より、目の前の人に優しくすること——それがすべての宗教の共通の根だ。今日、誰かに親切にしたならば、あなたはすでにそれを実践している。",
-    "cats": [
-      "adversity",
-      "mind"
-    ],
-    "tags": [
-      "出来事",
-      "コントロール",
-      "縮められない",
-      "意志"
-    ],
-    "likes": 126,
     "season": null,
     "mmdd": null
   },
@@ -36702,27 +35820,6 @@
       "品格"
     ],
     "likes": 93,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2063,
-    "sage": "lao_tzu",
-    "orig": "知人者智，自知者明。勝人者有力，自勝者強。",
-    "ja": "他者を知る者は智恵があり、自己を知る者は明知がある。他者に勝つ者は力があり、自己に勝つ者が強い。",
-    "source": "老子「道徳経」三十三章",
-    "desc": "老子は「道徳経」第33章で内省の価値を外的な比較より高く置いた。他者を分析する知性より、自分自身を深く見つめる洞察の方が難しく価値がある。外部の敵に勝つより、自分の弱さ・恐れ・欲望に打ち勝つことの方が真の強さだ。最大の戦場は常に自分の内側にある。今日、あなたは自分の内側と正直に向き合ったか。",
-    "cats": [
-      "mind",
-      "growth"
-    ],
-    "tags": [
-      "自己知",
-      "内なる強さ",
-      "自制",
-      "智恵"
-    ],
-    "likes": 127,
     "season": null,
     "mmdd": null
   },
@@ -37819,48 +36916,6 @@
     "mmdd": null
   },
   {
-    "id": 2116,
-    "sage": "nelson_mandela",
-    "orig": "It always seems impossible until it's done.",
-    "ja": "それはいつも、成し遂げられるまで不可能に見える。",
-    "source": "ネルソン・マンデラの言葉",
-    "desc": "27年間の獄中生活を経て南アフリカ初の黒人大統領となったマンデラの言葉だ。アパルトヘイト廃止は長らく「不可能」と言われ続けた。しかし成し遂げられた。あらゆる偉業は、成し遂げられる前は不可能に見えていた——それだけのことだ。今あなたが「不可能だ」と感じていることは、まだ終わっていないだけかもしれない。",
-    "cats": [
-      "motivation",
-      "challenge"
-    ],
-    "tags": [
-      "不可能",
-      "成し遂げる",
-      "諦めない",
-      "マンデラ"
-    ],
-    "likes": 143,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2117,
-    "sage": "nelson_mandela",
-    "orig": "Do not judge me by my successes, judge me by how many times I fell down and got back up again.",
-    "ja": "私の成功で判断しないでくれ。何度転んで、何度立ち上がったかで判断してくれ。",
-    "source": "ネルソン・マンデラの言葉",
-    "desc": "27年の投獄・亡命・弾圧を経てもなお立ち上がり続けたマンデラが語った言葉だ。成功はその人の一部に過ぎない。転倒と復活の数こそが、その人の本当の強さを示す。輝かしい結果より、その過程で何度諦めなかったか——それが人間の真の評価軸だ。あなたは今日、何回目の立ち上がりの途中にいるか。",
-    "cats": [
-      "adversity",
-      "motivation"
-    ],
-    "tags": [
-      "転倒と復活",
-      "評価",
-      "強さ",
-      "立ち上がる"
-    ],
-    "likes": 137,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2118,
     "sage": "wole_soyinka",
     "orig": "Each generation must, out of relative obscurity, discover its mission, fulfil it, or betray it.",
@@ -37941,27 +36996,6 @@
       "自由"
     ],
     "likes": 132,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2122,
-    "sage": "harriet_tubman",
-    "orig": "I never ran my train off the track and I never lost a passenger.",
-    "ja": "私は一度も列車を脱線させず、乗客を一人も失わなかった。",
-    "source": "ハリエット・タブマンの言葉",
-    "desc": "8年間「地下鉄道」の案内人として70人以上を自由へ導いたタブマンの誇りの言葉だ。巨額の懸賞金がかけられながらも一度も失敗しなかった。完璧な記録は偶然ではない——徹底した準備と神への信頼と不屈の意志の結果だ。あなたが守ると誓ったものを、今日も守り抜いているか。責任を全うすることが、真の強さだ。",
-    "cats": [
-      "work",
-      "adversity"
-    ],
-    "tags": [
-      "責任",
-      "完璧な実績",
-      "守る",
-      "意志"
-    ],
-    "likes": 116,
     "season": null,
     "mmdd": null
   },
@@ -38386,69 +37420,6 @@
     "mmdd": null
   },
   {
-    "id": 2143,
-    "sage": "augustine",
-    "orig": "Our heart is restless, until it repose in Thee.",
-    "ja": "我らの心は、あなたの中に安らうまで安らかになれない。",
-    "source": "アウグスティヌス「告白録」第1巻",
-    "desc": "北アフリカ出身のキリスト教神学者アウグスティヌスが「告白録」の冒頭に置いた言葉だ。快楽・名声・知識を求めて放蕩の日々を送った後、神への回心を経て書かれた。人間の魂が根本的に求めているものは何か——その問いへの答えが、この一文に凝縮されている。あなたの心が本当に休まる場所は、どこにあるか。",
-    "cats": [
-      "mind",
-      "relation"
-    ],
-    "tags": [
-      "魂の渇望",
-      "安らぎ",
-      "神",
-      "告白録"
-    ],
-    "likes": 124,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2144,
-    "sage": "augustine",
-    "orig": "Thou madest us for Thyself, and our heart is restless, until it repose in Thee.",
-    "ja": "あなたは我らをあなたのために造られた。だから我らの心は、あなたの中に安らうまで落ち着かない。",
-    "source": "アウグスティヌス「告白録」",
-    "desc": "「告白録」の最も有名な冒頭の一文だ。アウグスティヌスは若い頃、あらゆる快楽と哲学を試みたが、どれも心を満たせなかった。人間は何かのために作られた存在だという洞察——その「何か」を見つけるまで、人は本質的に不安だ。あなたが追いかけても追いかけても満たされない渇きは、実はどこへ向かっているのか。",
-    "cats": [
-      "mind",
-      "adversity"
-    ],
-    "tags": [
-      "渇望",
-      "目的",
-      "造られた意味",
-      "不安"
-    ],
-    "likes": 118,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2145,
-    "sage": "thomas_aquinas",
-    "orig": "The things that we love tell us what we are.",
-    "ja": "私たちが愛するものが、私たちが何者かを語る。",
-    "source": "トマス・アクィナスの言葉",
-    "desc": "中世最大のキリスト教神学者・哲学者トマス・アクィナスの言葉だ。「神学大全」でアリストテレス哲学とキリスト教を統合した彼は、人間の本質を「何を愛するか」で捉えた。肩書きでも業績でもなく、何を大切にし、何に時間を使い、何のために動くか——それがあなたの本当のアイデンティティだ。あなたが愛するものは、どんな人間を語っているか。",
-    "cats": [
-      "mind",
-      "relation"
-    ],
-    "tags": [
-      "愛するもの",
-      "アイデンティティ",
-      "本質",
-      "価値観"
-    ],
-    "likes": 127,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2146,
     "sage": "erasmus",
     "orig": "In the country of the blind, the one-eyed man is king.",
@@ -38680,48 +37651,6 @@
     "mmdd": null
   },
   {
-    "id": 2157,
-    "sage": "eleanor_roosevelt",
-    "orig": "No one can make you feel inferior without your consent.",
-    "ja": "あなたの同意なしに、誰もあなたに劣等感を与えることはできない。",
-    "source": "エレノア・ルーズベルト「This Is My Story」",
-    "desc": "アメリカ史上最も影響力のあるファーストレディ、エレノア・ルーズベルトの言葉だ。傷つくかどうかは、最終的には自分が決める——という力強い宣言だ。批判・嘲笑・軽蔑も、あなたが受け取らなければ届かない。相手に力を渡すのは、いつもあなた自身だ。あなたは今日、誰かに劣等感を「許可」していないか。",
-    "cats": [
-      "mind",
-      "adversity"
-    ],
-    "tags": [
-      "劣等感",
-      "同意",
-      "心の主権",
-      "傷つく"
-    ],
-    "likes": 136,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2158,
-    "sage": "eleanor_roosevelt",
-    "orig": "Do one thing every day that scares you.",
-    "ja": "毎日、怖いと感じることを一つやれ。",
-    "source": "エレノア・ルーズベルトの言葉",
-    "desc": "人前で話すのが苦手だったエレノアが、意識的に恐怖と向き合い続けた経験から生まれた言葉だ。快適ゾーンの外にだけ成長がある。恐怖を感じることは、あなたがまだ成長できる証だ。毎日一つ——それは大きくなくていい。今日のあなたが「少し怖い」と感じることに、踏み込んでみよう。",
-    "cats": [
-      "challenge",
-      "growth"
-    ],
-    "tags": [
-      "恐怖に挑む",
-      "快適ゾーン",
-      "成長",
-      "毎日一つ"
-    ],
-    "likes": 130,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2159,
     "sage": "franklin_roosevelt",
     "orig": "The only thing we have to fear is fear itself.",
@@ -38743,27 +37672,6 @@
     "mmdd": null
   },
   {
-    "id": 2160,
-    "sage": "helen_keller",
-    "orig": "When one door of happiness closes, another opens; but often we look so long at the closed door that we do not see the one which has been opened for us.",
-    "ja": "幸福の扉が一つ閉まると、別の扉が開く。しかし私たちはしばしば閉まった扉をあまりに長く見つめて、開かれた扉に気づかない。",
-    "source": "ヘレン・ケラー「楽観主義」",
-    "desc": "生後19ヶ月で視覚と聴覚を失いながらも大学を卒業し世界中を講演したヘレン・ケラーの言葉だ。失ったものへの後悔は、目の前に開かれた可能性を見えなくする。閉まった扉から目を離すこと——それが次の扉を見つける唯一の方法だ。あなたは今、どの扉をいつまでも見つめているか。",
-    "cats": [
-      "adversity",
-      "time"
-    ],
-    "tags": [
-      "扉",
-      "可能性",
-      "後悔",
-      "次の一歩"
-    ],
-    "likes": 138,
-    "season": null,
-    "mmdd": null
-  },
-  {
     "id": 2161,
     "sage": "kennedy",
     "orig": "A rising tide lifts all boats.",
@@ -38781,27 +37689,6 @@
       "共存"
     ],
     "likes": 116,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2162,
-    "sage": "martin_luther",
-    "orig": "Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree.",
-    "ja": "たとえ明日世界が終わるとわかっていても、私は今日リンゴの木を植える。",
-    "source": "マルティン・ルターの言葉",
-    "desc": "宗教改革を起こしたマルティン・ルターの言葉だ。未来への希望がなくても、今日すべき正しいことをする——その行為への信頼が込められている。結果を求めずに種を蒔く力こそが、最終的に世界を変える。あなたは今日、明日世界が終わるとしても植える「リンゴの木」を持っているか。",
-    "cats": [
-      "motivation",
-      "time"
-    ],
-    "tags": [
-      "リンゴの木",
-      "今日を生きる",
-      "希望",
-      "種を蒔く"
-    ],
-    "likes": 140,
     "season": null,
     "mmdd": null
   },
@@ -38865,27 +37752,6 @@
       "最大の戦場"
     ],
     "likes": 130,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2166,
-    "sage": "elon_musk",
-    "orig": "When something is important enough, you do it even if the odds are not in your favor.",
-    "ja": "何かが十分に重要なら、勝ち目がなくてもやる。",
-    "source": "イーロン・マスクの言葉",
-    "desc": "テスラ・スペースXで常識破りの挑戦を続けるマスクの言葉だ。スペースXは最初の3回のロケット打ち上げに失敗し、会社が潰れかかった。しかし4回目に成功した。合理的な計算より、重要性への確信が行動を駆動する。あなたにとって、勝ち目がなくてもやるほど重要なことは何か。",
-    "cats": [
-      "challenge",
-      "motivation"
-    ],
-    "tags": [
-      "重要性",
-      "勝ち目なくても",
-      "確信",
-      "挑戦"
-    ],
-    "likes": 131,
     "season": null,
     "mmdd": null
   },
@@ -39054,27 +37920,6 @@
       "骨格"
     ],
     "likes": 116,
-    "season": null,
-    "mmdd": null
-  },
-  {
-    "id": 2175,
-    "sage": "khayyam_omar",
-    "orig": "The Moving Finger writes; and, having writ, moves on.",
-    "ja": "動く指は書く。そして書き終えると、先へ進む。",
-    "source": "オマル・ハイヤーム「ルバイヤート」（フィッツジェラルド英訳版）",
-    "desc": "ハイヤームが過去の不変性を詩的に語った「ルバイヤート」の名句だ。書かれたものは消せない——過去の行為は変えられない。嘆いても、祈っても、涙を流しても、指は先へ進んでいく。後悔に費やす時間も、今という指が書き続ける時間だ。あなたは今、消せない過去を嘆くより、進む指を信じているか。",
-    "cats": [
-      "time",
-      "mind"
-    ],
-    "tags": [
-      "動く指",
-      "過去は変えられない",
-      "前へ",
-      "諦観"
-    ],
-    "likes": 123,
     "season": null,
     "mmdd": null
   },
@@ -39248,7 +38093,7 @@
   },
   {
     "id": 2184,
-    "sage": "mariam_makeba",
+    "sage": "miriam_makeba",
     "orig": "The conqueror writes history, they came, they conquered and they wrote.",
     "ja": "征服者が歴史を書く。彼らは来て、征服して、そして書いた。",
     "source": "ミリアム・マケバの言葉",
@@ -39793,23 +38638,1976 @@
     "mmdd": null
   },
   {
-    "id": 2210,
-    "sage": "helen_keller",
-    "orig": "Life is either a daring adventure or nothing at all.",
-    "ja": "人生は大胆な冒険か、それとも何もないかだ。",
-    "source": "ヘレン・ケラー「信仰の日記」",
-    "desc": "生後19ヶ月で視覚と聴覚を失いながらも世界中を講演し続けたヘレン・ケラーの言葉だ。安全を求めて縮こまった人生は、生きていても生きていないのと同じだ——という強烈な宣言だ。体の自由を奪われながら最もダイナミックに生きた彼女だからこそ、この言葉は重い。あなたの今日は、冒険だったか。",
+    "id": 2211,
+    "sage": "aung_san_suu_kyi",
+    "orig": "Fear is a habit; so is self-pity, defeat, anxiety, despair, hopelessness and resignation.",
+    "ja": "恐怖は習慣だ。自己憐憫・敗北感・不安・絶望・諦めも同じだ。",
+    "source": "アウン・サン・スー・チーの言葉",
+    "desc": "15年以上の自宅軟禁を経たスー・チーが負の感情の本質を語った言葉だ。恐れることも、諦めることも、繰り返すことで習慣になる——ならば変えられる。習慣は作られたものだ。恐怖の習慣を勇気の習慣に、絶望の習慣を希望の習慣に替えていくことができる。今日のあなたはどんな習慣を選ぶか。",
     "cats": [
-      "challenge",
+      "adversity",
+      "growth"
+    ],
+    "tags": [
+      "恐怖は習慣",
+      "習慣を変える",
+      "絶望",
+      "選択"
+    ],
+    "likes": 126,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2212,
+    "sage": "malala",
+    "orig": "With guns you can kill terrorists, with education you can kill terrorism.",
+    "ja": "銃でテロリストを殺すことはできる。しかし教育でテロリズムを殺すことができる。",
+    "source": "マララ・ユサフザイの言葉",
+    "desc": "タリバンに銃撃されながら教育のために立ち上がり続けるマララの言葉だ。症状を治すのではなく根を断つこと——暴力は人を殺せるが思想は殺せない。しかし教育は思想を変えられる。子供が教室に通うことが、最も根本的な平和活動だ。あなたは今日、誰かの「教育」に貢献したか。",
+    "cats": [
+      "growth",
       "motivation"
     ],
     "tags": [
-      "大胆な冒険",
-      "安全の罠",
-      "生きる意味",
-      "ヘレン"
+      "教育",
+      "テロリズム",
+      "根を断つ",
+      "平和"
+    ],
+    "likes": 129,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2213,
+    "sage": "yunus",
+    "orig": "I believe terrorism cannot be won over by military action. Terrorism must be won over by creating jobs, ensuring human rights, and ending poverty.",
+    "ja": "テロリズムは軍事行動では克服できないと私は信じる。雇用を創出し、人権を確保し、貧困を終わらせることで克服しなければならない。",
+    "source": "ムハマド・ユヌスの言葉",
+    "desc": "グラミン銀行で貧困撲滅に革命をもたらしたノーベル平和賞受賞者ユヌスの言葉だ。暴力の根には絶望がある——希望があれば人は暴力に向かわない。銃より仕事、爆弾より教育——この信念を小額融資という形で実践したユヌスの洞察は深い。あなたは今日、誰かに希望を渡せたか。",
+    "cats": [
+      "relation",
+      "work"
+    ],
+    "tags": [
+      "雇用と平和",
+      "貧困",
+      "希望",
+      "根本解決"
+    ],
+    "likes": 118,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2214,
+    "sage": "ho_chi_minh",
+    "orig": "Muốn xây dựng chủ nghĩa xã hội, trước hết cần có những con người xã hội chủ nghĩa.",
+    "ja": "社会主義を建設したいなら、まず社会主義的な人間が必要だ。",
+    "source": "ホー・チ・ミンの言葉",
+    "desc": "ベトナムの革命指導者・ホー・チ・ミンが制度より人間を優先した言葉だ。どんな理想的な制度も、それを担う人間の質がなければ機能しない。まず人を作ること——教育・育成・文化の変革こそが、真の社会変革の基盤だ。あなたが変えたいと思う社会のために、まずあなた自身が変わっているか。",
+    "cats": [
+      "growth",
+      "work"
+    ],
+    "tags": [
+      "人を作る",
+      "制度より人",
+      "社会変革",
+      "まず自分"
+    ],
+    "likes": 107,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2215,
+    "sage": "premchand",
+    "orig": "जो व्यक्ति मन में ठान लेता है वह असंभव को भी संभव कर लेता है।",
+    "ja": "心に決めた人間は、不可能をも可能にする。",
+    "source": "プレームチャンド「カルマブーミ」",
+    "desc": "「ヒンディー文学の王」プレームチャンドが意志の力を語った言葉だ。インド農村の貧困と抑圧の中に人間の尊厳を描き続けた彼が信じたのは、どんな状況でも心の力が現実を変えうるということだ。外の条件より内の決意——心に刻んだ決意の前に、不可能の壁は溶けていく。あなたは今日、何を心に決めたか。",
+    "cats": [
+      "motivation",
+      "challenge"
+    ],
+    "tags": [
+      "心に決める",
+      "不可能を可能に",
+      "意志",
+      "決意"
+    ],
+    "likes": 121,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2216,
+    "sage": "kim_sowol",
+    "orig": "산산이 부서진 이름이여! 허공중에 헤어진 이름이여!",
+    "ja": "粉々に砕けた名よ！虚空の中に散った名よ！",
+    "source": "金素月「招魂」",
+    "desc": "朝鮮の詩人・金素月が亡き人を呼び続ける詩「招魂」の冒頭だ。死んだ人の名を呼んでも返事はない——しかし呼び続ける。その切実な愛の形が、この詩を100年後の今も生き続けさせている。愛する者を失った後も名前を呼び続けること——それが人間の愛の最も純粋な形だ。あなたが心の中で呼び続けている名前はあるか。",
+    "cats": [
+      "relation",
+      "adversity"
+    ],
+    "tags": [
+      "招魂",
+      "名を呼ぶ",
+      "喪失",
+      "愛の純粋"
+    ],
+    "likes": 119,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2217,
+    "sage": "wole_soyinka",
+    "orig": "I have one abiding religion—human liberty.",
+    "ja": "私には一つの変わらぬ宗教がある——人間の自由だ。",
+    "source": "ウォーレ・ショインカの言葉",
+    "desc": "アフリカ初のノーベル文学賞受賞者ショインカが自らの信仰を語った言葉だ。特定の教義や組織ではなく、すべての人間が自由であるべきだという原則そのものが彼の宗教だ。軍事独裁に投獄されながらも書き続けた彼の人生が、この言葉を体現する。あなたの「変わらぬ宗教」は何か。何のためなら命を懸けられるか。",
+    "cats": [
+      "motivation",
+      "mind"
+    ],
+    "tags": [
+      "自由",
+      "宗教",
+      "変わらぬ信念",
+      "人間の本質"
+    ],
+    "likes": 116,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2218,
+    "sage": "chimamanda_adichie",
+    "orig": "Racism should never have happened and so you don't get a cookie for reducing it.",
+    "ja": "人種差別は起こるべきではなかった。だからそれを減らしても褒められるべきではない。",
+    "source": "チママンダ・ンゴズィ・アディーチェ「みんなにフェミニストを」",
+    "desc": "ナイジェリアの作家アディーチェが正義の基準を語った言葉だ。「以前より差別が減った」と自賛することは、差別が存在することを前提にしている——差別そのものをなくすことが目標であるべきだ。不正義を少し減らしたことへの満足は、根本的な変革の敵になる。あなたは「ましになった」に満足していないか。",
+    "cats": [
+      "mind",
+      "challenge"
+    ],
+    "tags": [
+      "差別",
+      "目標設定",
+      "根本変革",
+      "満足しない"
+    ],
+    "likes": 114,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2219,
+    "sage": "lech_walesa",
+    "orig": "The thing that lies at the foundation of positive change, the way I see it, is service to a fellow human being.",
+    "ja": "私の見方では、ポジティブな変化の根底にあるのは、仲間の人間への奉仕だ。",
+    "source": "レフ・ワレサの言葉",
+    "desc": "電気工から「連帯」を率いポーランドの民主化を実現したワレサの言葉だ。革命も改革も、根底には仲間への奉仕心がある——イデオロギーでも権力欲でもなく、隣にいる人を助けたいという素朴な動機が変化を生む。あなたの行動の根底にあるのは、誰かへの奉仕心か、それとも自分の利益か。",
+    "cats": [
+      "relation",
+      "motivation"
+    ],
+    "tags": [
+      "奉仕",
+      "変化の根底",
+      "仲間",
+      "シンプルな動機"
+    ],
+    "likes": 112,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2220,
+    "sage": "vaclav_havel",
+    "orig": "Without a global revolution in the sphere of human consciousness, nothing will change for the better.",
+    "ja": "人間の意識の領域における地球規模の革命なしに、何もよい方向には変わらない。",
+    "source": "ヴァーツラフ・ハヴェル国連演説（1990年）",
+    "desc": "ビロード革命後の大統領として国連で演説したハヴェルの言葉だ。制度を変えても、経済を変えても、その根底にある人間の意識が変わらなければ同じ失敗を繰り返す——共産主義崩壊を目の当たりにした哲学者政治家の洞察だ。世界を変えるとは、まず自分の意識を変えることだ。あなたの意識は今日、変化しているか。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "意識の革命",
+      "地球規模",
+      "根本変革",
+      "内側から"
+    ],
+    "likes": 119,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2221,
+    "sage": "milosz",
+    "orig": "The living owe it to those who no longer can speak to tell their story for them.",
+    "ja": "生きている者は、もはや語れない者たちのために、その物語を語る義務がある。",
+    "source": "チェスワフ・ミウォシュ「囚われた精神」",
+    "desc": "ナチス占領とスターリン主義の両方を経験したポーランドの詩人ミウォシュが残した言葉だ。沈黙させられた者の声を代わりに語ること——それが生き残った者の責任だ。歴史の証言者が死んでいく中で、記憶を語り継ぐことは義務だ。あなたは誰かの語られていない物語を、知っているか。そして語れるか。",
+    "cats": [
+      "relation",
+      "time"
+    ],
+    "tags": [
+      "証言",
+      "語り継ぐ",
+      "沈黙した者",
+      "義務"
+    ],
+    "likes": 122,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2222,
+    "sage": "gibran",
+    "orig": "You are the bows from which your children as living arrows are sent forth.",
+    "ja": "あなたは弓だ。そしてあなたの子供たちは、生きた矢として放たれる。",
+    "source": "カリール・ジブラン「預言者」",
+    "desc": "「預言者」でジブランが親と子の関係を詩的に描いた言葉だ。弓は矢を引き絞り、遠くへ放つ——その方向に弓自身は行けない。親の役割は子供を自分の望む場所へ連れていくことではなく、より遠くへ飛ばすことだ。あなたの「弓」としての強さは今、誰かをより遠くへ飛ばしているか。",
+    "cats": [
+      "relation",
+      "growth"
+    ],
+    "tags": [
+      "弓と矢",
+      "親子",
+      "自立",
+      "遠くへ"
+    ],
+    "likes": 128,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2224,
+    "sage": "su_shi",
+    "orig": "腹有詩書氣自華。",
+    "ja": "腹に詩書あれば、気は自ずと華やぐ。",
+    "source": "蘇軾「和董傳留別」",
+    "desc": "北宋の大文豪・蘇軾が読書と人間の品格の関係を語った詩の一節だ。どんなに貧しい衣を纏っていても、内に詩書（教養・学問）を宿した人間は自然と気品が滲み出る。外見を飾るより内側を豊かにせよ——という教えだ。あなたの内側は今日、豊かになっているか。それは顔に出る。",
+    "cats": [
+      "growth",
+      "mind"
+    ],
+    "tags": [
+      "詩書",
+      "内側の豊かさ",
+      "気品",
+      "読書"
+    ],
+    "likes": 117,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2225,
+    "sage": "zhuge_liang",
+    "orig": "夫君子之行，靜以修身，儉以養德。",
+    "ja": "君子の行いとは、静かさで身を修め、倹しさで徳を養うことだ。",
+    "source": "諸葛亮「誡子書」",
+    "desc": "息子への家訓「誡子書」で諸葛亮が君子の生き方を語った言葉だ。派手さや消費でなく、静けさと倹約の中にこそ人格は育つ。三国時代の激動を生き抜いた軍師が晩年に最も大切にしたのは、外の戦略より内の修養だった。あなたの今日の生活に、身を修める静けさと倹しさはあるか。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "静かさ",
+      "倹しさ",
+      "君子",
+      "修身"
+    ],
+    "likes": 114,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2226,
+    "sage": "xu_beihong",
+    "orig": "獨持偏見，一意孤行。",
+    "ja": "ひとり偏見を持ち、一心に自分の道を行く。",
+    "source": "徐悲鴻の言葉（自筆印章より）",
+    "desc": "中国近代美術の父・徐悲鴻が自らの芸術姿勢を刻んだ言葉だ。世間の「常識」や流行に従わず、自分が正しいと信じる道をひとり進む——その偏執とも見える信念が革新を生む。みんなに従う人は普通のものしか作れない。一心に自分の道を行くことの孤独を恐れるな。あなたの「偏見」は、世界を変えうるか。",
+    "cats": [
+      "challenge",
+      "work"
+    ],
+    "tags": [
+      "一意孤行",
+      "偏見",
+      "信念",
+      "孤独な創造"
+    ],
+    "likes": 115,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2227,
+    "sage": "jack_ma",
+    "orig": "Today is cruel. Tomorrow is crueller. And the day after tomorrow is beautiful.",
+    "ja": "今日は残酷だ。明日はもっと残酷だ。しかし明後日は美しい。",
+    "source": "ジャック・マーの言葉",
+    "desc": "英語教師からアリババを創業し中国最大のEC企業へ育てたジャック・マーの言葉だ。困難の中で踏みとどまれる者だけが、美しい明後日を見られる——今日・明日の痛みを直視しながら、その先への信念を持ち続けることが起業家の精神だ。あなたは今「残酷な今日」にいるか。ならば明後日は美しい。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "今日は残酷",
+      "明後日は美しい",
+      "踏みとどまる",
+      "信念"
+    ],
+    "likes": 130,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2228,
+    "sage": "elon_musk",
+    "orig": "I think it's very important to have a feedback loop, where you're constantly thinking about what you've done and how you could be doing it better.",
+    "ja": "フィードバックループを持つことは非常に重要だ。自分がしてきたことと、どうすればより良くできるかを常に考え続ける。",
+    "source": "イーロン・マスクのインタビュー",
+    "desc": "テスラ・スペースXで常識破りの挑戦を続けるマスクが成長の本質を語った言葉だ。成功しても失敗しても、終わったことへの評価をせず、「次はどうすれば良くなるか」を問い続ける——この習慣が指数的成長を生む。あなたは今日の行動を振り返り、明日への改善を考えているか。",
+    "cats": [
+      "work",
+      "growth"
+    ],
+    "tags": [
+      "フィードバックループ",
+      "改善",
+      "思考習慣",
+      "成長"
+    ],
+    "likes": 122,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2230,
+    "sage": "toni_morrison",
+    "orig": "There is no greater agony than bearing an untold story inside you.",
+    "ja": "語られていない物語を内に抱えていることほど大きな苦悩はない。",
+    "source": "トニ・モリスン「知ることと語ること」",
+    "desc": "「ビラヴド」「ソング・オブ・ソロモン」で黒人女性の魂の物語を書いたモリスンの言葉だ。語られていない物語は、内側から重くのしかかる。語ることが癒しであり、語ることが抵抗だ。あなたの中に、まだ誰にも語っていない物語があるか。その物語は、語られることを待っている。",
+    "cats": [
+      "adversity",
+      "work"
+    ],
+    "tags": [
+      "語られない物語",
+      "内なる苦悩",
+      "表現",
+      "癒し"
+    ],
+    "likes": 129,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2231,
+    "sage": "harriet_tubman",
+    "orig": "When I found I had crossed that line, I looked at my hands to see if I was the same person. There was such a glory over everything.",
+    "ja": "境界線を越えたとき、自分の手を見て、同じ人間かどうか確かめた。すべてのものが栄光に輝いていた。",
+    "source": "ハリエット・タブマンの言葉",
+    "desc": "奴隷制度から脱出した瞬間を語ったタブマンの言葉だ。奴隷から自由人へ——境界線の一歩を越えた瞬間、世界が変わった。しかし自分の手は同じ手だ。自由は外にあるのではなく、境界線を越えた自分の内側にあった。あなたが越えるべき「境界線」は何か。越えた後、すべてが栄光に輝く瞬間を信じているか。",
+    "cats": [
+      "adversity",
+      "challenge"
+    ],
+    "tags": [
+      "境界線",
+      "自由",
+      "変容",
+      "栄光"
+    ],
+    "likes": 124,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2232,
+    "sage": "james_baldwin",
+    "orig": "To be a Negro in this country and to be relatively conscious is to be in a rage almost all the time.",
+    "ja": "この国で黒人として生きること、そして比較的意識を持っていることは、ほぼ常に憤りの中にいることだ。",
+    "source": "ジェームズ・ボールドウィンのインタビュー",
+    "desc": "黒人でゲイであるという複重のアイデンティティを持ちながらアメリカの人種差別と向き合い続けたボールドウィンの言葉だ。不正に怒ることは当然だ——意識がある者が不正を目にして怒らないなら、意識が麻痺している。怒りは燃料だ。その怒りをどう使うかが、変革者と破壊者を分ける。あなたの怒りは、何かを作っているか。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "意識と怒り",
+      "不正",
+      "黒人",
+      "燃料"
+    ],
+    "likes": 117,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2233,
+    "sage": "sojourner_truth",
+    "orig": "Truth is powerful and it prevails.",
+    "ja": "真実は力強く、必ず勝つ。",
+    "source": "ソジャーナ・トゥルースの言葉",
+    "desc": "「私は女ではないのか？」で歴史に名を刻んだソジャーナ・トゥルースが真実の力を語った言葉だ。嘘は一時は勝つかもしれない。しかし真実は最終的に必ず勝つ——その確信が彼女を奴隷制廃止・女性権利運動に駆り立てた。今あなたが真実だと信じることは、一時的に敗れているか。しかし諦めるな、真実は必ず勝つ。",
+    "cats": [
+      "motivation",
+      "adversity"
+    ],
+    "tags": [
+      "真実の勝利",
+      "力強さ",
+      "必ず勝つ",
+      "確信"
+    ],
+    "likes": 120,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2235,
+    "sage": "martin_luther_king",
+    "orig": "If you can't fly then run, if you can't run then walk, if you can't walk then crawl, but whatever you do you have to keep moving forward.",
+    "ja": "飛べないなら走れ。走れないなら歩け。歩けないなら這え。でも何をしていても、前へ動き続けろ。",
+    "source": "マーティン・ルーサー・キングの言葉",
+    "desc": "公民権運動の指導者キング牧師が前進の原則を語った言葉だ。完璧な状態でなくていい。速くなくていい。ただ前を向いて動き続けることだ——飛べる時も、這うしかない時も、方向だけは前へ。あなたは今どの段階にいても、前へ動いているか。這っていても、前へ向いているなら十分だ。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "這っても前へ",
+      "前進",
+      "どんな状態でも",
+      "継続"
+    ],
+    "likes": 137,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2236,
+    "sage": "eleanor_roosevelt",
+    "orig": "The purpose of life is to live it, to taste experience to the utmost, to reach out eagerly and without fear for newer and richer experience.",
+    "ja": "人生の目的は、それを生きること——体験を極限まで味わい、より新しく豊かな体験を恐れずに貪欲に求めることだ。",
+    "source": "エレノア・ルーズベルト「あなたはあなたの人生を生きなければならない」",
+    "desc": "アメリカ史上最も影響力のあるファーストレディ・エレノアの言葉だ。人生は分析するものではなく、生きるものだ。体験を最大限に味わうこと——失敗も成功も、喜びも痛みも、すべてが体験の豊かさだ。恐れずに新しいものへ手を伸ばす貪欲さ——それが生きることの意味だ。あなたは今日、体験を貪っているか。",
+    "cats": [
+      "motivation",
+      "time"
+    ],
+    "tags": [
+      "体験を味わう",
+      "貪欲に",
+      "恐れず",
+      "人生の目的"
+    ],
+    "likes": 128,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2237,
+    "sage": "franklin_roosevelt",
+    "orig": "Happiness lies not in the mere possession of money; it lies in the joy of achievement, in the thrill of creative effort.",
+    "ja": "幸福はただ金を持つことにあるのではない。達成の喜び、創造的な努力の高揚感の中にある。",
+    "source": "フランクリン・D・ルーズベルト就任演説（1933年）",
+    "desc": "大恐慌のどん底で就任したルーズベルトが幸福の本質を語った言葉だ。お金は目標ではなく手段だ。達成の喜び・創造する高揚感——これが本物の幸福だ。大恐慌で職と財産を失った市民に向けた言葉だからこそ重い。あなたは今日、何かを達成したか。何かを創造したか。その感覚こそが幸福だ。",
+    "cats": [
+      "motivation",
+      "work"
+    ],
+    "tags": [
+      "幸福",
+      "達成",
+      "創造的努力",
+      "お金でない"
+    ],
+    "likes": 126,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2240,
+    "sage": "de_gaulle",
+    "orig": "Difficulty attracts the man of character because it is in embracing it that he realizes himself.",
+    "ja": "困難は人格者を引き寄せる。なぜならそれを受け入れることで、人は自分を実現するからだ。",
+    "source": "シャルル・ド・ゴールの言葉",
+    "desc": "二度の世界大戦・植民地独立・国内クーデターを乗り越えたド・ゴールが困難の意味を語った言葉だ。困難から逃げる者は自分を実現できない。しかし困難を受け入れる者は、そこに自分の最も深い部分を発見する。あなたが今向き合っている困難は、あなたを実現するための招待状だ。",
+    "cats": [
+      "adversity",
+      "growth"
+    ],
+    "tags": [
+      "困難と人格",
+      "自己実現",
+      "受け入れる",
+      "引き寄せる"
+    ],
+    "likes": 127,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2241,
+    "sage": "thomas_aquinas",
+    "orig": "To one who has faith, no explanation is necessary. To one without faith, no explanation is possible.",
+    "ja": "信仰を持つ者には説明は不要だ。信仰を持たない者には説明は不可能だ。",
+    "source": "トマス・アクィナスの言葉",
+    "desc": "「神学大全」でキリスト教神学と理性哲学を統合したアクィナスの言葉だ。信仰とは証拠の先にある体験だ——証拠を求める人に信仰を論証することはできないし、信仰を持つ人に論証は必要ない。これは宗教だけでなく、愛・情熱・使命感についても同じだ。あなたが「なぜか」と聞かれても答えられない信念を持っているか。",
+    "cats": [
+      "mind",
+      "motivation"
+    ],
+    "tags": [
+      "信仰",
+      "説明不要",
+      "体験",
+      "論証を超えたもの"
+    ],
+    "likes": 121,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2243,
+    "sage": "erasmus",
+    "orig": "The most disadvantageous peace is better than the most just war.",
+    "ja": "最も不利な和平でも、最も正しい戦争より優れている。",
+    "source": "エラスムス「格言集」",
+    "desc": "「愚神礼賛」で権威と戦争を諷刺したエラスムスの言葉だ。ルネサンス期に絶えない戦争を見続けた彼が語る平和の価値は重い。どんなに不利な条件でも、戦争による破壊よりはましだ——正義を旗印にした戦争が最も危険だという警告でもある。あなたは今日、争いより和解を選んでいるか。",
+    "cats": [
+      "relation",
+      "mind"
+    ],
+    "tags": [
+      "和平",
+      "戦争",
+      "正義の罠",
+      "平和"
+    ],
+    "likes": 111,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2244,
+    "sage": "saadi",
+    "orig": "بزرگی به عقل است نه به سال。（偉大さは年齢にあるのではなく、知性にある）",
+    "ja": "偉大さは年齢にあるのではなく、知性にある。",
+    "source": "サアディー「ゴレスターン」",
+    "desc": "「薔薇園」で知られる13世紀ペルシアの詩人サアディーが真の偉大さの源を語った言葉だ。年を重ねるだけでは知恵は生まれない。考え続け、学び続け、成長し続ける知性こそが偉大さを作る。年配でも幼稚な者がいる一方、若くても深い洞察を持つ者がいる。あなたの偉大さは今、年齢に頼っているか、それとも知性に根ざしているか。",
+    "cats": [
+      "growth",
+      "mind"
+    ],
+    "tags": [
+      "偉大さ",
+      "知性",
+      "年齢でない",
+      "成熟"
+    ],
+    "likes": 116,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2245,
+    "sage": "ibn_khaldun",
+    "orig": "التاريخ في ظاهره لا يزيد على الإخبار. وفي باطنه نظر وتحقيق.",
+    "ja": "歴史は表面上は単なる情報に過ぎない。しかしその本質は考察と検証だ。",
+    "source": "イブン・ハルドゥーン「序説（ムカッディマ）」",
+    "desc": "近代社会科学の先駆者イブン・ハルドゥーンが歴史学の本質を語った言葉だ。事実を並べるだけでは歴史ではない——その裏にある人間・社会・文明のパターンを考察することが真の歴史学だ。情報を持つことと、それを考察することは別物だ。あなたは今日の出来事を「情報」として受け取っているか、「考察」しているか。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "歴史の本質",
+      "表と裏",
+      "考察",
+      "情報"
+    ],
+    "likes": 108,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2246,
+    "sage": "rumi",
+    "orig": "گوش اگر گوش تو و نالهٔ من نالهٔ من。 آتش این ناله نه آن آتش کز آب نشیند。",
+    "ja": "あなたの耳が聞く耳であり、私の嘆きが私の嘆きならば、この嘆きの炎は水で消えるものではない。",
+    "source": "ルーミー「マスナヴィー」",
+    "desc": "ルーミーが真の聴き合いの力を語った詩の一節だ。本当に聴く耳を持つ人に向けた本物の嘆きは、水でも消せない炎のような力を持つ——その共鳴が人と人を深く繋ぐ。表面的な言葉のやり取りではなく、魂が魂に触れる会話。あなたは今日、誰かの嘆きを本当の耳で聴いたか。",
+    "cats": [
+      "relation",
+      "mind"
+    ],
+    "tags": [
+      "聴く耳",
+      "共鳴",
+      "嘆き",
+      "炎"
+    ],
+    "likes": 113,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2247,
+    "sage": "hafez",
+    "orig": "بیا که قصر امل سخت سست بنیاد است。（来たれ、希望の宮殿はいかにも土台が弱い）",
+    "ja": "来たれ、希望の宮殿はいかにも土台が弱い。",
+    "source": "ハーフェズ「ディーヴァーン」",
+    "desc": "14世紀ペルシアの詩人ハーフェズが人間の希望の脆さを詠んだ言葉だ。「いつかきっと良くなる」という希望の宮殿は、砂の上に建てられている——その脆さを直視することが、今この瞬間を大切にする出発点だ。未来への期待より、今日という一日を確かに生きることの価値をハーフェズは説く。あなたは今日を、明日の準備としてではなくそれ自体として生きているか。",
+    "cats": [
+      "time",
+      "mind"
+    ],
+    "tags": [
+      "希望の脆さ",
+      "今を生きる",
+      "宮殿",
+      "砂の上"
+    ],
+    "likes": 112,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2248,
+    "sage": "avicenna",
+    "orig": "قلب الطبيب بارد وإن قلبه حار。（医師の手は冷たいが、その心は熱い）",
+    "ja": "医師の手は冷たい。しかしその心は熱い。",
+    "source": "イブン・スィーナー（アヴィセンナ）の言葉",
+    "desc": "「医学典範」を著した中世最大の医学者アヴィセンナが医師の本質を語った言葉だ。診断は冷静に、しかし患者への思いやりは熱く——この二つが一流の医療者の条件だ。専門性と人間性は矛盾しない。冷静な判断力と熱い心を同時に持つこと——それはあらゆる専門職に通じる理想だ。あなたの「手」は冷静で、「心」は熱いか。",
+    "cats": [
+      "work",
+      "relation"
+    ],
+    "tags": [
+      "冷静と熱心",
+      "医師",
+      "専門性",
+      "思いやり"
+    ],
+    "likes": 119,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2249,
+    "sage": "dostoevsky",
+    "orig": "To live without Hope is to Cease to live.",
+    "ja": "希望なく生きることは、生きることをやめることだ。",
+    "source": "フョードル・ドストエフスキーの言葉",
+    "desc": "「罪と罰」「カラマーゾフの兄弟」でロシア文学の頂点に立つドストエフスキーの言葉だ。死刑執行の直前に恩赦を受けた経験を持つ彼にとって、希望とは生そのものだった。最悪の状況でも希望を失わないこと——それが生き続ける根拠だ。あなたの今日に、どんな小さくても希望があるか。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "希望",
+      "生きること",
+      "絶望",
+      "根拠"
+    ],
+    "likes": 128,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2250,
+    "sage": "simon_bolivar",
+    "orig": "Moral power is the means, and freedom is the end.",
+    "ja": "道徳的な力が手段であり、自由が目的だ。",
+    "source": "シモン・ボリバルの言葉",
+    "desc": "南米6カ国の独立を指導した「解放者」ボリバルが革命の本質を語った言葉だ。武力だけで勝ち取った自由は長続きしない——道徳的な力、つまり人々の心に刻まれた正義の信念こそが自由を支える。力で支配を倒せても、道徳なき自由はすぐ別の支配に変わる。あなたの目的のために使っている手段は、道徳的か。",
+    "cats": [
+      "motivation",
+      "work"
+    ],
+    "tags": [
+      "道徳的な力",
+      "自由",
+      "手段と目的",
+      "革命"
+    ],
+    "likes": 117,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2251,
+    "sage": "mistral",
+    "orig": "Que el mundo fue y será una porquería, ya lo sé.",
+    "ja": "世界はそうであり、これからもそうであることを、私は知っている。",
+    "source": "ガブリエラ・ミストラル（タンゴ「カミニート」の精神より）",
+    "desc": "ラテンアメリカ初のノーベル文学賞受賞者・チリの詩人ミストラルが世界の不完全さを受け入れながら詩を書き続けた精神を表す言葉だ。世界は完璧でない。しかしそれを知った上でなお愛し、詩を書き、子供たちに教え続けた。不完全を嘆くより、不完全な中で美しいものを見つけることが詩人の仕事だ。あなたは今日、不完全な世界の中で何かを愛したか。",
+    "cats": [
+      "adversity",
+      "mind"
+    ],
+    "tags": [
+      "世界の不完全",
+      "受け入れる",
+      "なお愛する",
+      "詩人"
+    ],
+    "likes": 110,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2252,
+    "sage": "octavio_paz",
+    "orig": "A society without criticism is either a herd or an army.",
+    "ja": "批評なき社会は、群れか軍隊のどちらかだ。",
+    "source": "オクタビオ・パスの言葉",
+    "desc": "1990年ノーベル文学賞受賞のメキシコの詩人・思想家パスが言論の自由の本質を語った言葉だ。批判を許さない社会は、思考を停止させる。群れは盲目的に従い、軍隊は命令に従う——どちらにも個人の批判的思考がない。批評こそが社会の知性の証だ。あなたは今日、何かを批評したか。そして批評を受け入れたか。",
+    "cats": [
+      "mind",
+      "work"
+    ],
+    "tags": [
+      "批評",
+      "言論の自由",
+      "群れ",
+      "思考の停止"
+    ],
+    "likes": 116,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2253,
+    "sage": "de_gaulle",
+    "orig": "France has no friends, only interests.",
+    "ja": "フランスに友人はいない。利益があるだけだ。",
+    "source": "シャルル・ド・ゴールの言葉",
+    "desc": "外交の現実主義者ド・ゴールが国際関係の本質を語った言葉だ。国家間に永遠の友情はない——あるのは一致する利益だけだという冷徹な洞察だ。友好的な関係も利益が変われば変わる。個人の人間関係でも、愛情と利害を混同することは危険だ。あなたの大切な関係は、愛情に根ざしているか、利害に根ざしているか。",
+    "cats": [
+      "relation",
+      "mind"
+    ],
+    "tags": [
+      "友人と利益",
+      "国際関係",
+      "現実主義",
+      "本質"
+    ],
+    "likes": 118,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2254,
+    "sage": "freud",
+    "orig": "Most people do not really want freedom, because freedom involves responsibility, and most people are frightened of responsibility.",
+    "ja": "ほとんどの人は本当には自由を求めていない。なぜなら自由は責任を伴い、ほとんどの人は責任を恐れているからだ。",
+    "source": "ジークムント・フロイトの言葉",
+    "desc": "精神分析の創始者フロイトが自由と責任の関係を鋭く語った言葉だ。自由を叫びながら、実は管理され指示される方が楽だと感じている——その逆説を人間の心理に見た。責任から逃げるために権威に従う者は、自由を装いながら隷属を選んでいる。あなたは今日、自由の責任を引き受けているか。",
+    "cats": [
+      "mind",
+      "challenge"
+    ],
+    "tags": [
+      "自由と責任",
+      "責任逃れ",
+      "真の自由",
+      "逆説"
+    ],
+    "likes": 124,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2255,
+    "sage": "confucius",
+    "orig": "己所不欲，勿施於人。",
+    "ja": "自分がされたくないことを、他人にするな。",
+    "source": "孔子「論語」顔淵篇",
+    "desc": "「論語」で孔子が「仁（じん）」の実践を一言で表した言葉だ。黄金律——自分がされたくないことを他者にしない——という原則は、あらゆる文化・宗教に共通して現れる人類の知恵だ。難しい倫理学の前に、この一原則だけ守るだけで、世界は大きく変わる。あなたは今日、この原則を守れたか。",
+    "cats": [
+      "relation",
+      "mind"
+    ],
+    "tags": [
+      "黄金律",
+      "己所不欲",
+      "仁",
+      "倫理"
+    ],
+    "likes": 139,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2256,
+    "sage": "lao_tzu",
+    "orig": "知足者富。",
+    "ja": "足るを知る者は富む。",
+    "source": "老子「道徳経」三十三章",
+    "desc": "道家の始祖・老子が「道徳経」で説いた言葉だ。どれほど持っていても「まだ足りない」と感じる者は貧しく、少ししか持たなくても「これで十分」と感じる者は豊かだ——その逆説が豊かさの本質を突く。欲望は際限なく、満足は選択だ。あなたは今日、「足りている」と感じる瞬間があったか。",
+    "cats": [
+      "mind",
+      "time"
+    ],
+    "tags": [
+      "足るを知る",
+      "富",
+      "満足",
+      "欲望"
+    ],
+    "likes": 132,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2257,
+    "sage": "zhuangzi",
+    "orig": "相濡以沫，不如相忘於江湖。",
+    "ja": "互いに泡を吹き合って生き延びるより、広い川で互いを忘れて生きる方がよい。",
+    "source": "荘子「大宗師」",
+    "desc": "荘子が執着と自由の本質を語った言葉だ。干上がった水たまりで魚同士が互いの泡で生き延びようとする——しかしそんな苦しさより、広大な川で自由に生きる方がいい。依存し合って生き延びることより、互いを解放して自由にすることの方が、より深い愛だという逆説だ。あなたは誰かを縛ることで生かそうとしていないか。",
+    "cats": [
+      "relation",
+      "mind"
+    ],
+    "tags": [
+      "執着からの解放",
+      "自由",
+      "愛の逆説",
+      "依存"
+    ],
+    "likes": 123,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2258,
+    "sage": "mencius",
+    "orig": "老吾老，以及人之老；幼吾幼，以及人之幼。",
+    "ja": "自分の老人を老人として敬い、それを他の人の老人へも及ぼす。自分の子供を子供として慈しみ、それを他の人の子供へも及ぼす。",
+    "source": "孟子「梁恵王上」",
+    "desc": "儒家の亜聖・孟子が仁政の根本を語った言葉だ。家族への愛を社会全体へ広げていくこと——それが政治の、そして人間の理想だ。自分の老親を大切にする心を、見知らぬ老人へも。自分の子供を愛する心を、路上の子供へも。愛は広げられる。あなたの愛は今、家族の外にも届いているか。",
+    "cats": [
+      "relation",
+      "motivation"
+    ],
+    "tags": [
+      "仁政",
+      "愛を広げる",
+      "老いと若さ",
+      "社会"
+    ],
+    "likes": 118,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2259,
+    "sage": "sunzi",
+    "orig": "上兵伐謀，其次伐交，其次伐兵，其下攻城。",
+    "ja": "最上の兵は謀を伐つ。次は交を伐つ。次は兵を伐つ。最下は城を攻める。",
+    "source": "孫子「謀攻篇」",
+    "desc": "春秋時代の兵法家・孫子が戦略の優先順位を語った言葉だ。最善は戦わずして相手の計略を破ること。次は外交。次は野戦。最悪は城攻めだ——消耗戦を最下策とする洞察は、ビジネスから交渉まで普遍的に有効だ。あなたは今、最下策の「力攻め」を選んでいないか。まず知略と対話を試みたか。",
+    "cats": [
+      "work",
+      "challenge"
+    ],
+    "tags": [
+      "謀を伐つ",
+      "戦わずして勝つ",
+      "策略",
+      "外交"
+    ],
+    "likes": 126,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2260,
+    "sage": "sima_qian",
+    "orig": "究天人之際，通古今之變，成一家之言。",
+    "ja": "天と人の関係を究め、古今の変化を通観し、一家の言を成す。",
+    "source": "司馬遷「報任安書」",
+    "desc": "宮刑という極刑を受けながら「史記」を完成させた司馬遷が自らの使命を語った言葉だ。天と人の関係・古今の変化を究めてこそ、独自の著作が生まれる。偉大な仕事には、偉大な視野が必要だ。宇宙と歴史を視野に入れたとき、個人の問題は小さくなり、使命は大きくなる。あなたの視野は今、どこまで広がっているか。",
+    "cats": [
+      "work",
+      "growth"
+    ],
+    "tags": [
+      "天人の際",
+      "古今の変化",
+      "使命",
+      "著作"
+    ],
+    "likes": 114,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2261,
+    "sage": "su_shi",
+    "orig": "竹杖芒鞋輕勝馬，誰怕？一蓑煙雨任平生。",
+    "ja": "竹の杖と草鞋は馬より軽い。何を恐れよう？蓑一枚で雨の中を生きていく。",
+    "source": "蘇軾「定風波」",
+    "desc": "何度も左遷された北宋の大文豪・蘇軾が雨の中を歩きながら詠んだ詞の一節だ。貧しく、濡れ、逆境にある——しかし竹の杖一本で歩けることの自由と清々しさを詠む。逆境を嘆かず、雨の中を歩き続けることの誇り——人生の嵐を一蓑で受け止める覚悟が込められている。あなたは今日の雨を、蓑一枚で受け止めているか。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "逆境の軽さ",
+      "蓑一枚",
+      "誇り",
+      "嵐を受け止める"
+    ],
+    "likes": 122,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2262,
+    "sage": "zhuge_liang",
+    "orig": "志當存高遠。",
+    "ja": "志は高く遠くに置くべきだ。",
+    "source": "諸葛亮「誡外甥書」",
+    "desc": "三国時代の軍師・諸葛亮が甥への手紙に記した言葉だ。小さな志では小さな人間しか作れない。高く遠い志を持つことで、日々の行動の基準が変わり、逆境の意味が変わり、人生の重さが変わる。「臥龍」と称された彼自身が、天下三分の壮大な志で歴史を動かした。あなたの志は今、どれほど高く、どれほど遠くにあるか。",
+    "cats": [
+      "motivation",
+      "growth"
+    ],
+    "tags": [
+      "高い志",
+      "遠く",
+      "基準",
+      "志の大きさ"
+    ],
+    "likes": 120,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2263,
+    "sage": "xu_beihong",
+    "orig": "盡精微，致廣大。",
+    "ja": "細部を極めることで、広大なものに至る。",
+    "source": "徐悲鴻の言葉（「中庸」より引用）",
+    "desc": "中国近代美術の父・徐悲鴻が芸術の極意を語った言葉だ。細部への徹底的な注意が、作品全体の偉大さを生む——馬の筋肉一本一本を究めることで、馬の生命感全体が表れてくる。大きなものを掴もうとするより、目の前の小さなことを極めること。あなたは今日、細部に向き合っているか。",
+    "cats": [
+      "work",
+      "growth"
+    ],
+    "tags": [
+      "細部を極める",
+      "広大に至る",
+      "芸術",
+      "徹底"
+    ],
+    "likes": 119,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2264,
+    "sage": "ibn_khaldun",
+    "orig": "العلم والتعليم من أشرف الصنائع الإنسانية وأجلها.",
+    "ja": "学問と教育は、人間の営みの中で最も崇高で偉大なものだ。",
+    "source": "イブン・ハルドゥーン「序説（ムカッディマ）」",
+    "desc": "近代社会科学の先駆者イブン・ハルドゥーンが学問の地位を語った言葉だ。文明の盛衰を研究し続けた彼が最も価値を置いたのは、武力でも財力でもなく、知識の伝達だった。学ぶことと教えることの連鎖が文明を維持し発展させる——その洞察は1400年後の今も変わらない。あなたは今日、学んだか。そして誰かに伝えたか。",
+    "cats": [
+      "growth",
+      "work"
+    ],
+    "tags": [
+      "学問と教育",
+      "崇高",
+      "文明",
+      "伝達"
+    ],
+    "likes": 112,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2265,
+    "sage": "saadi",
+    "orig": "گر حکیمی در سخن کوتاه باش، چون که نادان در دراز گفتار باش。",
+    "ja": "賢者なら言葉を短くせよ。愚者は長く語る。",
+    "source": "サアディー「ゴレスターン」",
+    "desc": "「薔薇園」の詩人サアディーが雄弁と沈黙の知恵を語った言葉だ。言葉の量と知性は反比例する——本質を知っている者は少ない言葉で伝えられる。長く語ることで誤魔化すのではなく、短い言葉の中に深さを宿すこと。あなたは今日、必要なことを必要な言葉だけで伝えたか。",
+    "cats": [
+      "work",
+      "mind"
+    ],
+    "tags": [
+      "言葉を短く",
+      "賢者",
+      "本質",
+      "沈黙の価値"
+    ],
+    "likes": 116,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2266,
+    "sage": "avicenna",
+    "orig": "من عرف نفسه عرف ربه.",
+    "ja": "自己を知る者は、神を知る。",
+    "source": "イブン・スィーナーの言葉（スーフィー的伝統より）",
+    "desc": "「医学典範」の著者アヴィセンナが自己知と神知の関係を語った言葉だ。哲学・医学・神秘主義を統合した彼にとって、自己の深みを探ることと宇宙の真理を探ることは同じ道だった。外に向けていた目を内に向けるとき、最も根本的な真実に触れる。あなたは今日、自分の内側をどれほど深く見たか。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "自己知",
+      "神を知る",
+      "内側",
+      "真理"
+    ],
+    "likes": 117,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2267,
+    "sage": "gibran",
+    "orig": "Out of suffering have emerged the strongest souls; the most massive characters are seared with scars.",
+    "ja": "最も強い魂は苦しみから生まれた。最も偉大な人格は傷跡で刻まれている。",
+    "source": "カリール・ジブラン「預言者」",
+    "desc": "「預言者」の詩人ジブランが苦しみと強さの関係を語った言葉だ。傷のない人格は、まだ試されていない人格だ。苦しみは人を弱くするか、あるいは最も強くするか——その分岐点は向き合うかどうかだ。あなたの傷は今、あなたを強くしているか。傷跡は弱さの証ではなく、戦った証だ。",
+    "cats": [
+      "adversity",
+      "growth"
+    ],
+    "tags": [
+      "苦しみと強さ",
+      "傷跡",
+      "人格",
+      "試練"
+    ],
+    "likes": 130,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2268,
+    "sage": "hafez",
+    "orig": "دریای نعمت موج می زند در دل من.",
+    "ja": "恵みの海が私の心の中で波打っている。",
+    "source": "ハーフェズ「ディーヴァーン」",
+    "desc": "14世紀ペルシアの詩人ハーフェズが内なる豊かさを詠んだ言葉だ。外の世界がどれほど貧しくても、内側に恵みの海を持つ者は豊かだ——スーフィー詩の伝統に根ざしたこの洞察は、物質的な豊かさを超えた内的豊かさを指す。あなたの心の中に今、波打っている何かがあるか。その豊かさに気づいているか。",
+    "cats": [
+      "mind",
+      "motivation"
+    ],
+    "tags": [
+      "内なる豊かさ",
+      "恵みの海",
+      "心",
+      "スーフィー"
+    ],
+    "likes": 113,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2269,
+    "sage": "rumi",
+    "orig": "من کجا بودم عجب کو بود من.",
+    "ja": "私はどこにいたのか、不思議なことに、私はどこにいたのか。",
+    "source": "ルーミー「マスナヴィー」",
+    "desc": "ルーミーが自己の本質への問いを詠んだ詩の一節だ。「私」とは何か——体か、心か、魂か。目覚めたとき、眠っていた「私」はどこにいたのか。自分の存在の不思議さに驚く感覚こそが、哲学と詩の始まりだ。あなたは今日、「私はどこにいるのか」という問いを持ったか。その驚きが、意識の扉を開く。",
+    "cats": [
+      "mind",
+      "time"
+    ],
+    "tags": [
+      "自己の問い",
+      "存在",
+      "驚き",
+      "魂"
+    ],
+    "likes": 111,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2270,
+    "sage": "nizami_ganjavi",
+    "orig": "عشق آتشی است کز دل برخیزد.",
+    "ja": "愛は心の中から立ち上がる炎だ。",
+    "source": "ニザーミー・ガンジャヴィー「ライラーとマジュヌーン」",
+    "desc": "中東・中央アジア文学の最高峰の一つ「ライラーとマジュヌーン」を著したニザーミーの言葉だ。愛は外から与えられるのではなく、心の内側から自然に燃え上がるものだ——だから誰も消すことができない。マジュヌーンが世間の反対にも関わらずライラーへの愛を貫いたように、本物の愛は外の力に消えない。あなたの心の炎は今、燃えているか。",
+    "cats": [
+      "relation",
+      "motivation"
+    ],
+    "tags": [
+      "愛の炎",
+      "内側から",
+      "消えない",
+      "本物の愛"
+    ],
+    "likes": 121,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2271,
+    "sage": "ibn_battuta",
+    "orig": "من لم يسافر لم يعرف قيمة الرجال.",
+    "ja": "旅をしない者は、人間の真価を知らない。",
+    "source": "イブン・バットゥータ「旅行記（リフラ）」",
+    "desc": "30年間・12万kmを旅した世界最大の旅人イブン・バットゥータの言葉だ。旅は地理の本だけでなく、人間という本を読む行為だ。自国の常識が通じない場所で人と関わることで、人間という存在の幅と深さが見えてくる。あなたは今日、見知らぬ誰かと出会い、その真価を感じたか。",
+    "cats": [
+      "relation",
+      "growth"
+    ],
+    "tags": [
+      "旅と人間理解",
+      "真価",
+      "見知らぬ人",
+      "人間を知る"
+    ],
+    "likes": 114,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2272,
+    "sage": "naguib_mahfouz",
+    "orig": "الحياة جميلة حتى في ظروفها الصعبة.",
+    "ja": "人生は美しい、困難な状況においてさえも。",
+    "source": "ナギーブ・マフフーズのインタビュー",
+    "desc": "86歳でノーベル賞を受賞し、88歳でイスラム過激派に刺されながらも94歳まで生きたマフフーズの言葉だ。カイロの路地裏の貧しさ・喧騒・人間臭さの中に美を見続けた作家だからこそ言える。困難の中でも美を見る眼を持つこと——それが長い人生を豊かにする秘訣だ。あなたは今日、困難の中の美しさを見たか。",
+    "cats": [
+      "adversity",
+      "mind"
+    ],
+    "tags": [
+      "困難の中の美",
+      "人生は美しい",
+      "眼",
+      "豊かさ"
+    ],
+    "likes": 125,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2273,
+    "sage": "garcia_marquez",
+    "orig": "No llores porque ya se terminó, sonríe porque sucedió.",
+    "ja": "終わってしまったことを泣くな。起きたことを笑え。",
+    "source": "ガブリエラ・マルケスの言葉",
+    "desc": "「百年の孤独」でノーベル文学賞を受賞したガルシア＝マルケスの言葉だ。別れ・終わり・喪失——それを嘆くより、起きたことへの感謝と喜びで振り返る。過去は変えられない。しかそれを「あった」ことの喜びで見るか、「なくなった」悲しみで見るかは選べる。あなたは今日の終わりを、涙で閉じるか笑顔で閉じるか。",
+    "cats": [
+      "time",
+      "relation"
+    ],
+    "tags": [
+      "終わりを笑う",
+      "起きたことへの感謝",
+      "喪失",
+      "視点"
+    ],
+    "likes": 128,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2274,
+    "sage": "paulo_coelho",
+    "orig": "The secret of life is to fall seven times and to get up eight times.",
+    "ja": "人生の秘訣は七回転んで、八回立ち上がることだ。",
+    "source": "パウロ・コエーリョ「アルケミスト」",
+    "desc": "世界150カ国以上で翻訳されたコエーリョが「アルケミスト」で語った言葉だ。日本の「七転び八起き」と同じ精神を、コエーリョは普遍的な言葉で表現した。転ぶことは失敗ではない——立ち上がる回数が転んだ回数を一つ上回ること、それだけが必要だ。あなたは今、何回目の立ち上がりを準備しているか。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "七転び八起き",
+      "立ち上がる",
+      "転倒",
+      "秘訣"
+    ],
+    "likes": 134,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2275,
+    "sage": "mistral",
+    "orig": "Muchas cosas que no podemos hacer en solitario, las hacemos juntos.",
+    "ja": "一人ではできないことが多い。一緒ならできる。",
+    "source": "ガブリエラ・ミストラルの言葉",
+    "desc": "ラテンアメリカ初のノーベル文学賞受賞者・チリの詩人ミストラルが協力の価値を語った言葉だ。外交官としても教育者としても詩人としても、人と人の繋がりを通じて世界を変えようとし続けた彼女の経験から来る言葉だ。一人の限界を知ることが、本当の協力の始まりだ。あなたは今日、誰かと一緒に何かを成し遂げたか。",
+    "cats": [
+      "relation",
+      "work"
+    ],
+    "tags": [
+      "一緒に",
+      "協力",
+      "一人の限界",
+      "共同"
+    ],
+    "likes": 119,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2276,
+    "sage": "simone_de_beauvoir",
+    "orig": "Change your life today. Don't gamble on the future, act now, without delay.",
+    "ja": "今日、人生を変えよ。未来に賭けるな。今すぐ行動せよ、遅らせることなく。",
+    "source": "シモーヌ・ド・ボーヴォワールの言葉",
+    "desc": "実存主義哲学者・フェミニストのボーヴォワールが行動の緊急性を語った言葉だ。「いつかやる」は行動しないことの別名だ。今日できることを明日に回すことで、一生が変わらないまま終わる。変化は今日から始まる——ボーヴォワール自身がサルトルとの非伝統的な関係・著述・活動でそれを体現した。あなたは今日、何かを変えたか。",
+    "cats": [
+      "motivation",
+      "time"
+    ],
+    "tags": [
+      "今日変える",
+      "未来に賭けない",
+      "行動",
+      "遅らせない"
+    ],
+    "likes": 127,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2277,
+    "sage": "sartre",
+    "orig": "Man is condemned to be free.",
+    "ja": "人間は自由の刑に処されている。",
+    "source": "ジャン＝ポール・サルトル「実存主義とは何か」",
+    "desc": "フランスの実存主義哲学者サルトルが自由の逆説を語った言葉だ。自由は贈り物ではなく、逃げられない宿命だ——選ばないという選択も選択だ。だからこそ自由には責任が伴い、それから逃げることはできない。自由の重さから逃げようとすることが不誠実だとサルトルは言う。あなたは今日、自由の責任を引き受けているか。",
+    "cats": [
+      "mind",
+      "challenge"
+    ],
+    "tags": [
+      "自由の刑",
+      "逃げられない",
+      "責任",
+      "実存"
+    ],
+    "likes": 121,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2278,
+    "sage": "camus",
+    "orig": "In order to understand the world, one has to turn away from it on occasion.",
+    "ja": "世界を理解するためには、時に世界から離れなければならない。",
+    "source": "アルベール・カミュ「結婚・夏」",
+    "desc": "不条理哲学者カミュが観察と距離の関係を語った言葉だ。渦中にいると全体が見えない——距離を取ることで初めて世界の形が見える。忙しさの中にいるときほど、立ち止まる必要がある。あなたは今日、世界から少し離れて、全体を見る時間を持ったか。",
+    "cats": [
+      "mind",
+      "time"
+    ],
+    "tags": [
+      "距離を取る",
+      "理解",
+      "離れる",
+      "全体を見る"
+    ],
+    "likes": 122,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2279,
+    "sage": "proust",
+    "orig": "Let us be grateful to the people who make us happy; they are the charming gardeners who make our souls blossom.",
+    "ja": "私たちを幸せにしてくれる人々に感謝しよう。彼らは私たちの魂を咲かせる魅力的な庭師だ。",
+    "source": "マルセル・プルースト「失われた時を求めて」",
+    "desc": "コルクの部屋で15年かけて記憶と時間を探求したプルーストの言葉だ。あなたを笑わせ、勇気づけ、成長させてくれた人は、魂の庭師だ——その人なしに、あなたという花は咲かなかった。感謝は受け取るものではなく、渡すものだ。あなたの「庭師」は誰か。まだ感謝を伝えていないか。",
+    "cats": [
+      "relation",
+      "time"
+    ],
+    "tags": [
+      "幸せにしてくれる人",
+      "庭師",
+      "魂が咲く",
+      "感謝"
+    ],
+    "likes": 129,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2280,
+    "sage": "freud",
+    "orig": "The mind is like an iceberg, it floats with one-seventh of its bulk above water.",
+    "ja": "心は氷山のようなものだ。その七分の一だけが水面上に浮いている。",
+    "source": "ジークムント・フロイトの言葉",
+    "desc": "精神分析の創始者フロイトが人間の心の構造を語った言葉だ。私たちが「自分」だと思っているのは、心の七分の一に過ぎない。残りの七分の六は水面下に沈んでいる——それが無意識だ。意識できていない欲望・恐れ・記憶が、行動の大部分を決めている。あなたの「水面下」には何が沈んでいるか。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "氷山の比喩",
+      "無意識",
+      "七分の六",
+      "隠れた自己"
+    ],
+    "likes": 128,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2281,
+    "sage": "wittgenstein",
+    "orig": "If a lion could talk, we could not understand him.",
+    "ja": "もしライオンが話せたとしても、私たちには理解できないだろう。",
+    "source": "ルートヴィヒ・ウィトゲンシュタイン「哲学的探究」",
+    "desc": "「論理哲学論考」と「哲学的探究」で言語の本質を探求したウィトゲンシュタインの言葉だ。言語は単なる記号ではなく、生活様式の共有から意味が生まれる。全く異なる生活様式を持つ存在と言葉を交わしても、真の理解は生まれない。あなたは今日、全く異なる世界に生きる誰かを、本当に理解しようとしたか。",
+    "cats": [
+      "relation",
+      "mind"
+    ],
+    "tags": [
+      "ライオンと言語",
+      "理解の限界",
+      "生活様式",
+      "意味"
+    ],
+    "likes": 120,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2282,
+    "sage": "kierkegaard",
+    "orig": "Anxiety is the dizziness of freedom.",
+    "ja": "不安とは自由のめまいだ。",
+    "source": "セーレン・キェルケゴール「不安の概念」",
+    "desc": "実存主義の先駆者キェルケゴールが「不安の概念」で語った言葉だ。不安を感じるのは弱さの証ではない——自由だからこそ、どの方向にでも向かえる可能性の前でめまいがする。自由でない存在は不安を感じない。あなたの不安は、自由の証だ。そのめまいを恐れるより、自由の表れとして受け取れるか。",
+    "cats": [
+      "adversity",
+      "mind"
+    ],
+    "tags": [
+      "不安と自由",
+      "めまい",
+      "可能性",
+      "実存"
+    ],
+    "likes": 126,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2284,
+    "sage": "schopenhauer",
+    "orig": "Reading is thinking with someone else's head instead of one's own.",
+    "ja": "読書とは、自分の頭の代わりに他人の頭で考えることだ。",
+    "source": "アルトゥル・ショーペンハウアー「読書について」",
+    "desc": "「意志と表象としての世界」の哲学者ショーペンハウアーが読書の限界を語った言葉だ。本を読むことは素晴らしい——しかし読んでいる間は他人の思考を辿っているだけだ。読んだ後に自分の頭で考えることで初めて、読書が知恵になる。あなたは今日、誰かの言葉を読んだ後、自分の頭で考えたか。",
+    "cats": [
+      "growth",
+      "mind"
+    ],
+    "tags": [
+      "読書の限界",
+      "他人の頭",
+      "自分で考える",
+      "知恵"
+    ],
+    "likes": 124,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2285,
+    "sage": "marx",
+    "orig": "Religion is the opium of the people.",
+    "ja": "宗教は人民のアヘンだ。",
+    "source": "カール・マルクス「ヘーゲル法哲学批判序説」",
+    "desc": "マルクスが最も誤解されやすい言葉の一つだ。これは宗教を批判するだけでなく、苦しむ人々が宗教に心の安らぎを求める現実への共感でもある。「宗教は抑圧された生き物のため息であり、心なき世界の心だ」と続く。問題は宗教ではなく、人々が宗教に逃げなければならないほどの現実の苦しみだ——そこにマルクスの視線があった。",
+    "cats": [
+      "mind",
+      "work"
+    ],
+    "tags": [
+      "宗教とアヘン",
+      "誤解される名言",
+      "苦しみ",
+      "現実"
+    ],
+    "likes": 116,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2286,
+    "sage": "kant",
+    "orig": "Two things fill the mind with ever-increasing admiration and awe: the starry heavens above me and the moral law within me.",
+    "ja": "二つのものが、いつも新たな驚嘆と畏敬で心を満たす——頭上の星空と、内なる道徳律。",
+    "source": "イマヌエル・カント「実践理性批判」墓碑銘",
+    "desc": "カントの墓石に刻まれた言葉だ。宇宙の広大さと、人間の内なる道徳の声——この二つへの驚嘆がカント哲学の核心だ。どれほど宇宙が大きくても、その宇宙を認識し道徳的に行動できる人間の内側もまた偉大だという。今夜、星を見上げよ。そして自分の内なる声にも耳を傾けよ。",
+    "cats": [
+      "mind",
+      "motivation"
+    ],
+    "tags": [
+      "星空",
+      "道徳律",
+      "驚嘆",
+      "内と外"
     ],
     "likes": 133,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2287,
+    "sage": "rousseau",
+    "orig": "The person who has lived the most is not the one who has lived the longest, but the one who has felt life the most.",
+    "ja": "最も多く生きた人は、最も長く生きた人ではなく、最も深く人生を感じた人だ。",
+    "source": "ジャン＝ジャック・ルソー「エミール」",
+    "desc": "「社会契約論」「告白」で知られるルソーが人生の豊かさの本質を語った言葉だ。長生きより、深く感じること——喜びも痛みも驚きも悲しみも、すべてを強く感じて生きた人が最も豊かだ。麻痺した感覚で百年生きるより、鋭い感覚で一日を生きる方が価値があるかもしれない。あなたは今日、何かを深く感じたか。",
+    "cats": [
+      "time",
+      "motivation"
+    ],
+    "tags": [
+      "深く感じる",
+      "長さより深さ",
+      "人生の豊かさ",
+      "感覚"
+    ],
+    "likes": 131,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2288,
+    "sage": "hume",
+    "orig": "Custom is the great guide of human life.",
+    "ja": "習慣こそが人間の生の偉大な指針だ。",
+    "source": "デイヴィッド・ヒューム「人間知性研究」",
+    "desc": "スコットランドの哲学者ヒュームが人間の行動の根拠を語った言葉だ。私たちの行動のほとんどは理性によるものではなく、習慣によるものだ——起床・食事・仕事の仕方・関係の作り方、すべては習慣に従う。だからこそ習慣を意識的に作ることが人生を作る。あなたの今日の習慣は、どんな人生を作っているか。",
+    "cats": [
+      "growth",
+      "time"
+    ],
+    "tags": [
+      "習慣",
+      "人生の指針",
+      "意識的",
+      "日常"
+    ],
+    "likes": 118,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2289,
+    "sage": "voltaire",
+    "orig": "We are all full of weakness and errors; let us mutually pardon each other our follies.",
+    "ja": "私たちは皆、弱さと過ちで満ちている。互いの愚かさを赦し合おう。",
+    "source": "ヴォルテール「寛容論」",
+    "desc": "フランスの啓蒙思想家ヴォルテールが「寛容論」で説いた人間観だ。完璧な人間はいない——すべての人が弱さと過ちを持っている。だから寛容は弱さでなく、人間の本質への理解から来る強さだ。「寛容論」は宗教的不寛容による処刑事件への怒りから書かれた。あなたは今日、誰かの愚かさを赦せたか。",
+    "cats": [
+      "relation",
+      "mind"
+    ],
+    "tags": [
+      "寛容",
+      "弱さと過ち",
+      "互いに赦す",
+      "人間"
+    ],
+    "likes": 124,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2290,
+    "sage": "cicero",
+    "orig": "Mens sana in corpore sano.",
+    "ja": "健全な精神は健全な肉体に宿る。",
+    "source": "ユウェナリスの詩（キケロが引用・普及）",
+    "desc": "古代ローマの格言として知られるこの言葉は、身体と精神の不可分の関係を語る。心だけ磨いても、体が疲弊していれば思考は鈍る。体だけ鍛えても、精神が乱れていれば力は空回りする。心身は一体だ。あなたは今日、体と心の両方を大切にしたか。どちらかを犠牲にし続けることは、もう一方も蝕む。",
+    "cats": [
+      "growth",
+      "work"
+    ],
+    "tags": [
+      "健全な精神と肉体",
+      "心身一体",
+      "バランス",
+      "健康"
+    ],
+    "likes": 128,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2291,
+    "sage": "plato",
+    "orig": "Knowledge is the food of the soul.",
+    "ja": "知識は魂の食べ物だ。",
+    "source": "プラトン「プロタゴラス」",
+    "desc": "古代ギリシャの哲学者プラトンが知識の本質を語った言葉だ。体が食べ物なしに生きられないように、魂も知識なしに育たない——というアナロジーだ。しかし食べ物と同様、何を知識として取り入れるかが重要だ。良い食べ物が体を作り、良い知識が魂を作る。あなたは今日、魂にどんな食べ物を与えたか。",
+    "cats": [
+      "growth",
+      "mind"
+    ],
+    "tags": [
+      "知識と魂",
+      "食べ物",
+      "育つ",
+      "取り入れる"
+    ],
+    "likes": 122,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2292,
+    "sage": "heraclitus",
+    "orig": "No man ever steps in the same river twice, for it's not the same river and he's not the same man.",
+    "ja": "同じ川に二度入る者はいない。川も変わり、人も変わるからだ。",
+    "source": "ヘラクレイトスの断片",
+    "desc": "古代ギリシャの哲学者ヘラクレイトスが変化の本質を語った言葉だ。昨日と同じ川に見えても、水は流れ続けている。そしてあなた自身も昨日と同じではない。変化は止められないし、止める必要もない——流れの中に在ることが、生の本質だ。あなたは今日、昨日と違う自分になっているか。それは良いことだ。",
+    "cats": [
+      "time",
+      "mind"
+    ],
+    "tags": [
+      "同じ川に二度入れない",
+      "変化",
+      "流れ",
+      "無常"
+    ],
+    "likes": 134,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2293,
+    "sage": "socrates",
+    "orig": "An unexamined life is not worth living.",
+    "ja": "吟味されない人生は、生きるに値しない。",
+    "source": "プラトン「ソクラテスの弁明」",
+    "desc": "哲学の父・ソクラテスが死刑判決を受けた法廷で語った言葉だ。何のために生きているか、どう生きるべきかを問い続けることこそが人間の義務だという宣言だ。ソクラテスは逃亡の機会を断り、この信念のために死を選んだ。あなたは今日、自分の人生を吟味したか。問い続けることが、生きることの意味だ。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "吟味された人生",
+      "問い続ける",
+      "哲学",
+      "ソクラテス"
+    ],
+    "likes": 141,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2294,
+    "sage": "diogenes",
+    "orig": "It is not that I am mad, it is only that my head is different from yours.",
+    "ja": "私が狂っているのではない。ただ私の頭があなたのとは違うだけだ。",
+    "source": "ディオゲネスの言葉",
+    "desc": "壺を家として生き、アレクサンドロス大王に「日差しをさえぎるな」と言ったディオゲネスの言葉だ。社会の常識に従わないことを「狂気」と呼ぶのは、社会の側の思い込みだ——という鋭い逆転だ。常識という名の圧力への清々しい反論。あなたが「変わっている」と言われることは、実はあなたの強さかもしれない。",
+    "cats": [
+      "challenge",
+      "mind"
+    ],
+    "tags": [
+      "常識への反論",
+      "違いは狂気でない",
+      "個性",
+      "自由"
+    ],
+    "likes": 119,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2295,
+    "sage": "aristotle",
+    "orig": "The whole is more than the sum of its parts.",
+    "ja": "全体は部分の総和より大きい。",
+    "source": "アリストテレス「形而上学」",
+    "desc": "古代ギリシャの大哲学者アリストテレスが全体性の本質を語った言葉だ。バラバラの部品を並べても、組み合わさったときに現れる新しい性質がある。一人一人の人間の集まりが、個々の能力の総和を超える力を発揮する瞬間——チーム・組織・コミュニティの本当の価値はそこにある。あなたは今日、誰かと組み合わさって何か新しいものを生み出したか。",
+    "cats": [
+      "relation",
+      "work"
+    ],
+    "tags": [
+      "全体と部分",
+      "相乗効果",
+      "チーム",
+      "組み合わせ"
+    ],
+    "likes": 126,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2297,
+    "sage": "pascal",
+    "orig": "Je n'ai fait celle-ci plus longue que parce que je n'ai pas eu le loisir de la faire plus courte.",
+    "ja": "この手紙をこれほど長くしたのは、短くする時間がなかったからだ。",
+    "source": "ブレーズ・パスカルの手紙",
+    "desc": "天才数学者・哲学者パスカルが友人に送った手紙に書いた言葉だ。短くまとめることの方が、長く書くより何倍も難しい——という逆説だ。本質を見抜いて削ぎ落とす作業こそが知的な努力だ。短い言葉で本質を伝えることができる人は、長い言葉で誤魔化せる人より深く考えている。あなたは今日、言葉を短くする手間をかけたか。",
+    "cats": [
+      "work",
+      "mind"
+    ],
+    "tags": [
+      "短くする技術",
+      "本質",
+      "手間",
+      "長文より短文"
+    ],
+    "likes": 120,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2298,
+    "sage": "montaigne",
+    "orig": "Chaque homme porte la forme entière de l'humaine condition.",
+    "ja": "各人は人間という条件の完全な形を内に宿している。",
+    "source": "ミシェル・ド・モンテーニュ「エセー」",
+    "desc": "「エセー」という文学形式を確立したフランスの思想家モンテーニュの言葉だ。自分という一人の人間を深く観察することが、人類全体を理解することに繋がる——「私は何を知るか」をモットーとした彼の自己探求の哲学が凝縮されている。あなたという一人の人間を深く知ることが、世界を深く知ることだ。今日のあなたは、どんな「人間の条件」を体験したか。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "人間の条件",
+      "自己の中に全体",
+      "モンテーニュ",
+      "自己探求"
+    ],
+    "likes": 116,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2299,
+    "sage": "rousseau",
+    "orig": "Ce que la nature a fait, laissons-le faire.",
+    "ja": "自然がしたことは、自然にさせておけ。",
+    "source": "ジャン＝ジャック・ルソー「エミール」",
+    "desc": "「自然に帰れ」と唱え近代教育思想の礎を築いたルソーの言葉だ。子供の育ちを過度に管理し、自然な成長を妨げることへの警告だ。植物が自然に育つように、人間も本来の自然な成長のリズムがある。急ぎすぎること、管理しすぎることが、かえって成長を損なう。あなたは今日、何かを「自然にさせた」か。",
+    "cats": [
+      "growth",
+      "relation"
+    ],
+    "tags": [
+      "自然に任せる",
+      "過度な管理",
+      "子育て",
+      "成長のリズム"
+    ],
+    "likes": 112,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2301,
+    "sage": "kant",
+    "orig": "Dare to know! Have courage to use your own understanding.",
+    "ja": "知ることを敢えてせよ！自分自身の悟性を使う勇気を持て。",
+    "source": "イマヌエル・カント「啓蒙とは何か」",
+    "desc": "「啓蒙とは何か」でカントが啓蒙主義の核心を語った言葉だ。権威・伝統・他者に頼るのではなく、自分の理性で考え判断する勇気——それが啓蒙の本質だ。知的な怠惰は権威への服従を招く。「他人が考えてくれるから」という思考停止こそが、人を幼稚にする。あなたは今日、自分の頭で考える勇気を持ったか。",
+    "cats": [
+      "growth",
+      "challenge"
+    ],
+    "tags": [
+      "知る勇気",
+      "自分で考える",
+      "啓蒙",
+      "自律"
+    ],
+    "likes": 129,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2302,
+    "sage": "marx",
+    "orig": "Workers of the world, unite! You have nothing to lose but your chains.",
+    "ja": "万国の労働者よ、団結せよ！失うものは鎖だけだ。",
+    "source": "カール・マルクス＆フリードリヒ・エンゲルス「共産党宣言」",
+    "desc": "マルクスとエンゲルスが「共産党宣言」を締めくくった歴史的な言葉だ。失うものが少ない者ほど、変革のために立ち上がれる——という逆説的な強さだ。鎖を持つ者は鎖を恐れて行動できないが、鎖しか持たない者には失うものがない。あなたが今変革を恐れているとしたら、何を失うことを恐れているのか。",
+    "cats": [
+      "motivation",
+      "challenge"
+    ],
+    "tags": [
+      "団結",
+      "鎖しかない",
+      "失うもの",
+      "変革"
+    ],
+    "likes": 123,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2303,
+    "sage": "wittgenstein",
+    "orig": "If we spoke a different language, we would perceive a somewhat different world.",
+    "ja": "もし私たちが違う言語を話していたら、私たちはある程度異なる世界を知覚するだろう。",
+    "source": "ルートヴィヒ・ウィトゲンシュタイン「哲学的探究」",
+    "desc": "言語哲学の巨人ウィトゲンシュタインが言語と世界観の関係を語った言葉だ。私たちは言語で世界を切り分け、名付けることで認識する——だから使う言語が違えば、見えてくる世界が変わる。新しい言語を学ぶことは、新しい世界を開くことだ。あなたは今日、新しい言葉に出会い、新しい世界の扉が開いたか。",
+    "cats": [
+      "growth",
+      "mind"
+    ],
+    "tags": [
+      "言語と世界観",
+      "知覚",
+      "異なる言語",
+      "新しい世界"
+    ],
+    "likes": 116,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2304,
+    "sage": "sartre",
+    "orig": "Freedom is what you do with what's been done to you.",
+    "ja": "自由とは、自分に起きたことをどう扱うかだ。",
+    "source": "ジャン＝ポール・サルトル「実存主義とは何か」",
+    "desc": "実存主義の旗手サルトルが自由の実践的意味を語った言葉だ。過去の出来事・与えられた環境・他者の行為——これらは変えられない。しかしそれをどう意味づけ、どう対応するかは自分が選べる。この「選択の余地」こそが自由だ。あなたに起きたことを、あなたはどう扱っているか。",
+    "cats": [
+      "mind",
+      "adversity"
+    ],
+    "tags": [
+      "自由の実践",
+      "起きたことの扱い",
+      "選択",
+      "意味づけ"
+    ],
+    "likes": 133,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "sage": "marcus_aurelius",
+    "orig": "The obstacle is the way.",
+    "ja": "障害こそが道だ。",
+    "source": "マルクス・アウレリウス「自省録」",
+    "desc": "ローマ皇帝・哲学者マルクス・アウレリウスがストア哲学の核心を示した言葉だ。障害に出会ったとき、それを迂回しようとする。しかし真の前進は、障害そのものを通り抜けることで生まれる。抵抗が強さを育て、困難が能力を作る——障害は道の邪魔ではなく、道そのものだ。あなたの前の障害は、実はどこへ向かう道か。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "障害が道",
+      "ストア",
+      "困難を通る",
+      "強さ"
+    ],
+    "likes": 134,
+    "season": null,
+    "mmdd": null,
+    "id": 2306
+  },
+  {
+    "sage": "seneca",
+    "orig": "It is not that I am brave, it is just that I am busy elsewhere.",
+    "ja": "私は勇気があるのではない。ただ別のことに忙しいだけだ。",
+    "source": "セネカの言葉",
+    "desc": "ローマの哲学者・文人セネカが勇気の本質を語った言葉だ。恐怖に立ち向かうのではなく、恐怖より大切なことに集中しているとき、恐怖を感じる余裕がなくなる。使命・情熱・愛——これらが恐れを凌駕する。本当の勇気は恐れを感じないのではなく、それより重要なことがあるという確信だ。あなたが今日「別のことに忙しい」ものは何か。",
+    "cats": [
+      "adversity",
+      "motivation"
+    ],
+    "tags": [
+      "勇気の本質",
+      "別のことに忙しい",
+      "恐怖を凌駕",
+      "確信"
+    ],
+    "likes": 122,
+    "season": null,
+    "mmdd": null,
+    "id": 2307
+  },
+  {
+    "sage": "plato",
+    "orig": "At the touch of love, everyone becomes a poet.",
+    "ja": "愛に触れると、誰もが詩人になる。",
+    "source": "プラトン「饗宴」",
+    "desc": "プラトンが「饗宴」で語った愛と創造の関係だ。愛することで、言葉が詩になり、行動が芸術になり、存在が輝く——愛は人間の最も深い創造力を解放する。愛している人に言葉を書いたことのある者なら、この真実を知っている。あなたは今日、誰かへの愛で詩人になっているか。",
+    "cats": [
+      "relation",
+      "motivation"
+    ],
+    "tags": [
+      "愛と詩",
+      "創造力",
+      "愛に触れる",
+      "輝く"
+    ],
+    "likes": 129,
+    "season": null,
+    "mmdd": null,
+    "id": 2308
+  },
+  {
+    "sage": "heraclitus",
+    "orig": "Much learning does not teach understanding.",
+    "ja": "多くを学んでも、理解を教えはしない。",
+    "source": "ヘラクレイトスの断片",
+    "desc": "「万物流転」を説いた古代ギリシャの哲学者ヘラクレイトスが知識と理解の違いを語った言葉だ。情報をどれほど蓄積しても、それをつなぎ合わせて本質を見抜く理解は別の能力だ。知識は量で測られるが、理解は深さで測られる。あなたは今日、何かを「知った」だけでなく「理解した」か。",
+    "cats": [
+      "growth",
+      "mind"
+    ],
+    "tags": [
+      "知識と理解",
+      "量より深さ",
+      "本質",
+      "別の能力"
+    ],
+    "likes": 121,
+    "season": null,
+    "mmdd": null,
+    "id": 2309
+  },
+  {
+    "sage": "diogenes",
+    "orig": "I am a citizen of the world.",
+    "ja": "私は世界市民だ。",
+    "source": "ディオゲネスの言葉",
+    "desc": "壺を家として生きた哲学者ディオゲネスが「どの都市の市民か」と問われて答えた言葉だ。国籍・民族・階級の枠を超えて、人類全体に属するという宣言——これが「コスモポリタニズム」の起源だ。特定の場所への帰属より、世界全体への責任を感じること。あなたは今日、世界市民として行動したか。",
+    "cats": [
+      "mind",
+      "relation"
+    ],
+    "tags": [
+      "世界市民",
+      "コスモポリタン",
+      "帰属",
+      "人類"
+    ],
+    "likes": 117,
+    "season": null,
+    "mmdd": null,
+    "id": 2310
+  },
+  {
+    "sage": "confucius",
+    "orig": "By three methods we may learn wisdom: first, by reflection, which is noblest; second, by imitation, which is easiest; third, by experience, which is bitterest.",
+    "ja": "知恵を学ぶには三つの方法がある。最も高貴な方法は内省、最も簡単な方法は模倣、最も苦い方法は経験だ。",
+    "source": "孔子「論語」",
+    "desc": "孔子が学びの三つの道を語った言葉だ。手っ取り早く成長したければ優れた人を模倣せよ。深く成長したければ自分を省みよ。しかし最も深く刻まれるのは苦い経験だ——三つの方法はそれぞれ役割がある。あなたは今日、どの方法で知恵を学んだか。",
+    "cats": [
+      "growth",
+      "mind"
+    ],
+    "tags": [
+      "知恵の三方法",
+      "内省",
+      "模倣",
+      "経験"
+    ],
+    "likes": 131,
+    "season": null,
+    "mmdd": null,
+    "id": 2311
+  },
+  {
+    "id": 2312,
+    "sage": "socrates",
+    "orig": "Wisdom begins in wonder.",
+    "ja": "知恵は驚きから始まる。",
+    "source": "プラトン「テアイテトス」",
+    "desc": "哲学の父ソクラテスが知の出発点を語った言葉だ。「当たり前」として通り過ぎているものに「なぜ？」と驚く眼を取り戻すことが、哲学と科学の始まりだ。子供は何にでも驚く——大人になるとその驚きが薄れる。あなたは今日、何かに驚いたか。その驚きを大切にせよ。",
+    "cats": [
+      "mind",
+      "growth"
+    ],
+    "tags": [
+      "驚き",
+      "哲学の始まり",
+      "なぜ",
+      "好奇心"
+    ],
+    "likes": 135,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2313,
+    "sage": "aristotle",
+    "orig": "The energy of the mind is the essence of life.",
+    "ja": "精神のエネルギーが生の本質だ。",
+    "source": "アリストテレスの言葉",
+    "desc": "古代ギリシャの大哲学者アリストテレスが生命と精神の関係を語った言葉だ。体が動いていても、精神の活動がなければ本当に生きているとは言えない——問い、考え、創造し、愛する精神の働きこそが生の本質だ。あなたの精神は今日、どれほどのエネルギーで動いていたか。",
+    "cats": [
+      "motivation",
+      "mind"
+    ],
+    "tags": [
+      "精神のエネルギー",
+      "生の本質",
+      "活動",
+      "生きる"
+    ],
+    "likes": 128,
+    "season": null,
+    "mmdd": null
+  },
+  {
+    "id": 2314,
+    "sage": "marcus_aurelius",
+    "orig": "The best revenge is to be unlike him who performed the injustice.",
+    "ja": "最良の復讐は、不正を行った者と違う人間になることだ。",
+    "source": "マルクス・アウレリウス「自省録」",
+    "desc": "ローマ皇帝・哲学者マルクス・アウレリウスが復讐の本質を語った言葉だ。憎しみで相手を傷つけることより、その人とは違う高潔な人間になること——それが最も深い「復讐」だ。不正を行った者と同じ手段を使うとき、あなたはその者と同じになる。違う人間になることが、本当の勝利だ。",
+    "cats": [
+      "relation",
+      "adversity"
+    ],
+    "tags": [
+      "最良の復讐",
+      "違う人間に",
+      "高潔",
+      "勝利"
+    ],
+    "likes": 130,
     "season": null,
     "mmdd": null
   }
