@@ -1287,9 +1287,11 @@ body {
 .search-cat-scroll {
   display: flex;
   gap: 6px;
-  padding: 10px 0 12px;
+  padding: 10px 300px 12px 16px;
   overflow-x: auto;
+  overflow-y: hidden;
   -webkit-overflow-scrolling: touch;
+  touch-action: pan-x;
 }
 .search-cat-scroll::-webkit-scrollbar { display: none; }
 .search-cat-btn {
@@ -6227,7 +6229,7 @@ function clearAllFavs() {
 }
 
 // ── アプリバージョン（更新時にここを上げるとキャッシュが無効化される）──
-const APP_VERSION = '1.9.0';
+const APP_VERSION = '2.0.0';
 
 // QUOTESを外部JSONから非同期ロード
 async function loadQuotes() {
