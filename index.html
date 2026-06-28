@@ -3362,6 +3362,12 @@ const SAGES = {
 
   ibn_rushd: { name: 'イブン・ルシュド（アヴェロエス）',
     yomi: 'いぶんるしゅど',         nameEn: 'Ibn Rushd (Averroes)',     color: '#C4A060', years: '1126 - 1198',      bio: 'アンダルシアのイスラム哲学者・法学者・医師。アリストテレス哲学の注解書で知られ「注解者」と称される。中世ヨーロッパへのアリストテレス哲学の伝達において決定的な役割を果たし、スコラ哲学の発展に貢献した。理性と信仰の調和を論じた思想はトマス・アクィナスにも影響を与えた。', field:'philosopher', era:'medieval', region:'middleeast', dx_value:'truth', dx_wall:'wait', dx_type:'think', dx_strength:'idea', dx_life:'deep' },
+
+  miwa_akihiro: { name: '美輪明宏',
+    yomi: 'みわあきひろ',         nameEn: 'Akihiro Miwa',             color: '#C4609E', years: '1935 -',           bio: '日本の歌手・俳優・演出家。長崎出身。独自のシャンソンスタイルと独特の美意識で60年以上芸能界に君臨する。「ヨイトマケの唄」「メケメケ」などの名曲を残し、三島由紀夫や寺山修司とも交流した。テレビでの毒舌と愛情に満ちた人生論でも知られる。', field:'artist', era:'contemporary', region:'japan', dx_value:'love', dx_wall:'wait', dx_type:'art', dx_strength:'express', dx_life:'deep' },
+
+  charles_eames: { name: 'チャールズ・イームズ',
+    yomi: 'ちゃーるずいーむず',   nameEn: 'Charles Eames',            color: '#9E8E6E', years: '1907 - 1978',      bio: 'アメリカのデザイナー・建築家・映像作家。妻レイ・イームズとともにイームズ・チェアなど20世紀を代表するモダン家具を生み出した。「デザインは問題を解決することだ」という信念のもと、家具・建築・映像・展示と多分野で革新的な仕事を残した。', field:'artist', era:'modern', region:'usa', dx_value:'future', dx_wall:'wait', dx_type:'art', dx_strength:'idea', dx_life:'world' },
 };
 
 
@@ -6291,7 +6297,7 @@ function clearAllFavs() {
 }
 
 // ── アプリバージョン（更新時にここを上げるとキャッシュが無効化される）──
-const APP_VERSION = '2.1.1';
+const APP_VERSION = '2.2.0';
 
 // QUOTESを外部JSONから非同期ロード
 async function loadQuotes() {
