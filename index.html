@@ -1840,7 +1840,51 @@ body {
   <div style="color:rgba(255,255,255,0.5);font-size:13px;">名言を読み込んでいます...</div>
   <div style="width:48px;height:48px;border:3px solid rgba(255,255,255,0.15);border-top-color:#4A9EDB;border-radius:50%;animation:spin 0.8s linear infinite;"></div>
 </div>
-<style>@keyframes spin{to{transform:rotate(360deg);}}</style>
+<style>@keyframes spin{to{transform:rotate(360deg);}}
+/* サイトマップフッター */
+#site-footer-map {
+  background: #111;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  padding: 28px 20px 60px;
+  font-size: 12px;
+}
+.sitemap-wrap { max-width: 480px; margin: 0 auto; }
+.sitemap-title {
+  font-size: 14px; font-weight: 900; color: rgba(255,255,255,0.5);
+  letter-spacing: .08em; margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.sitemap-group { margin-bottom: 20px; }
+.sitemap-group-title {
+  font-size: 12px; font-weight: 700; color: rgba(255,255,255,0.4);
+  margin-bottom: 8px; letter-spacing: .05em;
+}
+.sitemap-section { margin-bottom: 12px; }
+.sitemap-section-title {
+  font-size: 11px; color: rgba(255,255,255,0.3);
+  margin-bottom: 4px;
+}
+.sitemap-links {
+  display: flex; flex-wrap: wrap; gap: 6px;
+}
+.sitemap-links a {
+  color: rgba(255,255,255,0.45);
+  text-decoration: none;
+  font-size: 11px;
+  padding: 3px 8px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.sitemap-links a:hover { color: rgba(255,255,255,0.7); }
+.sitemap-copy {
+  margin-top: 20px;
+  font-size: 11px;
+  color: rgba(255,255,255,0.25);
+  line-height: 1.8;
+}
+
+</style>
 <div id="app-root">
 
 <!-- ホーム画面 -->
@@ -6305,7 +6349,7 @@ function clearAllFavs() {
 }
 
 // ── アプリバージョン（更新時にここを上げるとキャッシュが無効化される）──
-const APP_VERSION = '2.2.1';
+const APP_VERSION = '2.3.0';
 
 // QUOTESを外部JSONから非同期ロード
 async function loadQuotes() {
@@ -6363,6 +6407,174 @@ if ('serviceWorker' in navigator) {
     <button class="modal-close" onclick="closeModal()">✕</button>
     <div class="modal-handle" id="modal-handle"></div>
     <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+
+<!-- 検索エンジン向けサイトマップ -->
+<div id="site-footer-map">
+  <div class="sitemap-wrap">
+    <div class="sitemap-title">サイトマップ</div>
+
+    <div class="sitemap-group">
+      <div class="sitemap-group-title">カテゴリ</div>
+      <div class="sitemap-links">
+        <a href="https://legendbible.github.io/categories/motivation/">やる気・モチベーション</a>
+<a href="https://legendbible.github.io/categories/mind/">心・メンタル</a>
+<a href="https://legendbible.github.io/categories/growth/">成長・学び</a>
+<a href="https://legendbible.github.io/categories/work/">仕事・リーダーシップ</a>
+<a href="https://legendbible.github.io/categories/adversity/">逆境・困難</a>
+<a href="https://legendbible.github.io/categories/challenge/">挑戦・勇気</a>
+<a href="https://legendbible.github.io/categories/relation/">人間関係・愛</a>
+<a href="https://legendbible.github.io/categories/time/">時間・人生</a>
+        <a href="https://legendbible.github.io/sages/">偉人一覧</a>
+      </div>
+    </div>
+
+    <div class="sitemap-group">
+      <div class="sitemap-group-title">分野別の偉人</div>
+      
+<div class="sitemap-section">
+  <div class="sitemap-section-title">芸術家・文学者</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/davinci/">ダ・ヴィンチ</a>
+<a href="https://legendbible.github.io/sages/chaplin/">チャップリン</a>
+<a href="https://legendbible.github.io/sages/shakespeare/">シェイクスピア</a>
+<a href="https://legendbible.github.io/sages/mies/">ミース・ファン・デル・ローエ</a>
+<a href="https://legendbible.github.io/sages/lecorbusier/">ル・コルビュジエ</a>
+<a href="https://legendbible.github.io/sages/disney/">ウォルト・ディズニー</a>
+<a href="https://legendbible.github.io/sages/chanel/">ココ・シャネル</a>
+<a href="https://legendbible.github.io/sages/goethe/">ゲーテ</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">アスリート</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/navratilova/">マルチナ・ナブラチロワ</a>
+<a href="https://legendbible.github.io/sages/lebron_james/">レブロン・ジェームズ</a>
+<a href="https://legendbible.github.io/sages/serena_williams/">セリーナ・ウィリアムズ</a>
+<a href="https://legendbible.github.io/sages/simone_biles/">シモーン・バイルズ</a>
+<a href="https://legendbible.github.io/sages/usain_bolt/">ウサイン・ボルト</a>
+<a href="https://legendbible.github.io/sages/michael_jordan/">マイケル・ジョーダン</a>
+<a href="https://legendbible.github.io/sages/muhammad_ali/">モハメド・アリ</a>
+<a href="https://legendbible.github.io/sages/pele/">ペレ</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">教育者</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/nightingale/">ナイチンゲール</a>
+<a href="https://legendbible.github.io/sages/marco_polo/">マルコ・ポーロ</a>
+<a href="https://legendbible.github.io/sages/yanagita/">柳田国男</a>
+<a href="https://legendbible.github.io/sages/sontoku/">二宮尊徳</a>
+<a href="https://legendbible.github.io/sages/diaochan/">貂蝉</a>
+<a href="https://legendbible.github.io/sages/ichiro/">イチロー</a>
+<a href="https://legendbible.github.io/sages/tiger/">タイガー・ウッズ</a>
+<a href="https://legendbible.github.io/sages/beckham/">デイビッド・ベッカム</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">軍人</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/yamamoto/">山本五十六</a>
+<a href="https://legendbible.github.io/sages/nobunaga/">織田信長</a>
+<a href="https://legendbible.github.io/sages/napoleon/">ナポレオン</a>
+<a href="https://legendbible.github.io/sages/ieyasu/">徳川家康</a>
+<a href="https://legendbible.github.io/sages/jeanne/">ジャンヌ・ダルク</a>
+<a href="https://legendbible.github.io/sages/musashi/">宮本武蔵</a>
+<a href="https://legendbible.github.io/sages/caesar/">ジュリアス・シーザー</a>
+<a href="https://legendbible.github.io/sages/uesugi/">上杉謙信</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">哲学者</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/confucius/">孔子</a>
+<a href="https://legendbible.github.io/sages/socrates/">ソクラテス</a>
+<a href="https://legendbible.github.io/sages/bacon/">フランシス・ベーコン</a>
+<a href="https://legendbible.github.io/sages/aristotle/">アリストテレス</a>
+<a href="https://legendbible.github.io/sages/machiavelli/">マキャベリ</a>
+<a href="https://legendbible.github.io/sages/descartes/">デカルト</a>
+<a href="https://legendbible.github.io/sages/freud/">フロイト</a>
+<a href="https://legendbible.github.io/sages/maslow/">マズロー</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">宗教家・思想家</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/buddha/">ブッダ</a>
+<a href="https://legendbible.github.io/sages/teresa/">マザー・テレサ</a>
+<a href="https://legendbible.github.io/sages/ikkyu/">一休宗純</a>
+<a href="https://legendbible.github.io/sages/hildegard/">ヒルデガルト・フォン・ビンゲン</a>
+<a href="https://legendbible.github.io/sages/ali_ibn/">アリー・イブン・アビー・ターリブ</a>
+<a href="https://legendbible.github.io/sages/bahaullah/">バハーウッラー</a>
+<a href="https://legendbible.github.io/sages/dalai_lama/">ダライ・ラマ14世</a>
+<a href="https://legendbible.github.io/sages/mandela2/">デズモンド・ツツ</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">科学者</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/einstein/">アインシュタイン</a>
+<a href="https://legendbible.github.io/sages/edison/">エジソン</a>
+<a href="https://legendbible.github.io/sages/darwin/">ダーウィン</a>
+<a href="https://legendbible.github.io/sages/galileo/">ガリレオ</a>
+<a href="https://legendbible.github.io/sages/newton/">ニュートン</a>
+<a href="https://legendbible.github.io/sages/curie/">キュリー夫人</a>
+<a href="https://legendbible.github.io/sages/wright/">ライト兄弟</a>
+<a href="https://legendbible.github.io/sages/hippocrates/">ヒポクラテス</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">政治家・指導者</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/gandhi/">ガンジー</a>
+<a href="https://legendbible.github.io/sages/ryoma/">坂本龍馬</a>
+<a href="https://legendbible.github.io/sages/lincoln/">リンカーン</a>
+<a href="https://legendbible.github.io/sages/churchill/">チャーチル</a>
+<a href="https://legendbible.github.io/sages/mlk/">キング牧師</a>
+<a href="https://legendbible.github.io/sages/shotoku/">聖徳太子</a>
+<a href="https://legendbible.github.io/sages/roosevelt/">ルーズベルト</a>
+<a href="https://legendbible.github.io/sages/guevara/">チェ・ゲバラ</a></div>
+</div>
+<div class="sitemap-section">
+  <div class="sitemap-section-title">実業家・起業家</div>
+  <div class="sitemap-links"><a href="https://legendbible.github.io/sages/drucker/">ドラッカー</a>
+<a href="https://legendbible.github.io/sages/jobs/">ジョブズ</a>
+<a href="https://legendbible.github.io/sages/matsushita/">松下幸之助</a>
+<a href="https://legendbible.github.io/sages/tsutaya/">蔦屋重三郎</a>
+<a href="https://legendbible.github.io/sages/shibusawa/">渋沢栄一</a>
+<a href="https://legendbible.github.io/sages/zuckerberg/">マーク・ザッカーバーグ</a>
+<a href="https://legendbible.github.io/sages/bezos/">ジェフ・ベゾス</a>
+<a href="https://legendbible.github.io/sages/cook/">ティム・クック</a></div>
+</div>
+    </div>
+
+    <div class="sitemap-group">
+      <div class="sitemap-group-title">人気の名言</div>
+      <div class="sitemap-links">
+        <a href="https://legendbible.github.io/quotes/5/">天才とは、1パーセントのひらめきと99パーセントの…</a>
+<a href="https://legendbible.github.io/quotes/45/">素晴らしい仕事をする唯一の方法は、自分のしているこ…</a>
+<a href="https://legendbible.github.io/quotes/18/">私は失敗していない。うまくいかない方法を1万通り見…</a>
+<a href="https://legendbible.github.io/quotes/38/">最終的に重要なのは三つだけ。どれだけ愛したか、どれ…</a>
+<a href="https://legendbible.github.io/quotes/16/">シンプルさは究極の洗練だ。</a>
+<a href="https://legendbible.github.io/quotes/31/">小さなことを、大きな愛でしなさい。</a>
+<a href="https://legendbible.github.io/quotes/19/">あなたの時間は限られている。他人の人生を生きること…</a>
+<a href="https://legendbible.github.io/quotes/44/">私たちの最大の弱点は諦めることにある。成功への最も…</a>
+<a href="https://legendbible.github.io/quotes/30/">心がすべてだ。あなたが思うことが、あなたになる。</a>
+<a href="https://legendbible.github.io/quotes/17/">未来を予測する最良の方法は、それを創ることだ。</a>
+<a href="https://legendbible.github.io/quotes/47/">過去に留まるな。未来を夢想するな。今この瞬間に心を…</a>
+<a href="https://legendbible.github.io/quotes/2043/">何かを本当に望むとき、全宇宙がそれを実現するために…</a>
+<a href="https://legendbible.github.io/quotes/36/">私たちはここに、宇宙に傷をつけるためにいる。</a>
+<a href="https://legendbible.github.io/quotes/24/">千里の旅も、足元の一歩から始まる。</a>
+<a href="https://legendbible.github.io/quotes/2033/">雨にも負けず、風にも負けず、雪にも夏の暑さにも負け…</a>
+<a href="https://legendbible.github.io/quotes/2120/">何かを望むとき、全宇宙がその実現のために力を貸す。</a>
+<a href="https://legendbible.github.io/quotes/2155/">私には夢がある。私の4人の小さな子供たちがいつか、…</a>
+<a href="https://legendbible.github.io/quotes/2026/">真冬の中で、私はついに自分の中に無敵の夏があること…</a>
+<a href="https://legendbible.github.io/quotes/2070/">古池や、蛙飛び込む、水の音。</a>
+<a href="https://legendbible.github.io/quotes/2467/">本質的なものは目には見えない。心でしか正しく見えな…</a>
+<a href="https://legendbible.github.io/quotes/1/">ハングリーであれ、愚かであれ。</a>
+<a href="https://legendbible.github.io/quotes/2055/">終わったことを泣くな。それが起きたことを笑え。</a>
+<a href="https://legendbible.github.io/quotes/2066/">敵を知り己を知れば、百戦して危うからず。</a>
+<a href="https://legendbible.github.io/quotes/2112/">真冬の奥深くで、私はついに自分の中に無敵の夏が横た…</a>
+<a href="https://legendbible.github.io/quotes/2124/">私たちはこの十年のうちに月へ行くことを選ぶ。容易だ…</a>
+<a href="https://legendbible.github.io/quotes/2149/">私は自分に起きたことではない。私は自分がなると選ぶ…</a>
+<a href="https://legendbible.github.io/quotes/2255/">自分がされたくないことを、他人にするな。</a>
+<a href="https://legendbible.github.io/quotes/26/">時間は最も希少な資源であり、それを管理しなければ他…</a>
+<a href="https://legendbible.github.io/quotes/2036/">天を敬い、人を愛せよ。</a>
+<a href="https://legendbible.github.io/quotes/2074/">本は、我々の中の凍った海を割る斧でなければならない…</a>
+      </div>
+    </div>
+
+    <div class="sitemap-copy">
+      © 2026 LEGEND BIBLE — 古今東西の偉人たちの名言・格言を収録した名言アプリ。
+      哲学者・科学者・芸術家・政治家など502人以上の偉人による2,000件以上の名言を掲載しています。
+    </div>
   </div>
 </div>
 
