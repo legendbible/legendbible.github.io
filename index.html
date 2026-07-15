@@ -1896,6 +1896,39 @@ body {
 .sm-links a,.sm-sub a{font-size:12px;color:#ccc;text-decoration:none;padding:4px 10px;background:#1a1a1a;border-radius:20px;border:1px solid #333;}
 .sm-copy{font-size:11px;color:#555;line-height:1.8;margin-top:16px;}
 
+
+/* ── 悩みから探す ───────────── */
+.nayami-wrap{padding:0 20px 4px;}
+.nayami-grid{display:flex;flex-direction:column;gap:8px;}
+.nayami-card{
+  display:flex;align-items:center;gap:12px;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:13px 14px;
+  text-decoration:none;color:inherit;
+  transition:transform .12s ease;
+}
+.nayami-card:active{transform:scale(.985);}
+.nayami-num{
+  font-size:10px;font-weight:800;color:var(--text3);
+  letter-spacing:.05em;flex-shrink:0;width:18px;
+}
+.nayami-body{flex:1;min-width:0;}
+.nayami-t{
+  font-size:14.5px;font-weight:800;color:var(--text1);
+  margin-bottom:2px;line-height:1.4;
+}
+.nayami-d{
+  font-size:11px;color:var(--text3);line-height:1.5;
+}
+.nayami-arrow{font-size:18px;color:var(--text3);flex-shrink:0;line-height:1;}
+.nayami-soon{
+  font-size:9px;color:var(--text3);
+  border:1px solid var(--border);
+  padding:2px 6px;border-radius:10px;
+  flex-shrink:0;
+}
 </style>
 <div id="app-root">
 
@@ -1940,6 +1973,60 @@ body {
     </button>
   </div>
   <div id="random-quote-area"></div>
+  <div class="section-head">
+    <span class="section-title">悩みから探す</span>
+  </div>
+  <div class="nayami-wrap">
+    <div class="nayami-grid">
+
+      <a class="nayami-card" href="./articles/shigoto-yametai/">
+        <div class="nayami-num">01</div>
+        <div class="nayami-body">
+          <div class="nayami-t">仕事を辞めたい</div>
+          <div class="nayami-d">老子・漱石・フランクルが選んだ第三の道</div>
+        </div>
+        <div class="nayami-arrow">›</div>
+      </a>
+
+      <a class="nayami-card" href="javascript:void(0)" onclick="jumpToCategory('work')">
+        <div class="nayami-num">02</div>
+        <div class="nayami-body">
+          <div class="nayami-t">部下が動いてくれない</div>
+          <div class="nayami-d">山本五十六・ドラッカーの人を動かす原則</div>
+        </div>
+        <div class="nayami-arrow">›</div>
+      </a>
+
+      <a class="nayami-card" href="javascript:void(0)" onclick="jumpToCategory('relation')">
+        <div class="nayami-num">03</div>
+        <div class="nayami-body">
+          <div class="nayami-t">人間関係に疲れた</div>
+          <div class="nayami-d">アドラー・ショーペンハウアーの距離の取り方</div>
+        </div>
+        <div class="nayami-arrow">›</div>
+      </a>
+
+      <a class="nayami-card" href="javascript:void(0)" onclick="jumpToCategory('time')">
+        <div class="nayami-num">04</div>
+        <div class="nayami-body">
+          <div class="nayami-t">このままでいいのか</div>
+          <div class="nayami-d">55歳から測量を始めた伊能忠敬が教えること</div>
+        </div>
+        <div class="nayami-arrow">›</div>
+      </a>
+
+      <a class="nayami-card" href="javascript:void(0)" onclick="jumpToCategory('challenge')">
+        <div class="nayami-num">05</div>
+        <div class="nayami-body">
+          <div class="nayami-t">続けられない</div>
+          <div class="nayami-d">エジソン・王貞治の「失敗の記録」に学ぶ</div>
+        </div>
+        <div class="nayami-arrow">›</div>
+      </a>
+
+    </div>
+  </div>
+
   <div class="section-head">
     <span class="section-title">カテゴリから探す</span>
   </div>
@@ -6368,7 +6455,7 @@ function clearAllFavs() {
 }
 
 // ── アプリバージョン（更新時にここを上げるとキャッシュが無効化される）──
-const APP_VERSION = '2.3.0';
+const APP_VERSION = '2.4.0';
 
 // QUOTESを外部JSONから非同期ロード
 async function loadQuotes() {
