@@ -2024,97 +2024,6 @@ body {
         <div class="nayami-arrow">›</div>
       </a>
 
-      <a class="nayami-card" href="./articles/jishin-ga-nai/">
-        <div class="nayami-num">06</div>
-        <div class="nayami-body">
-          <div class="nayami-t">自信が持てない</div>
-          <div class="nayami-d">ゲーテ・エマーソンが説いた自信の正体</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/okane-no-fuan/">
-        <div class="nayami-num">07</div>
-        <div class="nayami-body">
-          <div class="nayami-t">お金の不安が消えない</div>
-          <div class="nayami-d">セネカ・渋沢栄一の"足るを知る"経済観</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/kodoku-wo-kanjiru/">
-        <div class="nayami-num">08</div>
-        <div class="nayami-body">
-          <div class="nayami-t">孤独を感じる夜に</div>
-          <div class="nayami-d">ニーチェ・モンテーニュの一人でいる技術</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/ketsudan-dekinai/">
-        <div class="nayami-num">09</div>
-        <div class="nayami-body">
-          <div class="nayami-t">決断できずに迷い続ける</div>
-          <div class="nayami-d">孫子・シーザーが説いた決める技術</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/kanpekishugi-ni-tsukareta/">
-        <div class="nayami-num">10</div>
-        <div class="nayami-body">
-          <div class="nayami-t">完璧主義に疲れた</div>
-          <div class="nayami-d">ヴォルテール・荘子の"ほどほど"の思想</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/hikaku-shiteshimau/">
-        <div class="nayami-num">11</div>
-        <div class="nayami-body">
-          <div class="nayami-t">つい誰かと比較してしまう</div>
-          <div class="nayami-d">ルーズベルト・老子が説いた比較の外し方</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/ikari-ga-osaerarenai/">
-        <div class="nayami-num">12</div>
-        <div class="nayami-body">
-          <div class="nayami-t">怒りが抑えられない</div>
-          <div class="nayami-d">セネカ・マルクス・アウレリウスの怒りの技術</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/shippai-ga-kowai/">
-        <div class="nayami-num">13</div>
-        <div class="nayami-body">
-          <div class="nayami-t">失敗が怖くて動けない</div>
-          <div class="nayami-d">エジソン・リンカーンが遺した失敗の実績</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/henka-ni-tsuiteikenai/">
-        <div class="nayami-num">14</div>
-        <div class="nayami-body">
-          <div class="nayami-t">変化についていけない</div>
-          <div class="nayami-d">ダーウィン・ヘラクレイトスの適応の哲学</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-      <a class="nayami-card" href="./articles/mitomeraretai/">
-        <div class="nayami-num">15</div>
-        <div class="nayami-body">
-          <div class="nayami-t">誰かに認められたい</div>
-          <div class="nayami-d">アドラー・ニーチェの承認欲求の手放し方</div>
-        </div>
-        <div class="nayami-arrow">›</div>
-      </a>
-
-
     </div>
   </div>
 
@@ -4170,6 +4079,14 @@ function handleUrlParams() {
   const sageId = params.get('sage');
   const quoteId = params.get('quote');
   const catId = params.get('cat');
+  const openTarget = params.get('open');
+
+  if (openTarget === 'diagnosis') {
+    setTimeout(() => switchTab('diagnosis'), 100);
+    const cleanUrl = window.location.pathname;
+    window.history.replaceState({}, '', cleanUrl);
+    return;
+  }
 
   if (quoteId) {
     // 名言モーダルを直接開く
