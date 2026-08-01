@@ -4,18 +4,20 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>読み物 — 悩みから探す名言｜LEGEND BIBLE</title>
-<meta name="description" content="仕事を辞めたい、部下が動かない、人間関係に疲れた、このままでいいのか、続けられない。現代人の5つの悩みに、古今東西の偉人たちが出した答えを解説します。">
+<meta name="description" content="仕事、人間関係、お金、自信、決断——現代人の15の悩みに、古今東西の偉人たちが出した答えを解説します。">
 <link rel="canonical" href="https://legendbible.github.io/articles/">
 <meta name="robots" content="index, follow">
 <meta name="theme-color" content="#0E0E10">
 <meta property="og:type" content="website">
 <meta property="og:title" content="読み物 — 悩みから探す名言｜LEGEND BIBLE">
-<meta property="og:description" content="現代人の5つの悩みに、古今東西の偉人たちが出した答え。">
+<meta property="og:description" content="現代人の15の悩みに、古今東西の偉人たちが出した答え。">
 <meta property="og:url" content="https://legendbible.github.io/articles/">
+<meta property="og:site_name" content="LEGEND BIBLE">
 <meta property="og:image" content="https://legendbible.github.io/ogp/articles.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:site_name" content="LEGEND BIBLE">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://legendbible.github.io/ogp/articles.png">
 <link rel="apple-touch-icon" href="../icons/icon-180.png">
 <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32.png">
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-RBDN9LL0VV"></script>
@@ -31,54 +33,33 @@
   "@context": "https://schema.org",
   "@type": "CollectionPage",
   "name": "読み物 — 悩みから探す名言",
-  "description": "現代人の5つの悩みに、古今東西の偉人たちが出した答え。",
+  "description": "現代人の15の悩みに、古今東西の偉人たちが出した答え。",
   "url": "https://legendbible.github.io/articles/",
   "isPartOf": {"@type":"WebSite","name":"LEGEND BIBLE","url":"https://legendbible.github.io/"}
 }
 </script>
-<style>
-:root{
-  --bg:#F8F9FB;
-  --surface:#FFFFFF;
-  --surface2:#F2F2F7;
-  --text1:#1C1C1E;
-  --text2:#3C3C3E;
-  --text3:#8E8E93;
-  --border:#E5E5EA;
-  --tile-border:transparent;
-  --radius:14px;
+<style>:root{
+  --bg:#F8F9FB; --surface:#FFFFFF; --surface2:#F2F2F7;
+  --text1:#1C1C1E; --text2:#3C3C3E; --text3:#8E8E93;
+  --border:#E5E5EA; --tile-border:transparent; --radius:14px;
   --jobs:#3A7BD5;
-  --laozi:#7E8C6B;
-  --cat-work:#3B82F6;
 }
 *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 html,body{height:100%;}
 body{
   font-family:'Hiragino Sans','Hiragino Kaku Gothic ProN','Noto Sans JP',sans-serif;
-  background:#E8E8E8;
-  color:var(--text1);
-  min-height:100%;
-  display:flex;
-  justify-content:center;
-  align-items:flex-start;
+  background:#E8E8E8; color:var(--text1); min-height:100%;
+  display:flex; justify-content:center; align-items:flex-start;
   -webkit-font-smoothing:antialiased;
 }
 #app-root{
-  display:flex;
-  flex-direction:column;
-  width:100%;
-  max-width:430px;
-  min-height:100dvh;
-  background:var(--bg);
+  display:flex; flex-direction:column; width:100%; max-width:430px;
+  min-height:100dvh; background:var(--bg);
   box-shadow:0 0 40px rgba(0,0,0,0.15);
 }
-
-/* ヘッダー（アプリと同一） */
 .page-header{
-  padding:16px 20px 12px;
-  background:var(--surface);
-  border-bottom:1px solid var(--border);
-  position:sticky;top:0;z-index:10;
+  padding:16px 20px 12px; background:var(--surface);
+  border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10;
 }
 .page-header-inner{display:flex;align-items:center;justify-content:space-between;}
 .logo-wrap{display:flex;align-items:flex-start;gap:6px;text-decoration:none;}
@@ -88,176 +69,71 @@ body{
 .logo-sub{font-size:9px;color:var(--text3);letter-spacing:.06em;margin-top:3px;}
 .header-back{
   font-size:12px;color:var(--text3);text-decoration:none;
-  padding:6px 12px;border:1px solid var(--border);border-radius:20px;
-  font-weight:600;
+  padding:6px 12px;border:1px solid var(--border);border-radius:20px;font-weight:600;
 }
-
-/* パンくず */
-.crumb{
-  padding:12px 20px 0;
-  font-size:11px;color:var(--text3);
-}
+.crumb{padding:12px 20px 0;font-size:11px;color:var(--text3);}
 .crumb a{color:var(--text3);text-decoration:none;}
-
-/* 記事ヘッダー */
 .article-head{padding:16px 20px 20px;}
 .eyebrow{
-  display:inline-block;
-  font-size:10px;font-weight:800;letter-spacing:.1em;
-  color:#fff;background:var(--cat-work);
-  padding:4px 10px;border-radius:20px;
-  margin-bottom:14px;
+  display:inline-block;font-size:10px;font-weight:800;letter-spacing:.1em;
+  color:#fff;background:#3B82F6;padding:4px 10px;border-radius:20px;margin-bottom:14px;
 }
-h1{
-  font-size:24px;line-height:1.5;font-weight:900;
-  letter-spacing:-.02em;color:var(--text1);
-  margin-bottom:12px;
-}
-.lead{
-  font-size:13.5px;color:var(--text2);line-height:1.85;
-}
-.meta{
-  font-size:11px;color:var(--text3);
-  margin-top:14px;padding-top:14px;
-  border-top:1px solid var(--border);
-}
-
-/* 本文 */
+h1{font-size:24px;line-height:1.5;font-weight:900;letter-spacing:-.02em;color:var(--text1);margin-bottom:12px;}
+.lead{font-size:13.5px;color:var(--text2);line-height:1.85;}
+.meta{font-size:11px;color:var(--text3);margin-top:14px;padding-top:14px;border-top:1px solid var(--border);}
 article{padding:0 20px 24px;}
-article p{
-  font-size:15px;line-height:1.95;color:var(--text2);
-  margin-bottom:20px;
-}
-h2{
-  font-size:19px;font-weight:900;line-height:1.5;
-  color:var(--text1);letter-spacing:-.01em;
-  margin:36px 0 16px;
-}
-h3{
-  font-size:14px;font-weight:800;
-  color:var(--text1);
-  margin:26px 0 10px;
-}
-.emphasis{
-  font-weight:700;color:var(--text1);
-  background:linear-gradient(transparent 62%, rgba(58,123,213,.18) 62%);
-}
-
-/* 名言タイル（アプリのtileと同じ見た目） */
+article p{font-size:15px;line-height:1.95;color:var(--text2);margin-bottom:20px;}
+h2{font-size:19px;font-weight:900;line-height:1.5;color:var(--text1);letter-spacing:-.01em;margin:36px 0 16px;}
+h3{font-size:14px;font-weight:800;color:var(--text1);margin:26px 0 10px;}
+.emphasis{font-weight:700;color:var(--text1);background:linear-gradient(transparent 62%, rgba(58,123,213,.18) 62%);}
 .quote-tile{
-  background:#3A3A3C;
-  border-radius:var(--radius);
-  padding:18px 16px 14px;
+  background:#3A3A3C;border-radius:var(--radius);padding:18px 16px 14px;
   border:1px solid var(--tile-border);
   box-shadow:0 4px 16px rgba(0,0,0,0.14), 0 1px 4px rgba(0,0,0,0.08);
   margin:26px 0;
 }
-.quote-tile-ja{
-  font-size:17px;font-weight:700;line-height:1.7;
-  color:#fff;margin-bottom:10px;
-}
-.quote-tile-orig{
-  font-size:11.5px;color:rgba(255,255,255,.5);
-  margin-bottom:10px;line-height:1.6;
-}
-.quote-tile-foot{
-  display:flex;align-items:center;justify-content:space-between;
-  padding-top:10px;border-top:1px solid rgba(255,255,255,.1);
-}
+.quote-tile-ja{font-size:17px;font-weight:700;line-height:1.7;color:#fff;margin-bottom:10px;}
+.quote-tile-orig{font-size:11.5px;color:rgba(255,255,255,.5);margin-bottom:10px;line-height:1.6;}
+.quote-tile-foot{display:flex;align-items:center;justify-content:space-between;padding-top:10px;border-top:1px solid rgba(255,255,255,.1);}
 .quote-tile-by{font-size:11.5px;color:rgba(255,255,255,.6);}
-.quote-tile-link{
-  font-size:11px;color:#8FB8F0;text-decoration:none;font-weight:600;
-}
-
-/* 独自見解ボックス */
-.take{
-  background:var(--surface2);
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  padding:18px 16px;
-  margin:26px 0;
-}
+.quote-tile-link{font-size:11px;color:#8FB8F0;text-decoration:none;font-weight:600;}
+.take{background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);padding:18px 16px;margin:26px 0;}
 .take-label{
-  display:inline-block;
-  font-size:9.5px;font-weight:800;letter-spacing:.1em;
-  color:var(--jobs);
-  border:1px solid var(--jobs);
-  padding:3px 8px;border-radius:20px;
-  margin-bottom:12px;
+  display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.1em;
+  color:var(--jobs);border:1px solid var(--jobs);padding:3px 8px;border-radius:20px;margin-bottom:12px;
 }
-.take p{
-  font-size:14px;line-height:1.9;color:var(--text2);
-  margin-bottom:12px;
-}
+.take p{font-size:14px;line-height:1.9;color:var(--text2);margin-bottom:12px;}
 .take p:last-child{margin-bottom:0;}
 .take strong{color:var(--text1);font-weight:800;}
-
-/* アクションリスト */
 .action{
-  background:var(--surface);
-  border:1px solid var(--border);
-  border-left:3px solid var(--jobs);
-  border-radius:8px;
-  padding:14px 16px;
-  margin:16px 0 26px;
+  background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--jobs);
+  border-radius:8px;padding:14px 16px;margin:16px 0 26px;
 }
 .action p{font-size:13.5px;margin:0;line-height:1.85;}
-
-/* 締めの問い */
-.closing{
-  text-align:center;
-  padding:32px 20px;
-  margin:32px 0 0;
-  background:var(--surface2);
-  border-radius:var(--radius);
-}
-.closing p{
-  font-size:17px;font-weight:800;line-height:1.7;
-  color:var(--text1);margin:0;
-}
-
-/* CTA */
+.closing{text-align:center;padding:32px 20px;margin:32px 0 0;background:var(--surface2);border-radius:var(--radius);}
+.closing p{font-size:17px;font-weight:800;line-height:1.7;color:var(--text1);margin:0;}
 .cta-area{padding:24px 20px;}
-.cta{
-  display:block;text-align:center;
-  background:var(--jobs);color:#fff;
-  padding:15px;border-radius:var(--radius);
-  text-decoration:none;font-size:14px;font-weight:800;
-  margin-bottom:8px;
-}
-.cta-sub{
-  display:block;text-align:center;
-  background:var(--surface);color:var(--text2);
-  padding:14px;border-radius:var(--radius);
-  text-decoration:none;font-size:13px;font-weight:600;
-  border:1px solid var(--border);
-}
-
-/* 関連 */
+.cta{display:block;text-align:center;background:var(--jobs);color:#fff;padding:15px;border-radius:var(--radius);text-decoration:none;font-size:14px;font-weight:800;margin-bottom:8px;}
+.cta-sub{display:block;text-align:center;background:var(--surface);color:var(--text2);padding:14px;border-radius:var(--radius);text-decoration:none;font-size:13px;font-weight:600;border:1px solid var(--border);}
 .related{padding:8px 20px 24px;}
-.related-title{
-  font-size:12px;font-weight:800;color:var(--text3);
-  letter-spacing:.08em;margin-bottom:12px;
-}
+.related-title{font-size:12px;font-weight:800;color:var(--text3);letter-spacing:.08em;margin-bottom:12px;}
 .related-list{display:flex;flex-direction:column;gap:8px;}
-.related-list a{
-  display:flex;align-items:center;justify-content:space-between;
-  background:var(--surface);border:1px solid var(--border);
-  border-radius:var(--radius);padding:14px 16px;
-  text-decoration:none;
-}
+.related-list a{display:flex;align-items:center;justify-content:space-between;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;text-decoration:none;}
 .related-name{font-size:14px;font-weight:700;color:var(--text1);}
 .related-desc{font-size:11px;color:var(--text3);margin-top:2px;}
 .related-arrow{color:var(--text3);font-size:18px;}
-
-/* フッター */
-.foot{
-  padding:24px 20px 40px;
-  border-top:1px solid var(--border);
-  text-align:center;
-  font-size:11px;color:var(--text3);line-height:1.9;
-}
+.foot{padding:24px 20px 40px;border-top:1px solid var(--border);text-align:center;font-size:11px;color:var(--text3);line-height:1.9;}
 .foot a{color:var(--text3);text-decoration:none;}
+/* 診断誘導バナー */
+.dx-banner{display:block;position:relative;overflow:hidden;background:#1C1C1E;border-radius:var(--radius);padding:22px 20px;margin:28px 0 10px;text-decoration:none;border:1px solid rgba(255,255,255,.08);transition:transform .15s ease;}
+.dx-banner:active{transform:scale(.99);}
+.dx-banner::before{content:'';position:absolute;top:-40px;right:-40px;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle, rgba(58,123,213,.22) 0%, transparent 70%);}
+.dx-eyebrow{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.14em;color:#8FB8F0;border:1px solid rgba(143,184,240,.4);padding:3px 9px;border-radius:20px;margin-bottom:12px;}
+.dx-title{font-size:16.5px;font-weight:800;line-height:1.6;color:#fff;margin-bottom:8px;position:relative;z-index:1;}
+.dx-desc{font-size:11.5px;color:rgba(255,255,255,.5);line-height:1.6;margin-bottom:16px;position:relative;z-index:1;}
+.dx-action{display:flex;align-items:center;justify-content:space-between;padding-top:14px;border-top:1px solid rgba(255,255,255,.1);position:relative;z-index:1;}
+.dx-action-t{font-size:13px;font-weight:800;color:#8FB8F0;}
+.dx-action-a{width:26px;height:26px;border-radius:50%;background:var(--jobs);color:#fff;display:flex;align-items:center;justify-content:center;font-size:14px;line-height:1;}
 
 .art-list{display:flex;flex-direction:column;gap:10px;padding:0 20px 24px;}
 .art-card{
@@ -267,7 +143,7 @@ h3{
   text-decoration:none;color:inherit;
 }
 .art-card:active{transform:scale(.985);}
-.art-num{font-size:11px;font-weight:800;color:var(--text3);width:18px;flex-shrink:0;}
+.art-num{font-size:11px;font-weight:800;color:var(--text3);width:20px;flex-shrink:0;}
 .art-body{flex:1;min-width:0;}
 .art-cat{
   display:inline-block;font-size:9px;font-weight:800;color:#fff;
@@ -277,8 +153,6 @@ h3{
 .art-desc{font-size:11px;color:var(--text3);line-height:1.5;}
 .art-arrow{font-size:18px;color:var(--text3);flex-shrink:0;}
 </style>
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://legendbible.github.io/ogp/articles.png">
 </head>
 <body>
 <div id="app-root">
@@ -298,7 +172,7 @@ h3{
 
   <div class="article-head">
     <h1 style="font-size:22px;">読み物 — 悩みから探す</h1>
-    <p class="lead">現代人が抱える5つの悩みに、古今東西の偉人たちはどう答えたか。名言の背景と、当サイト独自の解釈を添えて解説します。</p>
+    <p class="lead">現代人が抱える15の悩みに、古今東西の偉人たちはどう答えたか。名言の背景と、当サイト独自の解釈を添えて解説します。</p>
   </div>
 
   <div class="art-list">
@@ -347,10 +221,108 @@ h3{
         </div>
         <div class="art-arrow">›</div>
       </a>
+      <a class="art-card" href="./jishin-ga-nai/">
+        <div class="art-num">06</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#8B5CF6">心・メンタル</div>
+          <div class="art-title">自信が持てない</div>
+          <div class="art-desc">ゲーテ・エマーソンが説いた自信の正体</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./okane-no-fuan/">
+        <div class="art-num">07</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#6366F1">時間・人生</div>
+          <div class="art-title">お金の不安が消えない</div>
+          <div class="art-desc">セネカ・渋沢栄一の"足るを知る"経済観</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./kodoku-wo-kanjiru/">
+        <div class="art-num">08</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#8B5CF6">心・メンタル</div>
+          <div class="art-title">孤独を感じる夜に</div>
+          <div class="art-desc">ニーチェ・モンテーニュの一人でいる技術</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./ketsudan-dekinai/">
+        <div class="art-num">09</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#3B82F6">仕事・リーダーシップ</div>
+          <div class="art-title">決断できずに迷い続ける</div>
+          <div class="art-desc">孫子・シーザーが説いた決める技術</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./kanpekishugi-ni-tsukareta/">
+        <div class="art-num">10</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#8B5CF6">心・メンタル</div>
+          <div class="art-title">完璧主義に疲れた</div>
+          <div class="art-desc">ヴォルテール・荘子の"ほどほど"の思想</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./hikaku-shiteshimau/">
+        <div class="art-num">11</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#8B5CF6">心・メンタル</div>
+          <div class="art-title">つい誰かと比較してしまう</div>
+          <div class="art-desc">ルーズベルト・老子が説いた比較の外し方</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./ikari-ga-osaerarenai/">
+        <div class="art-num">12</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#8B5CF6">心・メンタル</div>
+          <div class="art-title">怒りが抑えられない</div>
+          <div class="art-desc">セネカ・マルクス・アウレリウスの怒りの技術</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./shippai-ga-kowai/">
+        <div class="art-num">13</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#F97316">挑戦・勇気</div>
+          <div class="art-title">失敗が怖くて動けない</div>
+          <div class="art-desc">エジソン・リンカーンが遺した失敗の実績</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./henka-ni-tsuiteikenai/">
+        <div class="art-num">14</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#10B981">成長・学び</div>
+          <div class="art-title">変化についていけない</div>
+          <div class="art-desc">ダーウィン・ヘラクレイトスの適応の哲学</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
+      <a class="art-card" href="./mitomeraretai/">
+        <div class="art-num">15</div>
+        <div class="art-body">
+          <div class="art-cat" style="background:#EC4899">人間関係・愛</div>
+          <div class="art-title">誰かに認められたい</div>
+          <div class="art-desc">アドラー・ニーチェの承認欲求の手放し方</div>
+        </div>
+        <div class="art-arrow">›</div>
+      </a>
   </div>
 
   <div class="cta-area">
-    <a class="cta" href="../">あなたに刺さる偉人を診断する</a>
+    <a class="dx-banner" href="../">
+      <div class="dx-eyebrow">LEGEND BIBLE 診断</div>
+      <div class="dx-title">あなたに刺さる偉人を診断する</div>
+      <div class="dx-desc">10の質問で、504人の偉人からあなたに最も響く一人を見つけます</div>
+      <div class="dx-action">
+        <span class="dx-action-t">診断をはじめる</span>
+        <span class="dx-action-a">›</span>
+      </div>
+    </a>
     <a class="cta-sub" href="../sages/">504人の偉人一覧を見る</a>
   </div>
 
